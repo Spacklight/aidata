@@ -1,0 +1,55 @@
+[
+  {
+    "profileId": "v3n541g5mvjqh5ma",
+    "learnedTopics": [
+      {
+        "subject": "Management Information Systems",
+        "topic": "Introduction to MIS",
+        "subtopic": "The Three Pillars (Technology, People, Processes)",
+        "learnedAt": "2026-10-22T17:28:05.072Z",
+        "moduleId": null
+      },
+      {
+        "subject": "Management Information Systems",
+        "topic": "Foundations of MIS",
+        "subtopic": "Interaction of Technology, People, Processes, and IT vs MIS",
+        "learnedAt": "2026-10-22T17:34:46.912Z",
+        "moduleId": null
+      },
+      {
+        "subject": "Computer Science",
+        "topic": "IPv4 Address Model & Network/Host Portions",
+        "subtopic": null,
+        "learnedAt": "2026-10-22T17:53:45.444Z",
+        "moduleId": null,
+        "fromClassroom": true
+      },
+      {
+        "subject": "Computer Science",
+        "topic": "IPv4 Subnetting and CIDR Notation",
+        "subtopic": null,
+        "learnedAt": "2026-10-22T18:13:11.703Z",
+        "moduleId": null,
+        "fromClassroom": true
+      },
+      {
+        "subject": "Computer Science",
+        "topic": "Classless Interdomain Routing (CIDR) and Non-default Subnet Masks",
+        "subtopic": null,
+        "learnedAt": "2026-10-22T18:43:23.557Z",
+        "moduleId": null,
+        "fromClassroom": true
+      }
+    ],
+    "announcements": [
+      {
+        "id": "1uv32bqtmvjtmohs",
+        "text": "New short-answer exercise assigned on MIS foundations and the three pillars!",
+        "at": "2026-10-22T17:34:46.912Z",
+        "seen": false
+      }
+    ],
+    "lastExerciseAt": "2026-10-22T17:35:08.595Z",
+    "notes": "Student greeted the teacher. Provided a foundational follow-up on MIS vs IT and pillar synergy, then assigned a medium short_answer exercise."
+  }
+]
