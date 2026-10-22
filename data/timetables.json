@@ -1,0 +1,141 @@
+[
+  {
+    "profileId": "v3n541g5mvjqh5ma",
+    "generatedAt": "2026-10-22T16:10:59.416Z",
+    "timetable": {
+      "weekSummary": "Focused night study plan prioritizing Management Information Systems core exam topics through mixed learning methods.",
+      "totalHours": 20,
+      "subjectBreakdown": [
+        {
+          "subject": "Bachelor of science in management information systems",
+          "hours": 20
+        }
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "sessions": [
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Database Management Systems — ER modeling and normalization",
+              "durationMinutes": 90,
+              "timeOfDay": "night"
+            },
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Database Management Systems — SQL queries practice",
+              "durationMinutes": 60,
+              "timeOfDay": "night"
+            },
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Database Management Systems — Quick review of indexing",
+              "durationMinutes": 30,
+              "timeOfDay": "night"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "sessions": [
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Systems Analysis and Design — DFDs and use case diagrams",
+              "durationMinutes": 90,
+              "timeOfDay": "night"
+            },
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Systems Analysis and Design — Object-oriented analysis practice",
+              "durationMinutes": 60,
+              "timeOfDay": "night"
+            },
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Systems Analysis and Design — Concept review of SDLC phases",
+              "durationMinutes": 30,
+              "timeOfDay": "night"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "sessions": []
+        },
+        {
+          "day": "Thursday",
+          "sessions": [
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Information Security and Risk Management — CIA triad and access controls",
+              "durationMinutes": 90,
+              "timeOfDay": "night"
+            },
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Information Security and Risk Management — Threat mitigation case studies",
+              "durationMinutes": 60,
+              "timeOfDay": "night"
+            },
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Information Security and Risk Management — Flashcard review of encryption standards",
+              "durationMinutes": 30,
+              "timeOfDay": "night"
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "sessions": [
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Enterprise Resource Planning (ERP) — Supply chain integration modules",
+              "durationMinutes": 90,
+              "timeOfDay": "night"
+            },
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Enterprise Resource Planning (ERP) — SAP navigation simulation practice",
+              "durationMinutes": 60,
+              "timeOfDay": "night"
+            },
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Enterprise Resource Planning (ERP) — Summary review of implementation challenges",
+              "durationMinutes": 30,
+              "timeOfDay": "night"
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "sessions": [
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Past Exam Papers — Comprehensive mock exam under timed conditions",
+              "durationMinutes": 90,
+              "timeOfDay": "night"
+            },
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Past Exam Papers — Detailed grading and weak area identification",
+              "durationMinutes": 60,
+              "timeOfDay": "night"
+            },
+            {
+              "subject": "Bachelor of science in management information systems",
+              "topic": "Past Exam Papers — Final conceptual wrap-up and formula review",
+              "durationMinutes": 30,
+              "timeOfDay": "night"
+            }
+          ]
+        },
+        {
+          "day": "Sunday",
+          "sessions": []
+        }
+      ]
+    }
+  }
+]
