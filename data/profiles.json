@@ -1,0 +1,21 @@
+[
+  {
+    "id": "v3n541g5mvjqh5ma",
+    "name": "Roosevelt chikwende",
+    "age": 19,
+    "level": "college",
+    "grade": "Year 1",
+    "school": "Malawi University of Business And Applied Science (MUBAS)",
+    "subjects": [
+      "Bachelor of science in management information systems"
+    ],
+    "goal": "exam",
+    "examDate": "2026-11-09",
+    "hours": 20,
+    "style": "mixed",
+    "time": "night",
+    "notes": "",
+    "createdAt": "2026-10-22T19:29:56.555Z",
+    "updatedAt": "2026-10-22T19:29:56.555Z"
+  }
+]
