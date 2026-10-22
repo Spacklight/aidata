@@ -1,0 +1,54 @@
+[
+  {
+    "profileId": "v3n541g5mvjqh5ma",
+    "generatedAt": "2026-10-22T16:17:23.825Z",
+    "vision": {
+      "headline": "Consistent night study will secure a solid pass in Management Information Systems.",
+      "confidence": "medium",
+      "daysUntilExam": 18,
+      "bestCase": {
+        "score": "75-85%",
+        "description": "By maintaining your 20 hours per week at night, you thoroughly cover all MIS modules and master key technical concepts."
+      },
+      "likelyCase": {
+        "score": "65-75%",
+        "description": "Solid grasp of core management information systems principles, though a few complex topics require extra review."
+      },
+      "worstCase": {
+        "score": "50-60%",
+        "description": "Fatigue from late-night studying leads to missed sessions, leaving gaps in database management and systems analysis."
+      },
+      "milestones": [
+        {
+          "period": "Days 1-6",
+          "focus": "Core concepts",
+          "target": "Complete the first 4 chapters of Management Information Systems and review lecture notes."
+        },
+        {
+          "period": "Days 7-12",
+          "focus": "Practical application",
+          "target": "Solve past exam papers for MIS and identify weak areas."
+        },
+        {
+          "period": "Days 13-18",
+          "focus": "Revision and mock exams",
+          "target": "Complete 3 timed mock exams under exam conditions."
+        }
+      ],
+      "risks": [
+        {
+          "risk": "Late-night fatigue causing missed study hours.",
+          "mitigation": "Set a strict alarm for your study block and get adequate rest during the day."
+        },
+        {
+          "risk": "Focusing only on theory and ignoring practical MIS problem-solving.",
+          "mitigation": "Allocate at least 30% of your weekly 20 hours to practical case studies and past papers."
+        }
+      ],
+      "todayFocus": {
+        "subject": "Bachelor of science in management information systems",
+        "action": "Review your syllabus and create a prioritized list of topics to cover over the next 18 days."
+      }
+    }
+  }
+]
