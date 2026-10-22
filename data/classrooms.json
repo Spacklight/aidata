@@ -1,0 +1,139 @@
+[
+  {
+    "id": "g979kdnjmvjw1am1",
+    "profileId": "v3n541g5mvjqh5ma",
+    "startedAt": "2026-10-22T18:42:07.993Z",
+    "subject": "Computer Science",
+    "topic": "Classless Interdomain Routing (CIDR) and Non-default Subnet Masks",
+    "reasoning": "Roosevelt has already learned basic IPv4 addressing and network/host portions, so we must advance directly into CIDR notation and subnet mask calculations for his upcoming exam.",
+    "layout": "two",
+    "segments": [
+      {
+        "index": 0,
+        "kind": "title",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "LIVE CLASS: CIDR & Subnets"
+          },
+          {
+            "type": "text",
+            "text": "Target Exam Date: Nov 9, 2026 (17 days left!)"
+          },
+          {
+            "type": "draw",
+            "shape": "axes",
+            "xLabel": "CIDR /",
+            "yLabel": "Host Bits"
+          }
+        ],
+        "speech": "Welcome to today's live class, Roosevelt. Your exam is in seventeen days, so we are stepping up our networking game. Today we master CIDR notation and non-default subnet masks.",
+        "isFinal": false
+      },
+      {
+        "index": 1,
+        "kind": "point",
+        "section": 2,
+        "elements": [
+          {
+            "type": "box",
+            "text": "CIDR: Classless Interdomain Routing"
+          },
+          {
+            "type": "text",
+            "text": "Expressing subnet masks via prefix length (e.g., /24)"
+          },
+          {
+            "type": "draw",
+            "shape": "numberline",
+            "min": 0,
+            "max": 32,
+            "marks": [
+              0,
+              8,
+              16,
+              24,
+              32
+            ],
+            "title": "IPv4 Prefix Scale"
+          }
+        ],
+        "speech": "Notice how CIDR completely replaces rigid classful addressing. Instead of writing out 255.255.255.0 every single time, we append slash twenty-four to show the network prefix length.",
+        "isFinal": false
+      },
+      {
+        "index": 2,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Calculating Subnets & Hosts"
+          },
+          {
+            "type": "box",
+            "text": "Formula: Hosts = 2^(32 - n) - 2"
+          },
+          {
+            "type": "draw",
+            "shape": "numberline",
+            "min": 24,
+            "max": 30,
+            "marks": [
+              24,
+              26,
+              28,
+              30
+            ],
+            "title": "CIDR Prefix Length (n)"
+          },
+          {
+            "type": "text",
+            "text": "Remember to subtract 2 for the network and broadcast addresses!"
+          }
+        ],
+        "speech": "Let's apply this to a practical example. If we have a /24 network, we use the formula two to the power of thirty-two minus n, minus two, to find our usable host count.",
+        "isFinal": false
+      },
+      {
+        "index": 3,
+        "kind": "summary",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "CIDR & Subnetting Wrap-Up"
+          },
+          {
+            "type": "box",
+            "text": "Core Rule: Host bits = 32 - prefix length. Total Hosts = 2^(host bits) - 2."
+          },
+          {
+            "type": "draw",
+            "shape": "numberline",
+            "min": 24,
+            "max": 30,
+            "marks": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30
+            ],
+            "title": "CIDR Prefix Lengths (/n)"
+          },
+          {
+            "type": "text",
+            "text": "Review these formulas before your November exam, Roosevelt!"
+          }
+        ],
+        "speech": "To wrap up, Roosevelt, always remember that your host bits determine your subnet size using two to the power of un minus two. Review this core concept before your exam in November!",
+        "isFinal": true
+      }
+    ],
+    "isComplete": true
+  }
+]
