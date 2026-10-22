@@ -1,0 +1,63 @@
+[
+  {
+    "id": "kllrslfqmvjr61u9",
+    "exerciseId": "8qfascr5mvjr4l25",
+    "profileId": "v3n541g5mvjqh5ma",
+    "submittedAt": "2026-10-22T16:25:51.825Z",
+    "answers": {
+      "q1": 0,
+      "q2": 1,
+      "q3": 2,
+      "q4": 2,
+      "q5": 1
+    },
+    "source": "typed",
+    "grading": {
+      "totalScore": 60,
+      "percentage": 60,
+      "letterGrade": "D",
+      "overallFeedback": "Roosevelt demonstrated a fair understanding of some MIS concepts, correctly answering questions 3 and 5. However, foundational areas such as the definition of MIS, database transaction properties (ACID), and ERP systems need further review and study.",
+      "questionResults": [
+        {
+          "questionId": "q1",
+          "score": 0,
+          "maxScore": 20,
+          "feedback": "Incorrect. MIS is an integrated sociotechnical system combining hardware, software, data, procedures, and people, not exclusively hardware maintenance."
+        },
+        {
+          "questionId": "q2",
+          "score": 0,
+          "maxScore": 20,
+          "feedback": "Incorrect. ACID stands for Atomicity, Consistency, Isolation, and Durability."
+        },
+        {
+          "questionId": "q3",
+          "score": 20,
+          "maxScore": 20,
+          "feedback": "Correct! Executive Support Systems (ESS) are designed to support senior management's strategic decision-making."
+        },
+        {
+          "questionId": "q4",
+          "score": 0,
+          "maxScore": 20,
+          "feedback": "Incorrect. ERP software is designed to integrate core business processes across functional areas into a centralized database."
+        },
+        {
+          "questionId": "q5",
+          "score": 20,
+          "maxScore": 20,
+          "feedback": "Correct! The systems analysis phase is where exact functional requirements and limitations are determined."
+        }
+      ],
+      "strengths": [
+        "Understands the role of Executive Support Systems in strategic management",
+        "Identifies the key activities of the systems analysis phase in the SDLC"
+      ],
+      "improvements": [
+        "Review the fundamental definition and components of Management Information Systems",
+        "Study core database management concepts, specifically the ACID properties",
+        "Familiarize yourself with enterprise-wide software solutions like ERP"
+      ]
+    }
+  }
+]
