@@ -1,0 +1,148 @@
+[
+  {
+    "id": "8qfascr5mvjr4l25",
+    "profileId": "v3n541g5mvjqh5ma",
+    "subject": "Bachelor of science in management information systems",
+    "type": "quiz",
+    "difficulty": "medium",
+    "title": "Management Information Systems Year 1 Mid-Term Quiz",
+    "instructions": "Answer all multiple-choice questions by selecting the correct option.",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "Which of the following best defines a Management Information System (MIS)?",
+        "options": [
+          "A system that exclusively handles hardware maintenance for an organization.",
+          "A combination of hardware, software, data, procedures, and people that helps organizations make informed decisions.",
+          "A strictly financial accounting software package used only by the chief financial officer.",
+          "An isolated database used solely for storing customer complaints."
+        ],
+        "correctIndex": 1,
+        "expectedAnswer": null,
+        "markingGuide": "Selects the option that correctly identifies MIS as an integrated sociotechnical system combining technology, data, and people for decision-making.",
+        "points": 20
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "In the context of database management systems, what does ACID stand for?",
+        "options": [
+          "Atomicity, Consistency, Isolation, Durability",
+          "Accessibility, Control, Integration, Design",
+          "Accuracy, Concurrency, Independence, Distribution",
+          "Authorization, Confidentiality, Integrity, Delivery"
+        ],
+        "correctIndex": 0,
+        "expectedAnswer": null,
+        "markingGuide": "Recognizes the standard database transaction properties: Atomicity, Consistency, Isolation, and Durability.",
+        "points": 20
+      },
+      {
+        "id": "q3",
+        "type": "multiple_choice",
+        "question": "Which system type is specifically designed to support unstructured, semi-routine, and long-range decision-making by senior management?",
+        "options": [
+          "Transaction Processing System (TPS)",
+          "Management Information System (MIS)",
+          "Executive Support System (ESS)",
+          "Process Control System (PCS)"
+        ],
+        "correctIndex": 2,
+        "expectedAnswer": null,
+        "markingGuide": "Identifies that Executive Support Systems (ESS) cater to strategic, senior-level management needs.",
+        "points": 20
+      },
+      {
+        "id": "q4",
+        "type": "multiple_choice",
+        "question": "What is the primary purpose of Enterprise Resource Planning (ERP) software in a modern business?",
+        "options": [
+          "To replace all human employees with automated robots.",
+          "To integrate core business processes and disparate functional areas into a centralized database and single system.",
+          "To monitor employee internet usage and social media habits.",
+          "To act strictly as an external firewall against cyber attacks."
+        ],
+        "correctIndex": 1,
+        "expectedAnswer": null,
+        "markingGuide": "Understands that ERP integrates core business processes across departments.",
+        "points": 20
+      },
+      {
+        "id": "q5",
+        "type": "multiple_choice",
+        "question": "During the Systems Development Life Cycle (SDLC), which phase involves determining the exact functional requirements and limitations of a proposed new information system?",
+        "options": [
+          "Implementation phase",
+          "Systems analysis phase",
+          "Maintenance phase",
+          "Retirement phase"
+        ],
+        "correctIndex": 1,
+        "expectedAnswer": null,
+        "markingGuide": "Recognizes the systems analysis phase as the point where business requirements and system specifications are gathered.",
+        "points": 20
+      }
+    ],
+    "totalPoints": 100,
+    "createdAt": "2026-10-22T16:24:43.422Z"
+  },
+  {
+    "id": "9dsj7wr4mvjtn580",
+    "profileId": "v3n541g5mvjqh5ma",
+    "subject": "Management Information Systems",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "title": "Management Information Systems: Pillars and MIS vs. IT Distinction",
+    "instructions": "Answer each of the following short-answer questions thoroughly and concisely, keeping responses to 2–4 sentences.",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "short_answer",
+        "question": "Explain the fundamental functional distinction between Information Technology (IT) and Management Information Systems (MIS).",
+        "options": null,
+        "correctIndex": null,
+        "expectedAnswer": "IT primarily focuses on the physical hardware, software networks, and data infrastructure required to build and maintain technical systems. In contrast, MIS places its core emphasis on leveraging those technological tools to solve business problems, optimize organizational processes, and support strategic decision-making.",
+        "markingGuide": "",
+        "points": 25
+      },
+      {
+        "id": "q2",
+        "type": "short_answer",
+        "question": "How do the three pillars of MIS—Organization, Technology, and People—interact to drive business value?",
+        "options": null,
+        "correctIndex": null,
+        "expectedAnswer": "The three pillars do not operate in isolation; rather, technology provides the functional infrastructure, people design, implement, and utilize these systems, and organizations define the strategic framework and goals. Successful business value is achieved only when technology aligns seamlessly with human capabilities and organizational objectives.",
+        "markingGuide": "",
+        "points": 25
+      },
+      {
+        "id": "q3",
+        "type": "short_answer",
+        "question": "Why might a technologically advanced IT infrastructure fail to deliver organizational success if the 'People' pillar is neglected?",
+        "options": null,
+        "correctIndex": null,
+        "expectedAnswer": "Even the most sophisticated hardware and software cannot generate value if users lack the necessary training, motivation, or buy-in to adopt the system effectively. Without competent and engaged personnel, the technology remains underutilized, leading to poor operational efficiency and a failure to meet business targets.",
+        "markingGuide": "",
+        "points": 25
+      },
+      {
+        "id": "q4",
+        "type": "short_answer",
+        "question": "In the context of the MIS framework, describe how organizational strategy dictates the deployment of technical systems.",
+        "options": null,
+        "correctIndex": null,
+        "expectedAnswer": "Organizational strategy sets the overarching goals, priorities, and competitive needs of a business, which directly informs management how and where technology should be applied. Consequently, information systems are tailored to capture, process, and report the specific data required to execute that strategy successfully.",
+        "markingGuide": "",
+        "points": 25
+      }
+    ],
+    "totalPoints": 100,
+    "durationMinutes": 45,
+    "durationLabel": "medium",
+    "dueAt": "2026-10-22T18:20:08.585Z",
+    "assignedByAI": true,
+    "focusTopic": "Interaction of The Three Pillars and IT vs MIS distinction",
+    "createdAt": "2026-10-22T17:35:08.593Z"
+  }
+]
