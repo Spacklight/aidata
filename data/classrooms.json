@@ -1,11 +1,11 @@
 [
   {
-    "id": "ntj33wmemvkpa7js",
+    "id": "dbj1ivcmmvkpc7yc",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T08:20:52.792Z",
-    "subject": "Computer Science",
-    "topic": "Classful Addressing and IPv4 Address Classes (A, B, C)",
-    "reasoning": "I chose this topic because Roosevelt needs a solid foundational understanding of IPv4 address classes before tackling advanced subnetting and routing for his upcoming exam.",
+    "startedAt": "2026-10-23T08:22:26.628Z",
+    "subject": "Mathematics",
+    "topic": "College Algebra & Trigonometry: Right Triangle Trigonometry",
+    "reasoning": "Selected right triangle trigonometry from the study materials as the next logical step to build fundamental math skills for upcoming exams.",
     "layout": "two",
     "segments": [
       {
@@ -15,18 +15,21 @@
         "elements": [
           {
             "type": "title",
-            "text": "LIVE CLASS: IPv4 Address Classes"
+            "text": "Live Class: Right Triangle Trigonometry"
           },
           {
             "type": "text",
-            "text": "Good morning, Roosevelt! Let's start fresh today with a crucial concept for your exam on Nov 9: Classful IP Addressing."
+            "text": "Good morning, Roosevelt! Rise and shine for a fresh study session on this fine Friday morning."
           },
           {
-            "type": "box",
-            "text": "Goal: Understand Classes A, B, and C"
+            "type": "divider"
+          },
+          {
+            "type": "text",
+            "text": "Exam Countdown: 17 days left until November 9, 2026. Let's master right triangles!"
           }
         ],
-        "speech": "Good morning, Roosevelt! Rise and shine! It's Friday morning, and we have 17 days until your exam. Today, we are breaking down IPv4 Address Classes. Grab your notebook, and let's make this crystal clear!",
+        "speech": "Good morning, Roosevelt! Rise and shine for a fresh study session on this fine Friday morning. We have 17 days left until your exam on November 9th, so let's jump right in and master Right Triangle Trigonometry. Does that sound good to you?",
         "isFinal": false
       },
       {
@@ -36,71 +39,37 @@
         "elements": [
           {
             "type": "title",
-            "text": "What is an IPv4 Address?"
+            "text": "What is a Right Triangle?"
           },
           {
             "type": "text",
-            "text": "An IPv4 address is a 32-bit number split into 4 octets (bytes)."
+            "text": "A triangle with one 90-degree angle."
           },
           {
-            "type": "note",
-            "text": "Analogy: Think of it like a mailing address—Network is the City, Host is the House Number.",
-            "accent": "info"
-          }
-        ],
-        "speech": "Let's start from absolute zero. Think of an IP address like a house address. You need a city name to know where to send the mail, and a house number to find the exact door. Does that make sense so far?",
-        "isFinal": false
-      },
-      {
-        "index": 2,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "The First Octet Rule"
-          },
-          {
-            "type": "text",
-            "text": "In Classful Addressing, we look at the very first number (octet) of the IP address to figure out which class it belongs to."
-          },
-          {
-            "type": "box",
-            "text": "Class A: 1 to 127\nClass B: 128 to 191\nClass C: 192 to 223"
-          },
-          {
-            "type": "note",
-            "text": "Memorize these three ranges for your exam!",
-            "accent": "warn"
-          }
-        ],
-        "speech": "To figure out which class an IP address belongs to, we look at the very first number, or octet. For Class A, it starts from 1 to 127. For Class B, 128 to 191. And for Class C, 192 to 223. Does that make sense so far, Roosevelt?",
-        "isFinal": false
-      },
-      {
-        "index": 3,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Class A Breakdown"
+            "type": "draw",
+            "shape": "polygon",
+            "points": [
+              [
+                30,
+                170
+              ],
+              [
+                270,
+                170
+              ],
+              [
+                270,
+                50
+              ]
+            ],
+            "label": "Right Triangle"
           },
           {
             "type": "text",
-            "text": "Class A is designed for massive networks."
-          },
-          {
-            "type": "box",
-            "text": "Network ID: First 8 bits (1 octet)\nHost ID: Last 24 bits (3 octets)"
-          },
-          {
-            "type": "note",
-            "text": "Example: 10.0.0.1 -> '10' is the network, '.0.0.1' is the specific host computer.",
-            "accent": "info"
+            "text": "The longest side opposite the 90-degree angle is the Hypotenuse."
           }
         ],
-        "speech": "Let's look at Class A closely. It uses the first octet for the network and the remaining three octets for hosts. For example, in 10.0.0.1, '10' tells us the giant network, and the rest is the specific computer. Does that make sense, Roosevelt?",
+        "speech": "Let's start from absolute zero. What is a right triangle? It's simply a triangle where one of the angles is a perfect 90 degrees. The side directly opposite that 90-degree corner is always the longest side, and we call it the hypotenuse. Does that make sense so far?",
         "isFinal": false
       }
     ],
