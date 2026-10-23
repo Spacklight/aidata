@@ -381,5 +381,47 @@
         "uploadedAt": "2026-10-23T02:38:29.838Z"
       }
     ]
+  },
+  {
+    "profileId": "mv5oi4wgmvkyxbjh",
+    "materials": [
+      {
+        "id": "6g5tpmlsmvkz1r8g",
+        "name": "APA 7th Edition Quick Reference Guide",
+        "subject": "Academic Writing and Formatting",
+        "title": "APA 7th Edition Quick Reference Guide",
+        "topics": [
+          {
+            "name": "General Document Formatting",
+            "subtopics": [
+              "Margins",
+              "Font",
+              "Line Spacing",
+              "Page Numbers"
+            ]
+          },
+          {
+            "name": "In-Text Citations",
+            "subtopics": [
+              "Parenthetical Citations",
+              "Narrative Citations",
+              "Multiple Authors",
+              "Secondary Sources"
+            ]
+          },
+          {
+            "name": "Reference List",
+            "subtopics": [
+              "Books",
+              "Journal Articles",
+              "Websites",
+              "DOI and URLs"
+            ]
+          }
+        ],
+        "textLength": 0,
+        "uploadedAt": "2026-10-23T12:54:14.560Z"
+      }
+    ]
   }
 ]
