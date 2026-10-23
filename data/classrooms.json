@@ -50,6 +50,32 @@
         ],
         "speech": "Let's start from absolute zero. Think of an IP address like a house address. You need a city name to know where to send the mail, and a house number to find the exact door. Does that make sense so far?",
         "isFinal": false
+      },
+      {
+        "index": 2,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "The First Octet Rule"
+          },
+          {
+            "type": "text",
+            "text": "In Classful Addressing, we look at the very first number (octet) of the IP address to figure out which class it belongs to."
+          },
+          {
+            "type": "box",
+            "text": "Class A: 1 to 127\nClass B: 128 to 191\nClass C: 192 to 223"
+          },
+          {
+            "type": "note",
+            "text": "Memorize these three ranges for your exam!",
+            "accent": "warn"
+          }
+        ],
+        "speech": "To figure out which class an IP address belongs to, we look at the very first number, or octet. For Class A, it starts from 1 to 127. For Class B, 128 to 191. And for Class C, 192 to 223. Does that make sense so far, Roosevelt?",
+        "isFinal": false
       }
     ],
     "isComplete": false
