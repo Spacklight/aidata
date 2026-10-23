@@ -78,8 +78,34 @@
         ],
         "speech": "Notice the massive jump from 32 bits in IPv4 to 128 bits in IPv6. Instead of dotted decimal, IPv6 uses hexadecimal notation separated by colons. Take a mental snapshot of this, Roosevelt, and let's wrap up for the night.",
         "isFinal": false
+      },
+      {
+        "index": 2,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Address Compression Rules"
+          },
+          {
+            "type": "text",
+            "text": "Leading zeros in a 16-bit block can be omitted."
+          },
+          {
+            "type": "box",
+            "text": "2001:0db8 -> 2001:db8"
+          },
+          {
+            "type": "note",
+            "text": "Save energy Roosevelt—get some sleep after this quick tip!",
+            "accent": "warn"
+          }
+        ],
+        "speech": "Roosevelt, just remember the compression rules for your exam. You can drop leading zeros in each block. Let's wrap up for tonight and get some rest!",
+        "isFinal": true
       }
     ],
-    "isComplete": false
+    "isComplete": true
   }
 ]
