@@ -208,6 +208,27 @@
         ],
         "speech": "Now it is your turn to try one, Roosevelt! Using our Tangent formula, if the opposite side is 6 and the adjacent side is 8, what do you get? Take your time and let me know your answer.",
         "isFinal": false
+      },
+      {
+        "index": 6,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Solution to Quick Check"
+          },
+          {
+            "type": "text",
+            "text": "Tan(θ) = Opposite / Adjacent = 6 / 8 = 3 / 4 = 0.75"
+          },
+          {
+            "type": "box",
+            "text": "Great job! Tangent gives us the ratio of rise to run."
+          }
+        ],
+        "speech": "Let's check your work! With an opposite side of 6 and an adjacent side of 8, Tangent of theta is 6 divided by 8, which simplifies to 3 over 4, or 0.75. Does that calculation make sense to you?",
+        "isFinal": false
       }
     ],
     "isComplete": false
