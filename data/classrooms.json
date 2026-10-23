@@ -195,6 +195,35 @@
         ],
         "speech": "Another huge benefit of NAT, Roosevelt, is built-in security. Because your private devices are hidden behind the router's single public IP, outside hackers can't directly target your laptop. Does that make sense?",
         "isFinal": false
+      },
+      {
+        "index": 7,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Quick Check: How NAT Works"
+          },
+          {
+            "type": "text",
+            "text": "Let's review the journey of a data packet from a private network out to the public internet."
+          },
+          {
+            "type": "box",
+            "text": "Private IP (Inside)"
+          },
+          {
+            "type": "arrow",
+            "label": "NAT Router Translation"
+          },
+          {
+            "type": "box",
+            "text": "Public IP (Outside)"
+          }
+        ],
+        "speech": "Before we move on, Roosevelt, let's quickly check our understanding. When your laptop sends data out, what device actually swaps your private IP address for a public one?",
+        "isFinal": false
       }
     ],
     "isComplete": false
