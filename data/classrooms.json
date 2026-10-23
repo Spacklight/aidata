@@ -115,6 +115,31 @@
         ],
         "speech": "Now, on the flip side, a public IP address is completely unique across the entire global internet. Your internet service provider gives you one main public IP so your entire house can talk to websites worldwide. Does that distinction between internal and external make sense so far?",
         "isFinal": false
+      },
+      {
+        "index": 4,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "What is NAT (Network Address Translation)?"
+          },
+          {
+            "type": "text",
+            "text": "NAT is the bridge between private and public IP addresses."
+          },
+          {
+            "type": "box",
+            "text": "Router acts as the translator: swaps private IPs for the single public IP."
+          },
+          {
+            "type": "arrow",
+            "label": "Translates inside to outside"
+          }
+        ],
+        "speech": "So how do these private and public IPs actually talk to each other? That's where NAT, or Network Address Translation, comes in. Your home router acts as a translator, swapping out your device's private IP for its own public IP when sending data out to the internet. Does that translation idea make sense, Roosevelt?",
+        "isFinal": false
       }
     ],
     "isComplete": false
