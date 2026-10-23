@@ -264,6 +264,32 @@
         ],
         "speech": "One of the main reasons NAT is so crucial, Roosevelt, is that the world actually ran out of unique public IPv4 addresses years ago! NAT saves the day by letting entire local networks share just one public IP address. Does that make sense?",
         "isFinal": false
+      },
+      {
+        "index": 9,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "The Next Step: IPv6 and the Future"
+          },
+          {
+            "type": "text",
+            "text": "IPv6 uses 128-bit addresses instead of 32-bit, providing practically endless unique IP addresses."
+          },
+          {
+            "type": "box",
+            "text": "IPv6 Pool: ~3.4 x 10^38 addresses (No NAT needed for exhaustion!)"
+          },
+          {
+            "type": "note",
+            "text": "NAT was built as a temporary fix for IPv4, but it stuck around for security!",
+            "accent": "info"
+          }
+        ],
+        "speech": "While NAT solves the IPv4 shortage, Roosevelt, the ultimate fix is IPv6. It has so many addresses we won't ever need NAT to save space—though we still use it sometimes for security!",
+        "isFinal": false
       }
     ],
     "isComplete": false
