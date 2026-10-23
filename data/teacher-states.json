@@ -39,6 +39,14 @@
         "learnedAt": "2026-10-22T18:43:23.557Z",
         "moduleId": null,
         "fromClassroom": true
+      },
+      {
+        "subject": "Computer Science",
+        "topic": "Supernetting and Route Summarization",
+        "subtopic": null,
+        "learnedAt": "2026-10-23T02:50:17.820Z",
+        "moduleId": null,
+        "fromClassroom": true
       }
     ],
     "announcements": [
