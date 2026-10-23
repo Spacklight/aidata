@@ -63,6 +63,32 @@
         ],
         "speech": "To understand why we need both public and private IP addresses, let's use an everyday analogy. Imagine a massive corporate building. Inside the building, everyone uses internal extension numbers to talk to each other—those are like Private IP addresses. But when the company sends a letter to someone outside, it must use the building's single official street address—that's a Public IP address. Does that make sense so far?",
         "isFinal": false
+      },
+      {
+        "index": 2,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "What is a Private IP Address?"
+          },
+          {
+            "type": "text",
+            "text": "Private IPs are used inside a local network. They are not routable on the public internet."
+          },
+          {
+            "type": "box",
+            "text": "Common ranges: 192.168.x.x or 10.x.x.x"
+          },
+          {
+            "type": "note",
+            "text": "Many homes and offices reuse the exact same private IP addresses safely!",
+            "accent": "info"
+          }
+        ],
+        "speech": "Let's look more closely at private IP addresses. These are numbers assigned to devices inside your home or office network, like 192.168.1.5. Does that make sense so far, Roosevelt?",
+        "isFinal": false
       }
     ],
     "isComplete": false
