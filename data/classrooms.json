@@ -168,6 +168,46 @@
         ],
         "speech": "Now let's find the cosine and tangent using our other parts of SOH CAH TOA! If our adjacent side is 4 and hypotenuse is 5, Cosine is 4 over 5, or 0.8. Does that make sense so far, Roosevelt?",
         "isFinal": false
+      },
+      {
+        "index": 5,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Quick Check: Try It Yourself"
+          },
+          {
+            "type": "text",
+            "text": "Imagine a right triangle where the angle theta has an opposite side of 6 and an adjacent side of 8. What is the Tangent of theta?"
+          },
+          {
+            "type": "box",
+            "text": "Hint: Tan(θ) = Opposite / Adjacent"
+          },
+          {
+            "type": "draw",
+            "shape": "polygon",
+            "points": [
+              [
+                50,
+                150
+              ],
+              [
+                200,
+                150
+              ],
+              [
+                50,
+                50
+              ]
+            ],
+            "label": "θ triangle"
+          }
+        ],
+        "speech": "Now it is your turn to try one, Roosevelt! Using our Tangent formula, if the opposite side is 6 and the adjacent side is 8, what do you get? Take your time and let me know your answer.",
+        "isFinal": false
       }
     ],
     "isComplete": false
