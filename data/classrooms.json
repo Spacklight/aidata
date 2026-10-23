@@ -88,6 +88,35 @@
         ],
         "speech": "Tiyeni tiwone chitsanzo cha polynomial. P(x) = 3x lalikulu kuphatikiza 2x kuchotseratu 5. Kodi mwamvetsa chifukwa chake ichi ndi polynomial, Roosevelt?",
         "isFinal": false
+      },
+      {
+        "index": 3,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Zomwe Siziri Polynomial"
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "text",
+            "text": "P(x) = 2x^(-1) + 3"
+          },
+          {
+            "type": "note",
+            "text": "Mphamvu -1 ndi yolakwika!",
+            "accent": "warn"
+          },
+          {
+            "type": "box",
+            "text": "Q(x) = √x + 1 sichonso polynomial chifukwa mizu ya x siyingakhale ndi mphamvu ya fractional."
+          }
+        ],
+        "speech": "Tiyeni tiwone chitsanzo cha zomwe siziri polynomial. Ngati tili ndi P(x) yofanana ndi 2x wamphamvu ya -1, iyi si polynomial chifukwa mphamvu yake ndi yolakwika, si nambala yabwino. Kodi mwamvetsa chifukwa chake?",
+        "isFinal": false
       }
     ],
     "isComplete": false
