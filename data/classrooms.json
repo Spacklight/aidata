@@ -340,6 +340,47 @@
         ],
         "speech": "Let's apply this to a real-world scenario! Suppose you are designing a wheelchair ramp that rises 3 feet and stretches 10 feet horizontally. Using inverse tangent, our angle is Tan inverse of 3 over 10, which gives about 16.7 degrees. Does that make sense, Roosevelt?",
         "isFinal": false
+      },
+      {
+        "index": 10,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Ramp Angle Check"
+          },
+          {
+            "type": "text",
+            "text": "A 16.7 degree angle is actually very gentle and safe for wheelchairs!"
+          },
+          {
+            "type": "draw",
+            "shape": "polygon",
+            "points": [
+              [
+                20,
+                160
+              ],
+              [
+                260,
+                160
+              ],
+              [
+                260,
+                100
+              ]
+            ],
+            "label": "Ramp Triangle"
+          },
+          {
+            "type": "note",
+            "text": "Smaller angle = less steep ramp!",
+            "accent": "info"
+          }
+        ],
+        "speech": "So our wheelchair ramp makes a 16.7 degree angle with the ground, Roosevelt. That is a nice, gentle slope. Does that step make sense to you before we move on?",
+        "isFinal": false
       }
     ],
     "isComplete": false
