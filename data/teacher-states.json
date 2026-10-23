@@ -90,6 +90,12 @@
       }
     ],
     "lastExerciseAt": "2026-10-22T17:35:08.595Z",
-    "notes": "Student greeted the teacher. Provided a foundational follow-up on MIS vs IT and pillar synergy, then assigned a medium short_answer exercise."
+    "notes": "The student asked about today's live classroom. Given the morning time and upcoming exam, I triggered the live class suggestion focused on MIS and networking review.",
+    "pendingClassSuggestion": {
+      "topic": "MIS Integration and Network Architecture Review",
+      "message": "Your live classroom session on MIS Integration and Network Architecture is ready to start!",
+      "at": "2026-10-23T03:20:44.397Z",
+      "scheduledAt": 1792725944397
+    }
   }
 ]
