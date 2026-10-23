@@ -47,6 +47,14 @@
         "learnedAt": "2026-10-23T02:50:17.820Z",
         "moduleId": null,
         "fromClassroom": true
+      },
+      {
+        "subject": "Computer Science",
+        "topic": "Private IP Addresses and Network Address Translation (NAT)",
+        "subtopic": null,
+        "learnedAt": "2026-10-23T02:55:11.317Z",
+        "moduleId": null,
+        "fromClassroom": true
       }
     ],
     "announcements": [
