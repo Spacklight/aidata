@@ -164,6 +164,27 @@
         ],
         "speech": "Let's calculate the first subnet, Subnet A, which needs 50 hosts. The closest power of two that gives us at least 50 usable hosts is 64, which is a slash 26 mask. Our range starts at 192.168.1.0 and ends at 192.168.1.63.",
         "isFinal": false
+      },
+      {
+        "index": 5,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "text",
+            "text": "ash of /26. This gives us 64 total IP addresses, with 62 usable hosts after accounting for the network and broadcast IDs."
+          },
+          {
+            "type": "text",
+            "text": "Subnet A will therefore use the network range 192.168.1.0/26."
+          },
+          {
+            "type": "text",
+            "text": "Next, we move on to Subnet B, which requires 25 hosts."
+          }
+        ],
+        "speech": "This gives us a slash 26, leaving 62 usable hosts for Subnet A. Next, we determine the requirements for Subnet B.",
+        "isFinal": false
       }
     ],
     "isComplete": false
