@@ -1,11 +1,11 @@
 [
   {
-    "id": "e5vonlvemvkdgd4n",
+    "id": "uzkmcf8umvkdmoom",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T02:49:44.567Z",
+    "startedAt": "2026-10-23T02:54:39.478Z",
     "subject": "Computer Science",
-    "topic": "Supernetting and Route Summarization",
-    "reasoning": "Since Roosevelt has already learned standard subnetting and CIDR, supernetting is the logical next step for his upcoming MIS networking exam.",
+    "topic": "Private IP Addresses and Network Address Translation (NAT)",
+    "reasoning": "Since Roosevelt has already covered basic IPv4 addressing, subnetting, and CIDR, moving on to Private IP ranges and NAT is the logical next step for his MIS exam preparation.",
     "layout": "two",
     "segments": [
       {
@@ -15,55 +15,60 @@
         "elements": [
           {
             "type": "title",
-            "text": "Late Night Quick Review: Supernetting"
+            "text": "Late Night Session: Private IP & NAT"
           },
           {
             "type": "text",
-            "text": "Hey Roosevelt, it's 4:49 AM! Let's keep this short, punchy, and protect that sleep for your Nov 9 exam."
+            "text": "Roosevelt, it's 4:54 AM! Let's do a quick, high-yield review before you rest up for your November exam."
           },
           {
-            "type": "box",
-            "text": "Goal: Combine multiple smaller networks into one larger prefix."
+            "type": "draw",
+            "shape": "circle",
+            "cx": 100,
+            "cy": 120,
+            "r": 50,
+            "label": "Private LAN",
+            "fill": false
           }
         ],
-        "speech": "Hey Roosevelt, I know it's almost 5 in the morning. Let's do a fast, high-impact review on Supernetting before you head off to rest.",
+        "speech": "Hey Roosevelt, I know it's late at 4:54 AM, but let's quickly touch upon Private IP Addresses and NAT before you head to sleep.",
         "isFinal": false
       },
       {
         "index": 1,
         "kind": "point",
-        "section": 2,
-        "elements": [
-          {
-            "type": "text",
-            "text": "Route Aggregation Concept:"
-          }
-        ],
-        "speech": "Notice how we combine two /24 networks into a single /23 route to reduce routing table size. Get some good sleep right after this!",
-        "isFinal": false
-      },
-      {
-        "index": 2,
-        "kind": "summary",
         "section": 1,
         "elements": [
           {
             "type": "title",
-            "text": "Time to Rest, Roosevelt"
+            "text": "RFC 1918 Private Address Ranges"
           },
           {
             "type": "text",
-            "text": "You've tackled supernetting basics. Now close your books and get some sleep for your Nov 9 exam!"
+            "text": "Class A: 10.0.0.0/8 | Class B: 172.16.0.0/12 | Class C: 192.168.0.0/16"
           },
           {
-            "type": "box",
-            "text": "Goal for tonight met: Protect your memory consolidation. Rest up!"
+            "type": "draw",
+            "shape": "arrow",
+            "from": [
+              50,
+              160
+            ],
+            "to": [
+              250,
+              160
+            ],
+            "label": "Translated via NAT",
+            "dashed": false
+          },
+          {
+            "type": "divider"
           }
         ],
-        "speech": "Roosevelt, it's past 4:50 AM. You've done enough for tonight. Get some solid rest, and we'll hit more MIS prep tomorrow!",
-        "isFinal": true
+        "speech": "Remember these three RFC 1918 ranges for your exam. They aren't routable on the public internet, which is why we use NAT to connect local networks to the outside world. Keep up the great work, review this briefly, and get some rest!",
+        "isFinal": false
       }
     ],
-    "isComplete": true
+    "isComplete": false
   }
 ]
