@@ -140,6 +140,31 @@
         ],
         "speech": "So how do these private and public IPs actually talk to each other? That's where NAT, or Network Address Translation, comes in. Your home router acts as a translator, swapping out your device's private IP for its own public IP when sending data out to the internet. Does that translation idea make sense, Roosevelt?",
         "isFinal": false
+      },
+      {
+        "index": 5,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "NAT in Action: A Quick Example"
+          },
+          {
+            "type": "text",
+            "text": "Laptop sends a request to Google. Private IP (192.168.1.5) goes to the router."
+          },
+          {
+            "type": "box",
+            "text": "Router swaps 192.168.1.5 with Public IP (203.0.113.5)"
+          },
+          {
+            "type": "arrow",
+            "label": "To Google Server"
+          }
+        ],
+        "speech": "Let's trace a concrete example. When your laptop with private IP 192.168.1.5 asks for Google, your home router intercepts the message, takes off the private return label, and slaps on your single public IP address before sending it out to the internet! Roosevelt, does that tracking make sense so far?",
+        "isFinal": false
       }
     ],
     "isComplete": false
