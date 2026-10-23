@@ -1,11 +1,11 @@
 [
   {
-    "id": "9jqaxapfmvkplewo",
+    "id": "jcyklf0lmvkq2cxx",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T08:29:35.544Z",
+    "startedAt": "2026-10-23T08:42:46.149Z",
     "subject": "Computer Science",
-    "topic": "Public IP Addresses, Private IP Addresses, and Network Address Translation (NAT)",
-    "reasoning": "Building directly upon previously learned IPv4 subnets and CIDR notation, mastering public vs private IPs and NAT is essential for understanding modern internet routing and the MIS infrastructure Roosevelt needs for his upcoming exam.",
+    "topic": "IPv4 Address Model & Network/Host Portions",
+    "reasoning": "Selected to build a solid foundation on IP addressing fundamentals for the upcoming networking exam.",
     "layout": "two",
     "segments": [
       {
@@ -15,23 +15,21 @@
         "elements": [
           {
             "type": "title",
-            "text": "LIVE CLASS: Public vs Private IPs & NAT"
+            "text": "LIVE CLASS: IP Addressing Basics"
           },
           {
             "type": "text",
-            "text": "Good morning, Roosevelt! Rise and shine! It's Friday, October 23, 2026, and your exam is coming up on November 9th—just 17 days away!"
+            "text": "Good morning, Roosevelt! Only 17 days until your exam on Nov 9."
+          },
+          {
+            "type": "divider"
           },
           {
             "type": "box",
-            "text": "Topic: Public IP Addresses, Private IP Addresses & NAT"
-          },
-          {
-            "type": "note",
-            "text": "Morning energy: Let's tackle a core networking concept!",
-            "accent": "info"
+            "text": "Topic: IPv4 Address Model & Network/Host Portions"
           }
         ],
-        "speech": "Good morning, Roosevelt! Rise and shine! It is Friday morning, October 23rd, and your exam is coming up on November 9th—just 17 days away! Today, we are diving into Public IP Addresses, Private IP Addresses, and Network Address Translation, or NAT. Let's start fresh and make sure you completely master this before your exam!",
+        "speech": "Good morning, Roosevelt! It's Friday morning, October 23, and we have 17 days left before your big exam on November 9th. Let's start fresh and energetic! Today we are tackling the IPv4 Address Model and breaking down network and host portions. Does that sound good?",
         "isFinal": false
       },
       {
@@ -41,11 +39,11 @@
         "elements": [
           {
             "type": "title",
-            "text": "The Analogy: Global Mail vs. Office Intercom"
+            "text": "What is an IPv4 Address?"
           },
           {
             "type": "text",
-            "text": "Imagine a massive corporate building. Every desk has an internal extension number (Private IP), but the building itself has only one official street address (Public IP)."
+            "text": "An IPv4 address is a unique 32-bit numerical label assigned to every device connected to a computer network."
           },
           {
             "type": "draw",
@@ -53,279 +51,19 @@
             "cx": 150,
             "cy": 100,
             "r": 50,
-            "label": "Public IP",
+            "label": "IP: 192.168.1.1",
             "fill": false
           },
           {
-            "type": "arrow",
-            "label": "NAT Translation"
-          }
-        ],
-        "speech": "To understand why we need both public and private IP addresses, let's use an everyday analogy. Imagine a massive corporate building. Inside the building, everyone uses internal extension numbers to talk to each other—those are like Private IP addresses. But when the company sends a letter to someone outside, it must use the building's single official street address—that's a Public IP address. Does that make sense so far?",
-        "isFinal": false
-      },
-      {
-        "index": 2,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "What is a Private IP Address?"
-          },
-          {
-            "type": "text",
-            "text": "Private IPs are used inside a local network. They are not routable on the public internet."
-          },
-          {
-            "type": "box",
-            "text": "Common ranges: 192.168.x.x or 10.x.x.x"
-          },
-          {
             "type": "note",
-            "text": "Many homes and offices reuse the exact same private IP addresses safely!",
+            "text": "Like a mailing address for your computer!",
             "accent": "info"
           }
         ],
-        "speech": "Let's look more closely at private IP addresses. These are numbers assigned to devices inside your home or office network, like 192.168.1.5. Does that make sense so far, Roosevelt?",
+        "speech": "Think of an IP address like a physical house address. If you want to send a letter to a friend, you need their street name and house number. On the internet, devices use an IPv4 address to find each other. An IPv4 address is made up of 32 bits. Let's look at how this is structured on the board. Make sense so far?",
         "isFinal": false
-      },
-      {
-        "index": 3,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "What is a Public IP Address?"
-          },
-          {
-            "type": "text",
-            "text": "Public IPs are assigned by your Internet Service Provider (ISP) and are unique across the entire global internet."
-          },
-          {
-            "type": "box",
-            "text": "Your router uses ONE Public IP to connect all your home devices to the outside world!"
-          },
-          {
-            "type": "note",
-            "text": "Global Uniqueness is required here.",
-            "accent": "info"
-          }
-        ],
-        "speech": "Now, on the flip side, a public IP address is completely unique across the entire global internet. Your internet service provider gives you one main public IP so your entire house can talk to websites worldwide. Does that distinction between internal and external make sense so far?",
-        "isFinal": false
-      },
-      {
-        "index": 4,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "What is NAT (Network Address Translation)?"
-          },
-          {
-            "type": "text",
-            "text": "NAT is the bridge between private and public IP addresses."
-          },
-          {
-            "type": "box",
-            "text": "Router acts as the translator: swaps private IPs for the single public IP."
-          },
-          {
-            "type": "arrow",
-            "label": "Translates inside to outside"
-          }
-        ],
-        "speech": "So how do these private and public IPs actually talk to each other? That's where NAT, or Network Address Translation, comes in. Your home router acts as a translator, swapping out your device's private IP for its own public IP when sending data out to the internet. Does that translation idea make sense, Roosevelt?",
-        "isFinal": false
-      },
-      {
-        "index": 5,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "NAT in Action: A Quick Example"
-          },
-          {
-            "type": "text",
-            "text": "Laptop sends a request to Google. Private IP (192.168.1.5) goes to the router."
-          },
-          {
-            "type": "box",
-            "text": "Router swaps 192.168.1.5 with Public IP (203.0.113.5)"
-          },
-          {
-            "type": "arrow",
-            "label": "To Google Server"
-          }
-        ],
-        "speech": "Let's trace a concrete example. When your laptop with private IP 192.168.1.5 asks for Google, your home router intercepts the message, takes off the private return label, and slaps on your single public IP address before sending it out to the internet! Roosevelt, does that tracking make sense so far?",
-        "isFinal": false
-      },
-      {
-        "index": 6,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Why NAT is Essential for Security"
-          },
-          {
-            "type": "text",
-            "text": "Because internal devices use private IPs, direct connections from the outside world are blocked."
-          },
-          {
-            "type": "box",
-            "text": "Inbound Protection: Hackers on the internet cannot see or ping your private home devices directly!"
-          },
-          {
-            "type": "draw",
-            "shape": "circle",
-            "cx": 150,
-            "cy": 120,
-            "r": 45,
-            "label": "Router Firewall",
-            "fill": false
-          }
-        ],
-        "speech": "Another huge benefit of NAT, Roosevelt, is built-in security. Because your private devices are hidden behind the router's single public IP, outside hackers can't directly target your laptop. Does that make sense?",
-        "isFinal": false
-      },
-      {
-        "index": 7,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Quick Check: How NAT Works"
-          },
-          {
-            "type": "text",
-            "text": "Let's review the journey of a data packet from a private network out to the public internet."
-          },
-          {
-            "type": "box",
-            "text": "Private IP (Inside)"
-          },
-          {
-            "type": "arrow",
-            "label": "NAT Router Translation"
-          },
-          {
-            "type": "box",
-            "text": "Public IP (Outside)"
-          }
-        ],
-        "speech": "Before we move on, Roosevelt, let's quickly check our understanding. When your laptop sends data out, what device actually swaps your private IP address for a public one?",
-        "isFinal": false
-      },
-      {
-        "index": 8,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Why IPv4 Needs NAT: Address Exhaustion"
-          },
-          {
-            "type": "text",
-            "text": "There are only about 4.3 billion IPv4 addresses in total. With billions of phones, computers, and smart devices worldwide, we should have run out years ago!"
-          },
-          {
-            "type": "box",
-            "text": "IPv4 Address Pool: ~4.3 Billion"
-          },
-          {
-            "type": "draw",
-            "shape": "arrow",
-            "from": [
-              150,
-              110
-            ],
-            "to": [
-              150,
-              140
-            ],
-            "label": "Saved by NAT!",
-            "dashed": false
-          },
-          {
-            "type": "note",
-            "text": "NAT allows millions of homes to share a single public IP, conserving the global pool.",
-            "accent": "info"
-          }
-        ],
-        "speech": "One of the main reasons NAT is so crucial, Roosevelt, is that the world actually ran out of unique public IPv4 addresses years ago! NAT saves the day by letting entire local networks share just one public IP address. Does that make sense?",
-        "isFinal": false
-      },
-      {
-        "index": 9,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "The Next Step: IPv6 and the Future"
-          },
-          {
-            "type": "text",
-            "text": "IPv6 uses 128-bit addresses instead of 32-bit, providing practically endless unique IP addresses."
-          },
-          {
-            "type": "box",
-            "text": "IPv6 Pool: ~3.4 x 10^38 addresses (No NAT needed for exhaustion!)"
-          },
-          {
-            "type": "note",
-            "text": "NAT was built as a temporary fix for IPv4, but it stuck around for security!",
-            "accent": "info"
-          }
-        ],
-        "speech": "While NAT solves the IPv4 shortage, Roosevelt, the ultimate fix is IPv6. It has so many addresses we won't ever need NAT to save space—though we still use it sometimes for security!",
-        "isFinal": false
-      },
-      {
-        "index": 10,
-        "kind": "summary",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Lesson Summary: Public vs. Private IPs & NAT"
-          },
-          {
-            "type": "box",
-            "text": "Private IPs: Internal, reused, safe behind routers"
-          },
-          {
-            "type": "box",
-            "text": "Public IPs: Globally unique, internet-routable addresses"
-          },
-          {
-            "type": "box",
-            "text": "NAT: Translates private to public, saves IPv4 space & blocks hackers"
-          },
-          {
-            "type": "draw",
-            "shape": "circle",
-            "cx": 150,
-            "cy": 150,
-            "r": 30,
-            "label": "Exam Ready!",
-            "fill": true
-          }
-        ],
-        "speech": "To wrap up today's session, Roosevelt, remember that private IPs keep devices organized locally, public IPs connect us globally, and NAT acts as the clever translator and security guard in between. You're well on your way for November 9th!",
-        "isFinal": true
       }
     ],
-    "isComplete": true
+    "isComplete": false
   }
 ]
