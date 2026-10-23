@@ -117,6 +117,32 @@
         ],
         "speech": "To easily remember how these three sides relate to each other, mathematicians use a famous memory trick called SOH CAH TOA. Does this acronym make sense so far, Roosevelt?",
         "isFinal": false
+      },
+      {
+        "index": 3,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Putting SOH CAH TOA to Work"
+          },
+          {
+            "type": "text",
+            "text": "Let's find the Sine of angle θ when the opposite side is 3 and the hypotenuse is 5."
+          },
+          {
+            "type": "box",
+            "text": "Sin(θ) = Opposite / Hypotenuse = 3 / 5 = 0.6"
+          },
+          {
+            "type": "note",
+            "text": "Ratio is always a decimal or fraction!",
+            "accent": "info"
+          }
+        ],
+        "speech": "Let's use our first formula with real numbers! If our opposite side is 3 and our hypotenuse is 5, then Sine of theta is simply 3 divided by 5, which gives us 0.6. Does that make sense, Roosevelt?",
+        "isFinal": false
       }
     ],
     "isComplete": false
