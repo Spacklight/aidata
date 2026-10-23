@@ -144,5 +144,63 @@
     "assignedByAI": true,
     "focusTopic": "Interaction of The Three Pillars and IT vs MIS distinction",
     "createdAt": "2026-10-22T17:35:08.593Z"
+  },
+  {
+    "id": "b6wogidimvkokuaa",
+    "profileId": "v3n541g5mvjqh5ma",
+    "subject": "Management Information Systems",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "title": "MIS Human-Technology Interaction and Localization Assessment",
+    "instructions": "Answer each of the following short-answer questions thoroughly and concisely, focusing on concepts of Human-Technology Interaction (HTI) and software/system localization within Management Information Systems. Provide responses that are 2 to 4 sentences in length.",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "short_answer",
+        "question": "Explain how cultural dimensions, such as those defined by Hofstede, influence the design of user interfaces in global Management Information Systems.",
+        "options": [],
+        "correctIndex": 0,
+        "expectedAnswer": "Cultural dimensions dictate user expectations regarding hierarchy, individualism, and communication styles, which directly impact interface layouts and navigation pathways. For instance, cultures high in power distance may prefer structured, authoritative dashboards, whereas individualistic cultures might favor customizable, user-driven workflows. Incorporating these dimensions ensures that the system aligns with local cognitive habits and operational norms.",
+        "markingGuide": "",
+        "points": 25
+      },
+      {
+        "id": "q2",
+        "type": "short_answer",
+        "question": "Differentiate between software internationalization and localization in the context of deploying an enterprise information system globally.",
+        "options": [],
+        "correctIndex": 0,
+        "expectedAnswer": "Internationalization is the architectural phase where a system is designed without hardcoded language or regional assumptions, enabling it to support multiple locales natively. Localization, conversely, is the subsequent process of adapting that internationalized software for a specific target market by translating text, adjusting date formats, and incorporating local currencies. Together, they allow multinational corporations to maintain a unified MIS platform while respecting regional requirements.",
+        "markingGuide": "",
+        "points": 25
+      },
+      {
+        "id": "q3",
+        "type": "short_answer",
+        "question": "What is the role of User Experience (UX) design in mitigating cognitive load during human-technology interaction within complex organizational information systems?",
+        "options": [],
+        "correctIndex": 0,
+        "expectedAnswer": "Effective UX design minimizes cognitive load by streamlining workflows, reducing visual clutter, and presenting only relevant information to the user at the right time. In complex MIS environments, this prevents user fatigue, lowers error rates, and accelerates task completion times by aligning system interfaces with natural human mental models. Consequently, structured UX design enhances overall productivity and system adoption rates among employees.",
+        "markingGuide": "",
+        "points": 25
+      },
+      {
+        "id": "q4",
+        "type": "short_answer",
+        "question": "Why is localization more than just direct language translation when deploying an enterprise resource planning (ERP) system in a new geographic region?",
+        "options": [],
+        "correctIndex": 0,
+        "expectedAnswer": "Localization goes beyond linguistic translation to ensure compliance with local tax laws, financial regulations, business practices, and legal frameworks embedded within the ERP logic. It also accounts for technical nuances such as local date formats, address structures, and measurement units to prevent operational errors. Failing to adequately localize these functional aspects can lead to regulatory non-compliance and severe business disruptions.",
+        "markingGuide": "",
+        "points": 25
+      }
+    ],
+    "totalPoints": 100,
+    "durationMinutes": 45,
+    "durationLabel": "medium",
+    "dueAt": "2026-10-23T08:46:09.201Z",
+    "assignedByAI": true,
+    "focusTopic": "MIS Human-Technology Interaction and Localization",
+    "createdAt": "2026-10-23T08:01:09.203Z"
   }
 ]
