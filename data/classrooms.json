@@ -138,6 +138,32 @@
         ],
         "speech": "Let's put this into practice, Roosevelt. Suppose we have the 192.168.1.0 slash 24 network and need subnets for 50, 25, and 10 hosts. We always allocate the largest requirement first!",
         "isFinal": false
+      },
+      {
+        "index": 4,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Allocating Subnet A (50 Hosts)"
+          },
+          {
+            "type": "text",
+            "text": "For 50 hosts, we need 2^h - 2 >= 50. The smallest block is 64 IPs (/26)."
+          },
+          {
+            "type": "box",
+            "text": "Subnet A: 192.168.1.0/26 (Range: .1 to .62)"
+          },
+          {
+            "type": "note",
+            "text": "Next available IP starts at 192.168.1.64",
+            "accent": "info"
+          }
+        ],
+        "speech": "Let's calculate the first subnet, Subnet A, which needs 50 hosts. The closest power of two that gives us at least 50 usable hosts is 64, which is a slash 26 mask. Our range starts at 192.168.1.0 and ends at 192.168.1.63.",
+        "isFinal": false
       }
     ],
     "isComplete": false
