@@ -71,6 +71,50 @@
         ],
         "speech": "Let's start from absolute zero. What is a right triangle? It's simply a triangle where one of the angles is a perfect 90 degrees. The side directly opposite that 90-degree corner is always the longest side, and we call it the hypotenuse. Does that make sense so far?",
         "isFinal": false
+      },
+      {
+        "index": 2,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "The Sides: Opposite and Adjacent"
+          },
+          {
+            "type": "text",
+            "text": "Aside from the hypotenuse, the other two sides depend on which angle we are looking from."
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "draw",
+            "shape": "polygon",
+            "points": [
+              [
+                50,
+                170
+              ],
+              [
+                250,
+                170
+              ],
+              [
+                250,
+                50
+              ]
+            ],
+            "label": "right triangle"
+          },
+          {
+            "type": "note",
+            "text": "Opposite = across from angle. Adjacent = next to angle.",
+            "accent": "info"
+          }
+        ],
+        "speech": "Now, besides the hypotenuse, the remaining two sides are named based on where we stand. The side directly across from our angle is the Opposite side, and the side right next to it is the Adjacent side. Does that distinction make sense to you, Roosevelt?",
+        "isFinal": false
       }
     ],
     "isComplete": false
