@@ -82,6 +82,27 @@
         ],
         "speech": "Think of the internet like a massive city where every house has an IP address number like 142.250.190.46. Humans are terrible at remembering long numbers, so DNS acts like your phone's contact list. It translates friendly names like google.com into numeric IP addresses. Does that make sense so far?",
         "isFinal": false
+      },
+      {
+        "index": 2,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "How Your Computer Finds a Website"
+          },
+          {
+            "type": "text",
+            "text": "Step 1: Your browser asks the DNS Resolver (like a librarian) for the IP address."
+          },
+          {
+            "type": "box",
+            "text": "DNS Resolver: 'Where is google.com?'"
+          }
+        ],
+        "speech": "So Roosevelt, when you type google.com into your browser, your computer doesn't instantly know where it lives. It first asks a DNS Resolver, which acts like a friendly librarian. Does that first step make sense so far?",
+        "isFinal": false
       }
     ],
     "isComplete": false
