@@ -1,11 +1,11 @@
 [
   {
-    "id": "fyananfmmvkgztfr",
+    "id": "58jsddy7mvknxnj9",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T04:28:51.015Z",
-    "subject": "Computer Science",
-    "topic": "IPv4 Subnetting and Variable Length Subnet Masks (VLSM)",
-    "reasoning": "Since Roosevelt has covered basic CIDR and subnetting, tackling VLSM is the logical next step for his MIS networking exam prep.",
+    "startedAt": "2026-10-23T07:43:07.365Z",
+    "subject": "Mathematics",
+    "topic": "College Algebra & Trigonometry: Right Triangle Trigonometry",
+    "reasoning": "Continuing our math module, we transition naturally from sequences into right triangle trigonometry to build up core problem-solving tools well before the November 9 exam.",
     "layout": "two",
     "segments": [
       {
@@ -15,21 +15,38 @@
         "elements": [
           {
             "type": "title",
-            "text": "Good Morning, Roosevelt!"
+            "text": "Right Triangle Trigonometry"
           },
           {
             "type": "text",
-            "text": "Date: Oct 23, 2026 | Exam in 17 Days"
+            "text": "Good morning, Roosevelt! Rise and shine, it's 9:42 AM on this fresh Friday morning. We have 17 days until your exam on November 9th, so let's jump right into a brand new topic: Right Triangle Trigonometry!"
           },
           {
-            "type": "divider"
+            "type": "draw",
+            "shape": "polygon",
+            "points": [
+              [
+                50,
+                160
+              ],
+              [
+                220,
+                160
+              ],
+              [
+                220,
+                50
+              ]
+            ],
+            "label": "Right Triangle"
           },
           {
-            "type": "text",
-            "text": "Topic: Advanced Variable Length Subnet Masks (VLSM)"
+            "type": "note",
+            "text": "90° angle at bottom-right",
+            "accent": "info"
           }
         ],
-        "speech": "Good morning, Roosevelt! Rise and shine, it's 6:28 AM and we are starting fresh today. With your exam on November 9th just 17 days away, we are diving straight into VLSM—Variable Length Subnet Masks. Let's get our minds sharp!",
+        "speech": "Good morning, Roosevelt! It's Friday morning, October 23rd. With your exam coming up on November 9th, we are starting fresh with Right Triangle Trigonometry. Imagine you are looking up at a tall building and want to know its height without measuring it directly—that's what trig lets us do! Let's look at the basic building block: a right triangle.",
         "isFinal": false
       },
       {
@@ -39,27 +56,40 @@
         "elements": [
           {
             "type": "title",
-            "text": "Why VLSM Matters"
+            "text": "The Three Core Sides"
           },
           {
             "type": "text",
-            "text": "Traditional subnetting wastes IP addresses by giving every subnet the same block size."
+            "text": "Every right triangle has three sides relative to a chosen angle (theta, θ):"
           },
           {
-            "type": "arrow",
-            "label": "subnets"
+            "type": "box",
+            "text": "1. Hypotenuse: The longest side, opposite the 90° right angle."
+          },
+          {
+            "type": "box",
+            "text": "2. Opposite: The side directly across from angle θ."
+          },
+          {
+            "type": "box",
+            "text": "3. Adjacent: The side next to angle θ (that is not the hypotenuse)."
           },
           {
             "type": "draw",
-            "shape": "ellipse",
-            "cx": 150,
-            "cy": 120,
-            "rx": 80,
-            "ry": 30,
-            "label": "Custom Sizes per Need"
+            "shape": "arrow",
+            "from": [
+              80,
+              120
+            ],
+            "to": [
+              180,
+              120
+            ],
+            "label": "theta θ",
+            "dashed": false
           }
         ],
-        "speech": "As a Management Information Systems student, resource optimization is everything. VLSM lets us slice a network into variable sizes based on exact host requirements, preventing massive IP waste.",
+        "speech": "Before we calculate anything, we must name the sides correctly. Think of the hypotenuse as the ramp leaning against a wall—it's always the longest side. The 'opposite' side is staring right across the triangle at your angle, and 'adjacent' just means 'next door'. Does that make sense so far, Roosevelt?",
         "isFinal": false
       },
       {
@@ -69,204 +99,26 @@
         "elements": [
           {
             "type": "title",
-            "text": "How VLSM Works"
+            "text": "The Magic Word: SOH CAH TOA"
           },
           {
             "type": "text",
-            "text": "We allocate IP space starting from the largest required subnet down to the smallest."
+            "text": "To remember how the sides relate to angles, we use a famous acronym: SOH-CAH-TOA."
           },
           {
-            "type": "divider"
-          },
-          {
-            "type": "draw",
-            "shape": "arrow",
-            "from": [
-              20,
-              100
-            ],
-            "to": [
-              280,
-              100
-            ],
-            "label": "Largest to Smallest Subnets",
-            "dashed": false
+            "type": "box",
+            "text": "Sin(θ) = Opposite / Hypotenuse\nCos(θ) = Adjacent / Hypotenuse\nTan(θ) = Opposite / Adjacent"
           },
           {
             "type": "note",
-            "text": "Rule: Always sort host requirements descending!",
+            "text": "Memory trick: Some Old Horse Caught Another Horse Taking Oats Away!",
             "accent": "info"
           }
         ],
-        "speech": "To execute VLSM correctly, Roosevelt, the Golden Rule is to always sort your required subnets from the largest host count down to the smallest before allocating any addresses.",
+        "speech": "To easily remember how these three sides relate to each other, mathematicians use a famous memory trick called SOH CAH TOA. Does this acronym make sense so far, Roosevelt?",
         "isFinal": false
-      },
-      {
-        "index": 3,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "VLSM Step-by-Step Example"
-          },
-          {
-            "type": "text",
-            "text": "Given network: 192.168.1.0/24. Requirements: Subnet A = 50 hosts, Subnet B = 25 hosts, Subnet C = 10 hosts."
-          },
-          {
-            "type": "divider"
-          },
-          {
-            "type": "box",
-            "text": "Sorted Order: Subnet A (50) → Subnet B (25) → Subnet C (10)"
-          },
-          {
-            "type": "draw",
-            "shape": "arrow",
-            "from": [
-              30,
-              160
-            ],
-            "to": [
-              270,
-              160
-            ],
-            "label": "Allocating from 192.168.1.0/24",
-            "dashed": false
-          }
-        ],
-        "speech": "Let's put this into practice, Roosevelt. Suppose we have the 192.168.1.0 slash 24 network and need subnets for 50, 25, and 10 hosts. We always allocate the largest requirement first!",
-        "isFinal": false
-      },
-      {
-        "index": 4,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Allocating Subnet A (50 Hosts)"
-          },
-          {
-            "type": "text",
-            "text": "For 50 hosts, we need 2^h - 2 >= 50. The smallest block is 64 IPs (/26)."
-          },
-          {
-            "type": "box",
-            "text": "Subnet A: 192.168.1.0/26 (Range: .1 to .62)"
-          },
-          {
-            "type": "note",
-            "text": "Next available IP starts at 192.168.1.64",
-            "accent": "info"
-          }
-        ],
-        "speech": "Let's calculate the first subnet, Subnet A, which needs 50 hosts. The closest power of two that gives us at least 50 usable hosts is 64, which is a slash 26 mask. Our range starts at 192.168.1.0 and ends at 192.168.1.63.",
-        "isFinal": false
-      },
-      {
-        "index": 5,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "text",
-            "text": "ash of /26. This gives us 64 total IP addresses, with 62 usable hosts after accounting for the network and broadcast IDs."
-          },
-          {
-            "type": "text",
-            "text": "Subnet A will therefore use the network range 192.168.1.0/26."
-          },
-          {
-            "type": "text",
-            "text": "Next, we move on to Subnet B, which requires 25 hosts."
-          }
-        ],
-        "speech": "This gives us a slash 26, leaving 62 usable hosts for Subnet A. Next, we determine the requirements for Subnet B.",
-        "isFinal": false
-      },
-      {
-        "index": 6,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Allocating Subnet B (25 Hosts)"
-          },
-          {
-            "type": "text",
-            "text": "For 25 hosts, we need 2^h - 2 >= 25. The smallest valid power of two is 32, which gives a /27 prefix."
-          },
-          {
-            "type": "box",
-            "text": "Subnet B: 192.168.1.64/27\nRange: .65 to .94\nBroadcast: .95"
-          },
-          {
-            "type": "arrow",
-            "label": "Next IP: .96"
-          }
-        ],
-        "speech": "For Subnet B, which needs 25 hosts, the closest power of two is 32 total addresses, giving us a slash 27 subnet starting at 192.168.1.64.",
-        "isFinal": false
-      },
-      {
-        "index": 7,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Allocating Subnet C (10 Hosts)"
-          },
-          {
-            "type": "text",
-            "text": "For 10 hosts, we need 2^h - 2 >= 10. The smallest valid power of two is 16, which gives a /28 prefix (16 IPs total, 14 usable)."
-          },
-          {
-            "type": "box",
-            "text": "Subnet C: 192.168.1.96/28\nRange: .97 to .110\nBroadcast: .111"
-          },
-          {
-            "type": "arrow",
-            "label": "Next available IP: 192.168.1.112"
-          }
-        ],
-        "speech": "Finally, for Subnet C which requires 10 hosts, the smallest block is 16 addresses, giving us a slash 28 subnet starting at 192.168.1.96.",
-        "isFinal": false
-      },
-      {
-        "index": 8,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Summary of VLSM Allocations"
-          },
-          {
-            "type": "text",
-            "text": "Subnet A: 192.168.1.0/26 (50 hosts)"
-          },
-          {
-            "type": "text",
-            "text": "Subnet B: 192.168.1.64/27 (25 hosts)"
-          },
-          {
-            "type": "text",
-            "text": "Subnet C: 192.168.1.96/28 (10 hosts)"
-          },
-          {
-            "type": "note",
-            "text": "Always verify unused IP blocks for future network expansion!",
-            "accent": "info"
-          }
-        ],
-        "speech": "To wrap up our morning session, Roosevelt, let's look at our final allocation layout. By sorting our requirements and carefully calculating prefix lengths, we successfully carved up our 192.168.1.0 slash 24 network without wasting precious addresses. Keep practicing these calculations, and you'll ace your MIS networking exam!",
-        "isFinal": true
       }
     ],
-    "isComplete": true
+    "isComplete": false
   }
 ]
