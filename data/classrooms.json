@@ -224,6 +224,46 @@
         ],
         "speech": "Before we move on, Roosevelt, let's quickly check our understanding. When your laptop sends data out, what device actually swaps your private IP address for a public one?",
         "isFinal": false
+      },
+      {
+        "index": 8,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Why IPv4 Needs NAT: Address Exhaustion"
+          },
+          {
+            "type": "text",
+            "text": "There are only about 4.3 billion IPv4 addresses in total. With billions of phones, computers, and smart devices worldwide, we should have run out years ago!"
+          },
+          {
+            "type": "box",
+            "text": "IPv4 Address Pool: ~4.3 Billion"
+          },
+          {
+            "type": "draw",
+            "shape": "arrow",
+            "from": [
+              150,
+              110
+            ],
+            "to": [
+              150,
+              140
+            ],
+            "label": "Saved by NAT!",
+            "dashed": false
+          },
+          {
+            "type": "note",
+            "text": "NAT allows millions of homes to share a single public IP, conserving the global pool.",
+            "accent": "info"
+          }
+        ],
+        "speech": "One of the main reasons NAT is so crucial, Roosevelt, is that the world actually ran out of unique public IPv4 addresses years ago! NAT saves the day by letting entire local networks share just one public IP address. Does that make sense?",
+        "isFinal": false
       }
     ],
     "isComplete": false
