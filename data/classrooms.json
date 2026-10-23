@@ -143,6 +143,31 @@
         ],
         "speech": "Let's use our first formula with real numbers! If our opposite side is 3 and our hypotenuse is 5, then Sine of theta is simply 3 divided by 5, which gives us 0.6. Does that make sense, Roosevelt?",
         "isFinal": false
+      },
+      {
+        "index": 4,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Finding Cosine and Tangent"
+          },
+          {
+            "type": "text",
+            "text": "Let's practice the other two ratios with a triangle where the adjacent side is 4 and the hypotenuse is 5."
+          },
+          {
+            "type": "box",
+            "text": "Cos(θ) = Adjacent / Hypotenuse = 4 / 5 = 0.8"
+          },
+          {
+            "type": "box",
+            "text": "Tan(θ) = Opposite / Adjacent = 3 / 4 = 0.75"
+          }
+        ],
+        "speech": "Now let's find the cosine and tangent using our other parts of SOH CAH TOA! If our adjacent side is 4 and hypotenuse is 5, Cosine is 4 over 5, or 0.8. Does that make sense so far, Roosevelt?",
+        "isFinal": false
       }
     ],
     "isComplete": false
