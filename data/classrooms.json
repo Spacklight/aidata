@@ -89,6 +89,32 @@
         ],
         "speech": "Let's look more closely at private IP addresses. These are numbers assigned to devices inside your home or office network, like 192.168.1.5. Does that make sense so far, Roosevelt?",
         "isFinal": false
+      },
+      {
+        "index": 3,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "What is a Public IP Address?"
+          },
+          {
+            "type": "text",
+            "text": "Public IPs are assigned by your Internet Service Provider (ISP) and are unique across the entire global internet."
+          },
+          {
+            "type": "box",
+            "text": "Your router uses ONE Public IP to connect all your home devices to the outside world!"
+          },
+          {
+            "type": "note",
+            "text": "Global Uniqueness is required here.",
+            "accent": "info"
+          }
+        ],
+        "speech": "Now, on the flip side, a public IP address is completely unique across the entire global internet. Your internet service provider gives you one main public IP so your entire house can talk to websites worldwide. Does that distinction between internal and external make sense so far?",
+        "isFinal": false
       }
     ],
     "isComplete": false
