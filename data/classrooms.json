@@ -52,8 +52,30 @@
         ],
         "speech": "Remember that while we use IP addresses and subnets, humans use domain names. The DNS acts as the phonebook of the internet, resolving names to IPs through a structured lookup cycle.",
         "isFinal": false
+      },
+      {
+        "index": 2,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "DNS Caching & TTL"
+          },
+          {
+            "type": "text",
+            "text": "To reduce lookup times, resolvers and browsers cache IP addresses using Time to Live (TTL)."
+          },
+          {
+            "type": "note",
+            "text": "Remember: Lower TTL means faster propagation, higher server load!",
+            "accent": "warn"
+          }
+        ],
+        "speech": "Since it's late, let's wrap up with DNS caching and TTL. Once you review this, close your books and get some solid rest for tomorrow's prep.",
+        "isFinal": true
       }
     ],
-    "isComplete": false
+    "isComplete": true
   }
 ]
