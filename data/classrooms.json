@@ -76,6 +76,32 @@
         ],
         "speech": "To figure out which class an IP address belongs to, we look at the very first number, or octet. For Class A, it starts from 1 to 127. For Class B, 128 to 191. And for Class C, 192 to 223. Does that make sense so far, Roosevelt?",
         "isFinal": false
+      },
+      {
+        "index": 3,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Class A Breakdown"
+          },
+          {
+            "type": "text",
+            "text": "Class A is designed for massive networks."
+          },
+          {
+            "type": "box",
+            "text": "Network ID: First 8 bits (1 octet)\nHost ID: Last 24 bits (3 octets)"
+          },
+          {
+            "type": "note",
+            "text": "Example: 10.0.0.1 -> '10' is the network, '.0.0.1' is the specific host computer.",
+            "accent": "info"
+          }
+        ],
+        "speech": "Let's look at Class A closely. It uses the first octet for the network and the remaining three octets for hosts. For example, in 10.0.0.1, '10' tells us the giant network, and the rest is the specific computer. Does that make sense, Roosevelt?",
+        "isFinal": false
       }
     ],
     "isComplete": false
