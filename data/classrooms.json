@@ -1,11 +1,11 @@
 [
   {
-    "id": "58jsddy7mvknxnj9",
+    "id": "ete6gip0mvkp1leh",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T07:43:07.365Z",
-    "subject": "Mathematics",
-    "topic": "College Algebra & Trigonometry: Right Triangle Trigonometry",
-    "reasoning": "Continuing our math module, we transition naturally from sequences into right triangle trigonometry to build up core problem-solving tools well before the November 9 exam.",
+    "startedAt": "2026-10-23T08:14:10.842Z",
+    "subject": "Computer Science",
+    "topic": "IPv4 Address Model & Number Conversions",
+    "reasoning": "Since Roosevelt has an exam in 17 days covering IP addressing and number systems, mastering binary-to-decimal conversions is the fundamental building block required before tackling advanced subnetting.",
     "layout": "two",
     "segments": [
       {
@@ -15,38 +15,18 @@
         "elements": [
           {
             "type": "title",
-            "text": "Right Triangle Trigonometry"
+            "text": "LIVE CLASS: IP Addressing Basics"
           },
           {
             "type": "text",
-            "text": "Good morning, Roosevelt! Rise and shine, it's 9:42 AM on this fresh Friday morning. We have 17 days until your exam on November 9th, so let's jump right into a brand new topic: Right Triangle Trigonometry!"
+            "text": "Topic: Binary to Decimal Conversion for IPv4"
           },
           {
-            "type": "draw",
-            "shape": "polygon",
-            "points": [
-              [
-                50,
-                160
-              ],
-              [
-                220,
-                160
-              ],
-              [
-                220,
-                50
-              ]
-            ],
-            "label": "Right Triangle"
-          },
-          {
-            "type": "note",
-            "text": "90° angle at bottom-right",
-            "accent": "info"
+            "type": "text",
+            "text": "Good morning, Roosevelt! Today is Friday, October 23, 2026. Let's start fresh with a vital building block for your November 9th exam."
           }
         ],
-        "speech": "Good morning, Roosevelt! It's Friday morning, October 23rd. With your exam coming up on November 9th, we are starting fresh with Right Triangle Trigonometry. Imagine you are looking up at a tall building and want to know its height without measuring it directly—that's what trig lets us do! Let's look at the basic building block: a right triangle.",
+        "speech": "Good morning, Roosevelt! Rise and shine! It's Friday morning, and your exam is coming up on November 9th. Today, we are going to master IPv4 Address Conversions, starting from the absolute ground up. Let's get right into it!",
         "isFinal": false
       },
       {
@@ -56,40 +36,28 @@
         "elements": [
           {
             "type": "title",
-            "text": "The Three Core Sides"
+            "text": "What is an IPv4 Address?"
           },
           {
             "type": "text",
-            "text": "Every right triangle has three sides relative to a chosen angle (theta, θ):"
-          },
-          {
-            "type": "box",
-            "text": "1. Hypotenuse: The longest side, opposite the 90° right angle."
-          },
-          {
-            "type": "box",
-            "text": "2. Opposite: The side directly across from angle θ."
-          },
-          {
-            "type": "box",
-            "text": "3. Adjacent: The side next to angle θ (that is not the hypotenuse)."
+            "text": "An IPv4 address is like a mailing address for a device on a network. It consists of 32 bits, divided into 4 octets of 8 bits each."
           },
           {
             "type": "draw",
-            "shape": "arrow",
-            "from": [
-              80,
-              120
+            "shape": "numberline",
+            "min": 0,
+            "max": 255,
+            "marks": [
+              0,
+              64,
+              128,
+              192,
+              255
             ],
-            "to": [
-              180,
-              120
-            ],
-            "label": "theta θ",
-            "dashed": false
+            "title": "Octet Range (0 to 255)"
           }
         ],
-        "speech": "Before we calculate anything, we must name the sides correctly. Think of the hypotenuse as the ramp leaning against a wall—it's always the longest side. The 'opposite' side is staring right across the triangle at your angle, and 'adjacent' just means 'next door'. Does that make sense so far, Roosevelt?",
+        "speech": "Think of an IPv4 address like a house address. Just like your house needs a street name and house number so mail can find you, a computer needs an IP address to receive data on a network. Each address is made of 32 bits, split into four groups called octets. Does that make sense so far, Roosevelt?",
         "isFinal": false
       },
       {
@@ -99,416 +67,35 @@
         "elements": [
           {
             "type": "title",
-            "text": "The Magic Word: SOH CAH TOA"
+            "text": "The 4 Octets"
           },
           {
             "type": "text",
-            "text": "To remember how the sides relate to angles, we use a famous acronym: SOH-CAH-TOA."
-          },
-          {
-            "type": "box",
-            "text": "Sin(θ) = Opposite / Hypotenuse\nCos(θ) = Adjacent / Hypotenuse\nTan(θ) = Opposite / Adjacent"
-          },
-          {
-            "type": "note",
-            "text": "Memory trick: Some Old Horse Caught Another Horse Taking Oats Away!",
-            "accent": "info"
-          }
-        ],
-        "speech": "To easily remember how these three sides relate to each other, mathematicians use a famous memory trick called SOH CAH TOA. Does this acronym make sense so far, Roosevelt?",
-        "isFinal": false
-      },
-      {
-        "index": 3,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Putting SOH CAH TOA to Work"
-          },
-          {
-            "type": "text",
-            "text": "Let's find the Sine of angle θ when the opposite side is 3 and the hypotenuse is 5."
-          },
-          {
-            "type": "box",
-            "text": "Sin(θ) = Opposite / Hypotenuse = 3 / 5 = 0.6"
-          },
-          {
-            "type": "note",
-            "text": "Ratio is always a decimal or fraction!",
-            "accent": "info"
-          }
-        ],
-        "speech": "Let's use our first formula with real numbers! If our opposite side is 3 and our hypotenuse is 5, then Sine of theta is simply 3 divided by 5, which gives us 0.6. Does that make sense, Roosevelt?",
-        "isFinal": false
-      },
-      {
-        "index": 4,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Finding Cosine and Tangent"
-          },
-          {
-            "type": "text",
-            "text": "Let's practice the other two ratios with a triangle where the adjacent side is 4 and the hypotenuse is 5."
-          },
-          {
-            "type": "box",
-            "text": "Cos(θ) = Adjacent / Hypotenuse = 4 / 5 = 0.8"
-          },
-          {
-            "type": "box",
-            "text": "Tan(θ) = Opposite / Adjacent = 3 / 4 = 0.75"
-          }
-        ],
-        "speech": "Now let's find the cosine and tangent using our other parts of SOH CAH TOA! If our adjacent side is 4 and hypotenuse is 5, Cosine is 4 over 5, or 0.8. Does that make sense so far, Roosevelt?",
-        "isFinal": false
-      },
-      {
-        "index": 5,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Quick Check: Try It Yourself"
-          },
-          {
-            "type": "text",
-            "text": "Imagine a right triangle where the angle theta has an opposite side of 6 and an adjacent side of 8. What is the Tangent of theta?"
-          },
-          {
-            "type": "box",
-            "text": "Hint: Tan(θ) = Opposite / Adjacent"
+            "text": "An IPv4 address is written as four numbers separated by dots, like 192.168.1.1. Each of these four numbers is called an 'octet' because it represents 8 binary bits."
           },
           {
             "type": "draw",
-            "shape": "polygon",
-            "points": [
-              [
-                50,
-                150
-              ],
-              [
-                200,
-                150
-              ],
-              [
-                50,
-                50
-              ]
+            "shape": "line",
+            "from": [
+              20,
+              120
             ],
-            "label": "θ triangle"
-          }
-        ],
-        "speech": "Now it is your turn to try one, Roosevelt! Using our Tangent formula, if the opposite side is 6 and the adjacent side is 8, what do you get? Take your time and let me know your answer.",
-        "isFinal": false
-      },
-      {
-        "index": 6,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Solution to Quick Check"
-          },
-          {
-            "type": "text",
-            "text": "Tan(θ) = Opposite / Adjacent = 6 / 8 = 3 / 4 = 0.75"
+            "to": [
+              280,
+              120
+            ],
+            "label": "",
+            "dashed": false
           },
           {
             "type": "box",
-            "text": "Great job! Tangent gives us the ratio of rise to run."
+            "text": "Octet 1 . Octet 2 . Octet 3 . Octet 4"
           }
         ],
-        "speech": "Let's check your work! With an opposite side of 6 and an adjacent side of 8, Tangent of theta is 6 divided by 8, which simplifies to 3 over 4, or 0.75. Does that calculation make sense to you?",
+        "speech": "To break this down further, Roosevelt, those 32 bits are grouped into four chunks called octets, separated by periods. Each octet has 8 bits. Does that grouping make sense so far?",
         "isFinal": false
-      },
-      {
-        "index": 7,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Finding Missing Angles: Inverse Trig"
-          },
-          {
-            "type": "text",
-            "text": "What if we know the side lengths, but we need to find the actual angle theta (θ)?"
-          },
-          {
-            "type": "box",
-            "text": "Use Inverse Trig Functions: Sin⁻¹(x), Cos⁻¹(x), Tan⁻¹(x)"
-          },
-          {
-            "type": "note",
-            "text": "The little '-1' means 'find the angle that gives this ratio!'",
-            "accent": "info"
-          }
-        ],
-        "speech": "Now what if we know the side lengths of our triangle, but we don't know the angle? We use inverse trig functions, written with a little minus one on them, to work backwards and find the angle!",
-        "isFinal": false
-      },
-      {
-        "index": 8,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Finding an Angle with Inverse Tangent"
-          },
-          {
-            "type": "text",
-            "text": "Let's find angle θ when the opposite side is 5 and the adjacent side is 5."
-          },
-          {
-            "type": "box",
-            "text": "θ = Tan⁻¹(Opposite / Adjacent) = Tan⁻¹(5 / 5) = Tan⁻¹(1) = 45°"
-          },
-          {
-            "type": "draw",
-            "shape": "polygon",
-            "points": [
-              [
-                50,
-                150
-              ],
-              [
-                150,
-                150
-              ],
-              [
-                150,
-                50
-              ]
-            ],
-            "label": "45-45-90 Triangle"
-          },
-          {
-            "type": "note",
-            "text": "When opposite equals adjacent, the angle is always 45 degrees!",
-            "accent": "info"
-          }
-        ],
-        "speech": "Let's practice finding an actual angle using inverse tangent! If our opposite side is 5 and our adjacent side is also 5, Tan of theta is 5 divided by 5, which gives 1. Taking the inverse tangent of 1 gives us 45 degrees! Makes sense, right? Does that step make sense to you, Roosevelt?",
-        "isFinal": false
-      },
-      {
-        "index": 9,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Real-World Application: Building a Ramp"
-          },
-          {
-            "type": "text",
-            "text": "Let's put inverse trig to work! Suppose you need to build a wheelchair ramp that rises 3 feet over a horizontal distance (adjacent) of 10 feet. What angle does the ramp make with the ground?"
-          },
-          {
-            "type": "box",
-            "text": "θ = Tan⁻¹(3 / 10) = Tan⁻¹(0.3) ≈ 16.7°"
-          },
-          {
-            "type": "draw",
-            "shape": "polygon",
-            "points": [
-              [
-                50,
-                150
-              ],
-              [
-                250,
-                150
-              ],
-              [
-                250,
-                90
-              ]
-            ],
-            "label": "Ramp 16.7°"
-          }
-        ],
-        "speech": "Let's apply this to a real-world scenario! Suppose you are designing a wheelchair ramp that rises 3 feet and stretches 10 feet horizontally. Using inverse tangent, our angle is Tan inverse of 3 over 10, which gives about 16.7 degrees. Does that make sense, Roosevelt?",
-        "isFinal": false
-      },
-      {
-        "index": 10,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Ramp Angle Check"
-          },
-          {
-            "type": "text",
-            "text": "A 16.7 degree angle is actually very gentle and safe for wheelchairs!"
-          },
-          {
-            "type": "draw",
-            "shape": "polygon",
-            "points": [
-              [
-                20,
-                160
-              ],
-              [
-                260,
-                160
-              ],
-              [
-                260,
-                100
-              ]
-            ],
-            "label": "Ramp Triangle"
-          },
-          {
-            "type": "note",
-            "text": "Smaller angle = less steep ramp!",
-            "accent": "info"
-          }
-        ],
-        "speech": "So our wheelchair ramp makes a 16.7 degree angle with the ground, Roosevelt. That is a nice, gentle slope. Does that step make sense to you before we move on?",
-        "isFinal": false
-      },
-      {
-        "index": 11,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Putting It All Together: A Complete Example"
-          },
-          {
-            "type": "text",
-            "text": "Let's solve a full right triangle: find missing side 'a' when the hypotenuse is 10 and angle θ is 30°."
-          },
-          {
-            "type": "draw",
-            "shape": "polygon",
-            "points": [
-              [
-                20,
-                160
-              ],
-              [
-                220,
-                160
-              ],
-              [
-                220,
-                60
-              ]
-            ],
-            "label": "θ = 30°"
-          },
-          {
-            "type": "note",
-            "text": "Sin(30°) = a / 10 -> a = 10 * 0.5 = 5",
-            "accent": "info"
-          }
-        ],
-        "speech": "Let's put everything we've learned together to solve a complete triangle, Roosevelt! If our hypotenuse is 10 and our angle is 30 degrees, we can use Sine to find the missing opposite side. Does that make sense?",
-        "isFinal": false
-      },
-      {
-        "index": 12,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Finding the Missing Hypotenuse"
-          },
-          {
-            "type": "text",
-            "text": "What if the unknown is the hypotenuse 'h'? Let's find h when the opposite side is 7 and angle θ is 30°."
-          },
-          {
-            "type": "box",
-            "text": "Sin(30°) = Opposite / Hypotenuse\n0.5 = 7 / h\nh = 7 / 0.5 = 14"
-          },
-          {
-            "type": "draw",
-            "shape": "polygon",
-            "points": [
-              [
-                30,
-                160
-              ],
-              [
-                200,
-                160
-              ],
-              [
-                200,
-                70
-              ]
-            ],
-            "label": "h = ?, opp = 7"
-          }
-        ],
-        "speech": "Now what if the unknown is the hypotenuse instead of the side? Let's find our hypotenuse h when the opposite side is 7 and our angle is 30 degrees. Does this setup make sense to you, Roosevelt?",
-        "isFinal": false
-      },
-      {
-        "index": 13,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Summary of Right Triangle Trig"
-          },
-          {
-            "type": "text",
-            "text": "1. SOH CAH TOA: Ratios connect angles to side lengths."
-          },
-          {
-            "type": "text",
-            "text": "2. Inverse Trig: Use Sin⁻¹, Cos⁻¹, or Tan⁻¹ to find unknown angles."
-          },
-          {
-            "type": "draw",
-            "shape": "polygon",
-            "points": [
-              [
-                30,
-                160
-              ],
-              [
-                200,
-                160
-              ],
-              [
-                200,
-                60
-              ]
-            ],
-            "label": "Right Triangle"
-          },
-          {
-            "type": "note",
-            "text": "You are fully prepared for your November 9 exam!",
-            "accent": "info"
-          }
-        ],
-        "speech": "Fantastic job working through this today, Roosevelt! We've covered SOH CAH TOA, finding missing sides, and using inverse trig to find angles. How do you feel about these concepts before your exam?",
-        "isFinal": true
       }
     ],
-    "isComplete": true
+    "isComplete": false
   }
 ]
