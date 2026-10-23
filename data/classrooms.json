@@ -210,6 +210,31 @@
         ],
         "speech": "For Subnet B, which needs 25 hosts, the closest power of two is 32 total addresses, giving us a slash 27 subnet starting at 192.168.1.64.",
         "isFinal": false
+      },
+      {
+        "index": 7,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Allocating Subnet C (10 Hosts)"
+          },
+          {
+            "type": "text",
+            "text": "For 10 hosts, we need 2^h - 2 >= 10. The smallest valid power of two is 16, which gives a /28 prefix (16 IPs total, 14 usable)."
+          },
+          {
+            "type": "box",
+            "text": "Subnet C: 192.168.1.96/28\nRange: .97 to .110\nBroadcast: .111"
+          },
+          {
+            "type": "arrow",
+            "label": "Next available IP: 192.168.1.112"
+          }
+        ],
+        "speech": "Finally, for Subnet C which requires 10 hosts, the smallest block is 16 addresses, giving us a slash 28 subnet starting at 192.168.1.96.",
+        "isFinal": false
       }
     ],
     "isComplete": false
