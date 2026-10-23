@@ -115,6 +115,31 @@
         ],
         "speech": "To understand how we convert these octets for your exam, Roosevelt, we need to look at the positional values of the 8 bits. They go from right to left as 1, 2, 4, 8, 16, 32, 64, and 128. Does this sequence of powers of two look familiar to you?",
         "isFinal": false
+      },
+      {
+        "index": 4,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Converting Binary to Decimal"
+          },
+          {
+            "type": "text",
+            "text": "Let's convert the binary octet 10000000 into a decimal number. We place each bit under its positional weight value."
+          },
+          {
+            "type": "box",
+            "text": "Binary: 1 0 0 0 0 0 0 0\nWeights: 128 64 32 16 8 4 2 1"
+          },
+          {
+            "type": "text",
+            "text": "Since there is a '1' under the 128 position and '0' everywhere else, the decimal value is simply 128."
+          }
+        ],
+        "speech": "Let's look at an easy example, Roosevelt. If we have the binary byte 10000000, we turn on only the 128 position. That gives us a decimal value of 128. Does that make sense so far?",
+        "isFinal": false
       }
     ],
     "isComplete": false
