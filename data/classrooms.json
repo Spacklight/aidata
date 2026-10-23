@@ -120,5 +120,30 @@
       }
     ],
     "isComplete": false
+  },
+  {
+    "id": "7dwedftr",
+    "profileId": "test",
+    "subject": "General",
+    "topic": "Welcome to Class",
+    "layout": "single",
+    "segments": [
+      {
+        "kind": "title",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Welcome to Class"
+          },
+          {
+            "type": "text",
+            "text": "Let's start learning."
+          }
+        ],
+        "speech": "Welcome to today's class. Let's begin."
+      }
+    ],
+    "isComplete": false
   }
 ]
