@@ -41,8 +41,29 @@
         ],
         "speech": "Notice how we combine two /24 networks into a single /23 route to reduce routing table size. Get some good sleep right after this!",
         "isFinal": false
+      },
+      {
+        "index": 2,
+        "kind": "summary",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Time to Rest, Roosevelt"
+          },
+          {
+            "type": "text",
+            "text": "You've tackled supernetting basics. Now close your books and get some sleep for your Nov 9 exam!"
+          },
+          {
+            "type": "box",
+            "text": "Goal for tonight met: Protect your memory consolidation. Rest up!"
+          }
+        ],
+        "speech": "Roosevelt, it's past 4:50 AM. You've done enough for tonight. Get some solid rest, and we'll hit more MIS prep tomorrow!",
+        "isFinal": true
       }
     ],
-    "isComplete": false
+    "isComplete": true
   }
 ]
