@@ -144,6 +144,12 @@
   },
   {
     "profileId": "mv5oi4wgmvkyxbjh",
-    "announcements": []
+    "announcements": [],
+    "pendingClassSuggestion": {
+      "topic": "Next Lesson",
+      "message": "I've prepared a new lesson for you. Let's dive in!",
+      "at": "2026-10-23T14:14:25.990Z",
+      "scheduledAt": 1792765165990
+    }
   }
 ]
