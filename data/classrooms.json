@@ -229,6 +229,32 @@
         ],
         "speech": "Let's check your work! With an opposite side of 6 and an adjacent side of 8, Tangent of theta is 6 divided by 8, which simplifies to 3 over 4, or 0.75. Does that calculation make sense to you?",
         "isFinal": false
+      },
+      {
+        "index": 7,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Finding Missing Angles: Inverse Trig"
+          },
+          {
+            "type": "text",
+            "text": "What if we know the side lengths, but we need to find the actual angle theta (θ)?"
+          },
+          {
+            "type": "box",
+            "text": "Use Inverse Trig Functions: Sin⁻¹(x), Cos⁻¹(x), Tan⁻¹(x)"
+          },
+          {
+            "type": "note",
+            "text": "The little '-1' means 'find the angle that gives this ratio!'",
+            "accent": "info"
+          }
+        ],
+        "speech": "Now what if we know the side lengths of our triangle, but we don't know the angle? We use inverse trig functions, written with a little minus one on them, to work backwards and find the angle!",
+        "isFinal": false
       }
     ],
     "isComplete": false
