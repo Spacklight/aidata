@@ -102,6 +102,13 @@
         "subtopic": "Communication and Human-Technology Interaction",
         "learnedAt": "2026-10-23T07:59:15.699Z",
         "moduleId": null
+      },
+      {
+        "subject": "Management Information Systems",
+        "topic": "MIS Fundamentals",
+        "subtopic": "Multilingual UI Localization and Human-Technology Interaction",
+        "learnedAt": "2026-10-23T08:01:06.059Z",
+        "moduleId": null
       }
     ],
     "announcements": [
@@ -110,10 +117,16 @@
         "text": "New short-answer exercise assigned on MIS foundations and the three pillars!",
         "at": "2026-10-22T17:34:46.912Z",
         "seen": false
+      },
+      {
+        "id": "zec2e93nmvkokruz",
+        "text": "📝 I've set a short_answer exercise on MIS Human-Technology Interaction and Localization — check Exercises.",
+        "at": "2026-10-23T08:01:06.061Z",
+        "seen": false
       }
     ],
-    "lastExerciseAt": "2026-10-22T17:35:08.595Z",
-    "notes": "Roosevelt greeted in Chichewa. Acknowledged the language, tied it back to MIS communication concepts as an energizing morning start, and decided not to assign an exercise yet since it was a casual interaction.",
+    "lastExerciseAt": "2026-10-23T08:01:09.223Z",
+    "notes": "Roosevelt is engaging playfully by testing my Chichewa. I successfully pivoted this into an MIS lesson on localization, human-technology interaction, and information dissemination, and assigned a medium short-answer exercise since more than 10 hours have passed since the last exercise.",
     "pendingClassSuggestion": {
       "topic": "MIS Integration and Network Architecture Review",
       "message": "Your live classroom session on MIS Integration and Network Architecture is ready to start!",
