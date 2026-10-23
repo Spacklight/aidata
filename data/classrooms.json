@@ -1,11 +1,11 @@
 [
   {
-    "id": "dbj1ivcmmvkpc7yc",
+    "id": "to114tf3mvkpjzch",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T08:22:26.628Z",
-    "subject": "Mathematics",
-    "topic": "College Algebra & Trigonometry: Right Triangle Trigonometry",
-    "reasoning": "Selected right triangle trigonometry from the study materials as the next logical step to build fundamental math skills for upcoming exams.",
+    "startedAt": "2026-10-23T08:28:28.721Z",
+    "subject": "Computer Science",
+    "topic": "Domain Name System (DNS) and IP Address Resolution",
+    "reasoning": "Choosing DNS resolution builds directly on top of IP addressing and subnetting, helping Roosevelt understand how human-readable names map to network addresses for his upcoming exam.",
     "layout": "two",
     "segments": [
       {
@@ -15,21 +15,23 @@
         "elements": [
           {
             "type": "title",
-            "text": "Live Class: Right Triangle Trigonometry"
+            "text": "LIVE CLASS: DNS & IP Resolution"
           },
           {
             "type": "text",
-            "text": "Good morning, Roosevelt! Rise and shine for a fresh study session on this fine Friday morning."
+            "text": "Good morning, Roosevelt! Rise and shine for your MIS & CS prep."
           },
           {
-            "type": "divider"
+            "type": "box",
+            "text": "Exam Date: November 9, 2026 (17 Days Left!)"
           },
           {
-            "type": "text",
-            "text": "Exam Countdown: 17 days left until November 9, 2026. Let's master right triangles!"
+            "type": "note",
+            "text": "Let's tackle DNS step by step!",
+            "accent": "info"
           }
         ],
-        "speech": "Good morning, Roosevelt! Rise and shine for a fresh study session on this fine Friday morning. We have 17 days left until your exam on November 9th, so let's jump right in and master Right Triangle Trigonometry. Does that sound good to you?",
+        "speech": "Good morning, Roosevelt! It's Friday morning, October 23rd, and we are 17 days away from your big exam on November 9th. Let's start fresh with a cup of coffee and dive into the Domain Name System, or DNS. Ready?",
         "isFinal": false
       },
       {
@@ -39,178 +41,46 @@
         "elements": [
           {
             "type": "title",
-            "text": "What is a Right Triangle?"
+            "text": "What is the Domain Name System (DNS)?"
           },
           {
             "type": "text",
-            "text": "A triangle with one 90-degree angle."
+            "text": "Analogy: DNS is like the contacts app on your smartphone."
           },
           {
             "type": "draw",
-            "shape": "polygon",
-            "points": [
-              [
-                30,
-                170
-              ],
-              [
-                270,
-                170
-              ],
-              [
-                270,
-                50
-              ]
-            ],
-            "label": "Right Triangle"
-          },
-          {
-            "type": "text",
-            "text": "The longest side opposite the 90-degree angle is the Hypotenuse."
-          }
-        ],
-        "speech": "Let's start from absolute zero. What is a right triangle? It's simply a triangle where one of the angles is a perfect 90 degrees. The side directly opposite that 90-degree corner is always the longest side, and we call it the hypotenuse. Does that make sense so far?",
-        "isFinal": false
-      },
-      {
-        "index": 2,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "The Sides: Opposite and Adjacent"
-          },
-          {
-            "type": "text",
-            "text": "Aside from the hypotenuse, the other two sides depend on which angle we are looking from."
-          },
-          {
-            "type": "divider"
+            "shape": "circle",
+            "cx": 100,
+            "cy": 100,
+            "r": 40,
+            "label": "google.com",
+            "fill": false
           },
           {
             "type": "draw",
-            "shape": "polygon",
-            "points": [
-              [
-                50,
-                170
-              ],
-              [
-                250,
-                170
-              ],
-              [
-                250,
-                50
-              ]
+            "shape": "arrow",
+            "from": [
+              145,
+              100
             ],
-            "label": "right triangle"
-          },
-          {
-            "type": "note",
-            "text": "Opposite = across from angle. Adjacent = next to angle.",
-            "accent": "info"
-          }
-        ],
-        "speech": "Now, besides the hypotenuse, the remaining two sides are named based on where we stand. The side directly across from our angle is the Opposite side, and the side right next to it is the Adjacent side. Does that distinction make sense to you, Roosevelt?",
-        "isFinal": false
-      },
-      {
-        "index": 3,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "The Magic Word: SOH CAH TOA"
-          },
-          {
-            "type": "text",
-            "text": "To remember how to find our ratios, we use a simple acronym:"
-          },
-          {
-            "type": "box",
-            "text": "Sin = Opposite / Hypotenuse\nCos = Adjacent / Hypotenuse\nTan = Opposite / Adjacent"
-          },
-          {
-            "type": "note",
-            "text": "SOH - CAH - TOA",
-            "accent": "info"
-          }
-        ],
-        "speech": "To easily remember which side goes with which, mathematicians invented a famous memory helper called SOH CAH TOA. It stands for Sine is Opposite over Hypotenuse, Cosine is Adjacent over Hypotenuse, and Tangent is Opposite over Adjacent. Roosevelt, does that acronym make sense to you so far?",
-        "isFinal": false
-      },
-      {
-        "index": 4,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Putting SOH CAH TOA to Work"
-          },
-          {
-            "type": "text",
-            "text": "Let's calculate the Sine of angle θ when the opposite side is 3 and the hypotenuse is 5."
-          },
-          {
-            "type": "box",
-            "text": "sin(θ) = Opposite / Hypotenuse = 3 / 5 = 0.6"
-          },
-          {
-            "type": "note",
-            "text": "Always check which angle you are standing at before picking your sides!",
-            "accent": "info"
-          }
-        ],
-        "speech": "Let's see SOH CAH TOA in action with a real example. If our opposite side is 3 and our hypotenuse is 5, then sine of theta is simply 3 divided by 5, which equals 0.6. Does that make sense, Roosevelt?",
-        "isFinal": false
-      },
-      {
-        "index": 5,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Finding an Unknown Side"
-          },
-          {
-            "type": "text",
-            "text": "If angle θ is 30 degrees and the hypotenuse is 10, how do we find the opposite side?"
+            "to": [
+              205,
+              100
+            ],
+            "label": "translates to",
+            "dashed": false
           },
           {
             "type": "draw",
-            "shape": "polygon",
-            "points": [
-              [
-                50,
-                160
-              ],
-              [
-                220,
-                160
-              ],
-              [
-                220,
-                70
-              ]
-            ],
-            "label": "θ = 30°"
-          },
-          {
-            "type": "box",
-            "text": "sin(30°) = Opposite / 10\nOpposite = 10 * sin(30°)"
-          },
-          {
-            "type": "note",
-            "text": "Sine links angle, opposite, and hypotenuse!",
-            "accent": "info"
+            "shape": "circle",
+            "cx": 250,
+            "cy": 100,
+            "r": 40,
+            "label": "142.250.190.46",
+            "fill": false
           }
         ],
-        "speech": "Let's put this into practice to find a missing side length. If our angle is 30 degrees and the hypotenuse is 10, we can use Sine to set up our equation. Does this setup make sense so far?",
+        "speech": "Think of the internet like a massive city where every house has an IP address number like 142.250.190.46. Humans are terrible at remembering long numbers, so DNS acts like your phone's contact list. It translates friendly names like google.com into numeric IP addresses. Does that make sense so far?",
         "isFinal": false
       }
     ],
