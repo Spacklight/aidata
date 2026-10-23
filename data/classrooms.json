@@ -1,11 +1,11 @@
 [
   {
-    "id": "g3n58pcumvkdrkzl",
+    "id": "fyananfmmvkgztfr",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T02:58:27.969Z",
-    "subject": "Mathematics",
-    "topic": "College Algebra & Trigonometry: Sequences, Series, and Combinatorics",
-    "reasoning": "Since Roosevelt's exam is in 17 days and network topics are mostly covered, a late-night review of advanced algebra concepts like sequences will keep prep on track.",
+    "startedAt": "2026-10-23T04:28:51.015Z",
+    "subject": "Computer Science",
+    "topic": "IPv4 Subnetting and Variable Length Subnet Masks (VLSM)",
+    "reasoning": "Since Roosevelt has covered basic CIDR and subnetting, tackling VLSM is the logical next step for his MIS networking exam prep.",
     "layout": "two",
     "segments": [
       {
@@ -15,49 +15,51 @@
         "elements": [
           {
             "type": "title",
-            "text": "LATE NIGHT REVIEW: SEQUENCES & SERIES"
+            "text": "Good Morning, Roosevelt!"
+          },
+          {
+            "type": "text",
+            "text": "Date: Oct 23, 2026 | Exam in 17 Days"
           },
           {
             "type": "divider"
           },
           {
             "type": "text",
-            "text": "Hello Roosevelt! It is 4:58 AM. Let's do a quick, high-yield conceptual review before you get some rest."
+            "text": "Topic: Advanced Variable Length Subnet Masks (VLSM)"
           }
         ],
-        "speech": "Welcome to our late night board session, Roosevelt. It's almost 5 in the morning before your exam on November 9th. Let's briefly review sequences and series.",
+        "speech": "Good morning, Roosevelt! Rise and shine, it's 6:28 AM and we are starting fresh today. With your exam on November 9th just 17 days away, we are diving straight into VLSM—Variable Length Subnet Masks. Let's get our minds sharp!",
         "isFinal": false
       },
       {
         "index": 1,
         "kind": "point",
-        "section": 2,
+        "section": 1,
         "elements": [
           {
-            "type": "box",
-            "text": "Arithmetic vs Geometric Progressions"
+            "type": "title",
+            "text": "Why VLSM Matters"
+          },
+          {
+            "type": "text",
+            "text": "Traditional subnetting wastes IP addresses by giving every subnet the same block size."
+          },
+          {
+            "type": "arrow",
+            "label": "subnets"
           },
           {
             "type": "draw",
-            "shape": "numberline",
-            "min": 1,
-            "max": 10,
-            "marks": [
-              1,
-              3,
-              5,
-              7,
-              9
-            ],
-            "title": "Arithmetic: +2"
-          },
-          {
-            "type": "note",
-            "text": "Remember to rest after this session!",
-            "accent": "info"
+            "shape": "ellipse",
+            "cx": 150,
+            "cy": 120,
+            "rx": 80,
+            "ry": 30,
+            "label": "Custom Sizes per Need"
           }
         ],
-        "speech": "Notice the constant difference in arithmetic progressions versus multiplicative growth in geometric ones. Review these formulas quickly and make sure to get some sleep tonight.",
+        "speech": "As a Management Information Systems student, resource optimization is everything. VLSM lets us slice a network into variable sizes based on exact host requirements, preventing massive IP waste.",
         "isFinal": false
       },
       {
@@ -67,25 +69,39 @@
         "elements": [
           {
             "type": "title",
-            "text": "Quick Rest Reminder"
+            "text": "How VLSM Works"
+          },
+          {
+            "type": "text",
+            "text": "We allocate IP space starting from the largest required subnet down to the smallest."
           },
           {
             "type": "divider"
           },
           {
-            "type": "text",
-            "text": "Roosevelt, you've reviewed the core definitions. It's late—make sure you get some sleep before your exam on November 9th!"
+            "type": "draw",
+            "shape": "arrow",
+            "from": [
+              20,
+              100
+            ],
+            "to": [
+              280,
+              100
+            ],
+            "label": "Largest to Smallest Subnets",
+            "dashed": false
           },
           {
             "type": "note",
-            "text": "Rest is essential for memory consolidation!",
+            "text": "Rule: Always sort host requirements descending!",
             "accent": "info"
           }
         ],
-        "speech": "We've covered the crucial basics for sequences and series tonight, Roosevelt. Make sure to get some well-deserved rest now so your mind is sharp for November 9th!",
-        "isFinal": true
+        "speech": "To execute VLSM correctly, Roosevelt, the Golden Rule is to always sort your required subnets from the largest host count down to the smallest before allocating any addresses.",
+        "isFinal": false
       }
     ],
-    "isComplete": true
+    "isComplete": false
   }
 ]
