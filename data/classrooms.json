@@ -167,6 +167,51 @@
         ],
         "speech": "Let's see SOH CAH TOA in action with a real example. If our opposite side is 3 and our hypotenuse is 5, then sine of theta is simply 3 divided by 5, which equals 0.6. Does that make sense, Roosevelt?",
         "isFinal": false
+      },
+      {
+        "index": 5,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Finding an Unknown Side"
+          },
+          {
+            "type": "text",
+            "text": "If angle θ is 30 degrees and the hypotenuse is 10, how do we find the opposite side?"
+          },
+          {
+            "type": "draw",
+            "shape": "polygon",
+            "points": [
+              [
+                50,
+                160
+              ],
+              [
+                220,
+                160
+              ],
+              [
+                220,
+                70
+              ]
+            ],
+            "label": "θ = 30°"
+          },
+          {
+            "type": "box",
+            "text": "sin(30°) = Opposite / 10\nOpposite = 10 * sin(30°)"
+          },
+          {
+            "type": "note",
+            "text": "Sine links angle, opposite, and hypotenuse!",
+            "accent": "info"
+          }
+        ],
+        "speech": "Let's put this into practice to find a missing side length. If our angle is 30 degrees and the hypotenuse is 10, we can use Sine to set up our equation. Does this setup make sense so far?",
+        "isFinal": false
       }
     ],
     "isComplete": false
