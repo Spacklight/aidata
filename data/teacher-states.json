@@ -63,6 +63,14 @@
         "learnedAt": "2026-10-23T02:56:52.789Z",
         "moduleId": null,
         "fromClassroom": true
+      },
+      {
+        "subject": "Computer Science",
+        "topic": "Domain Name System (DNS) and IP Address Resolution",
+        "subtopic": null,
+        "learnedAt": "2026-10-23T02:57:55.678Z",
+        "moduleId": null,
+        "fromClassroom": true
       }
     ],
     "announcements": [
