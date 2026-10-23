@@ -462,8 +462,53 @@
         ],
         "speech": "Now what if the unknown is the hypotenuse instead of the side? Let's find our hypotenuse h when the opposite side is 7 and our angle is 30 degrees. Does this setup make sense to you, Roosevelt?",
         "isFinal": false
+      },
+      {
+        "index": 13,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Summary of Right Triangle Trig"
+          },
+          {
+            "type": "text",
+            "text": "1. SOH CAH TOA: Ratios connect angles to side lengths."
+          },
+          {
+            "type": "text",
+            "text": "2. Inverse Trig: Use Sin⁻¹, Cos⁻¹, or Tan⁻¹ to find unknown angles."
+          },
+          {
+            "type": "draw",
+            "shape": "polygon",
+            "points": [
+              [
+                30,
+                160
+              ],
+              [
+                200,
+                160
+              ],
+              [
+                200,
+                60
+              ]
+            ],
+            "label": "Right Triangle"
+          },
+          {
+            "type": "note",
+            "text": "You are fully prepared for your November 9 exam!",
+            "accent": "info"
+          }
+        ],
+        "speech": "Fantastic job working through this today, Roosevelt! We've covered SOH CAH TOA, finding missing sides, and using inverse trig to find angles. How do you feel about these concepts before your exam?",
+        "isFinal": true
       }
     ],
-    "isComplete": false
+    "isComplete": true
   }
 ]
