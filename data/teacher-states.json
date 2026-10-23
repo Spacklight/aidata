@@ -109,6 +109,14 @@
         "subtopic": "Multilingual UI Localization and Human-Technology Interaction",
         "learnedAt": "2026-10-23T08:01:06.059Z",
         "moduleId": null
+      },
+      {
+        "subject": "Computer Science",
+        "topic": "Public IP Addresses, Private IP Addresses, and Network Address Translation (NAT)",
+        "subtopic": null,
+        "learnedAt": "2026-10-23T08:34:34.132Z",
+        "moduleId": null,
+        "fromClassroom": true
       }
     ],
     "announcements": [
