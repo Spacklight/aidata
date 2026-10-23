@@ -1,11 +1,11 @@
 [
   {
-    "id": "ete6gip0mvkp1leh",
+    "id": "ntj33wmemvkpa7js",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T08:14:10.842Z",
+    "startedAt": "2026-10-23T08:20:52.792Z",
     "subject": "Computer Science",
-    "topic": "IPv4 Address Model & Number Conversions",
-    "reasoning": "Since Roosevelt has an exam in 17 days covering IP addressing and number systems, mastering binary-to-decimal conversions is the fundamental building block required before tackling advanced subnetting.",
+    "topic": "Classful Addressing and IPv4 Address Classes (A, B, C)",
+    "reasoning": "I chose this topic because Roosevelt needs a solid foundational understanding of IPv4 address classes before tackling advanced subnetting and routing for his upcoming exam.",
     "layout": "two",
     "segments": [
       {
@@ -15,18 +15,18 @@
         "elements": [
           {
             "type": "title",
-            "text": "LIVE CLASS: IP Addressing Basics"
+            "text": "LIVE CLASS: IPv4 Address Classes"
           },
           {
             "type": "text",
-            "text": "Topic: Binary to Decimal Conversion for IPv4"
+            "text": "Good morning, Roosevelt! Let's start fresh today with a crucial concept for your exam on Nov 9: Classful IP Addressing."
           },
           {
-            "type": "text",
-            "text": "Good morning, Roosevelt! Today is Friday, October 23, 2026. Let's start fresh with a vital building block for your November 9th exam."
+            "type": "box",
+            "text": "Goal: Understand Classes A, B, and C"
           }
         ],
-        "speech": "Good morning, Roosevelt! Rise and shine! It's Friday morning, and your exam is coming up on November 9th. Today, we are going to master IPv4 Address Conversions, starting from the absolute ground up. Let's get right into it!",
+        "speech": "Good morning, Roosevelt! Rise and shine! It's Friday morning, and we have 17 days until your exam. Today, we are breaking down IPv4 Address Classes. Grab your notebook, and let's make this crystal clear!",
         "isFinal": false
       },
       {
@@ -40,105 +40,15 @@
           },
           {
             "type": "text",
-            "text": "An IPv4 address is like a mailing address for a device on a network. It consists of 32 bits, divided into 4 octets of 8 bits each."
+            "text": "An IPv4 address is a 32-bit number split into 4 octets (bytes)."
           },
           {
-            "type": "draw",
-            "shape": "numberline",
-            "min": 0,
-            "max": 255,
-            "marks": [
-              0,
-              64,
-              128,
-              192,
-              255
-            ],
-            "title": "Octet Range (0 to 255)"
+            "type": "note",
+            "text": "Analogy: Think of it like a mailing address—Network is the City, Host is the House Number.",
+            "accent": "info"
           }
         ],
-        "speech": "Think of an IPv4 address like a house address. Just like your house needs a street name and house number so mail can find you, a computer needs an IP address to receive data on a network. Each address is made of 32 bits, split into four groups called octets. Does that make sense so far, Roosevelt?",
-        "isFinal": false
-      },
-      {
-        "index": 2,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "The 4 Octets"
-          },
-          {
-            "type": "text",
-            "text": "An IPv4 address is written as four numbers separated by dots, like 192.168.1.1. Each of these four numbers is called an 'octet' because it represents 8 binary bits."
-          },
-          {
-            "type": "draw",
-            "shape": "line",
-            "from": [
-              20,
-              120
-            ],
-            "to": [
-              280,
-              120
-            ],
-            "label": "",
-            "dashed": false
-          },
-          {
-            "type": "box",
-            "text": "Octet 1 . Octet 2 . Octet 3 . Octet 4"
-          }
-        ],
-        "speech": "To break this down further, Roosevelt, those 32 bits are grouped into four chunks called octets, separated by periods. Each octet has 8 bits. Does that grouping make sense so far?",
-        "isFinal": false
-      },
-      {
-        "index": 3,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Binary Basics in an Octet"
-          },
-          {
-            "type": "text",
-            "text": "Each of the 8 bits in an octet represents a power of 2, starting from the right with 2 to the power of 0."
-          },
-          {
-            "type": "box",
-            "text": "128 | 64 | 32 | 16 | 8 | 4 | 2 | 1"
-          }
-        ],
-        "speech": "To understand how we convert these octets for your exam, Roosevelt, we need to look at the positional values of the 8 bits. They go from right to left as 1, 2, 4, 8, 16, 32, 64, and 128. Does this sequence of powers of two look familiar to you?",
-        "isFinal": false
-      },
-      {
-        "index": 4,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Converting Binary to Decimal"
-          },
-          {
-            "type": "text",
-            "text": "Let's convert the binary octet 10000000 into a decimal number. We place each bit under its positional weight value."
-          },
-          {
-            "type": "box",
-            "text": "Binary: 1 0 0 0 0 0 0 0\nWeights: 128 64 32 16 8 4 2 1"
-          },
-          {
-            "type": "text",
-            "text": "Since there is a '1' under the 128 position and '0' everywhere else, the decimal value is simply 128."
-          }
-        ],
-        "speech": "Let's look at an easy example, Roosevelt. If we have the binary byte 10000000, we turn on only the 128 position. That gives us a decimal value of 128. Does that make sense so far?",
+        "speech": "Let's start from absolute zero. Think of an IP address like a house address. You need a city name to know where to send the mail, and a house number to find the exact door. Does that make sense so far?",
         "isFinal": false
       }
     ],
