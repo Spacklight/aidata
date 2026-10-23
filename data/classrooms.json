@@ -185,6 +185,31 @@
         ],
         "speech": "This gives us a slash 26, leaving 62 usable hosts for Subnet A. Next, we determine the requirements for Subnet B.",
         "isFinal": false
+      },
+      {
+        "index": 6,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Allocating Subnet B (25 Hosts)"
+          },
+          {
+            "type": "text",
+            "text": "For 25 hosts, we need 2^h - 2 >= 25. The smallest valid power of two is 32, which gives a /27 prefix."
+          },
+          {
+            "type": "box",
+            "text": "Subnet B: 192.168.1.64/27\nRange: .65 to .94\nBroadcast: .95"
+          },
+          {
+            "type": "arrow",
+            "label": "Next IP: .96"
+          }
+        ],
+        "speech": "For Subnet B, which needs 25 hosts, the closest power of two is 32 total addresses, giving us a slash 27 subnet starting at 192.168.1.64.",
+        "isFinal": false
       }
     ],
     "isComplete": false
