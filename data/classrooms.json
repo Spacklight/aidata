@@ -1,11 +1,11 @@
 [
   {
-    "id": "c0sz2dhkmvkdqcuv",
+    "id": "g3n58pcumvkdrkzl",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T02:57:30.775Z",
-    "subject": "Computer Science",
-    "topic": "Domain Name System (DNS) and IP Address Resolution",
-    "reasoning": "Given that it is late at night, we need a focused review connecting the IP addressing topics already mastered with how users actually reach servers via names.",
+    "startedAt": "2026-10-23T02:58:27.969Z",
+    "subject": "Mathematics",
+    "topic": "College Algebra & Trigonometry: Sequences, Series, and Combinatorics",
+    "reasoning": "Since Roosevelt's exam is in 17 days and network topics are mostly covered, a late-night review of advanced algebra concepts like sequences will keep prep on track.",
     "layout": "two",
     "segments": [
       {
@@ -15,67 +15,52 @@
         "elements": [
           {
             "type": "title",
-            "text": "LIVE CLASS: DNS & Resolution"
+            "text": "LATE NIGHT REVIEW: SEQUENCES & SERIES"
+          },
+          {
+            "type": "divider"
           },
           {
             "type": "text",
-            "text": "Welcome Roosevelt! Late night session—let's keep it sharp."
-          },
-          {
-            "type": "note",
-            "text": "Exam in 17 days (Nov 9)! Review briefly and get some rest.",
-            "accent": "info"
+            "text": "Hello Roosevelt! It is 4:58 AM. Let's do a quick, high-yield conceptual review before you get some rest."
           }
         ],
-        "speech": "Hey Roosevelt, I know it's late at night, but let's do a quick, high-yield review on the Domain Name System to tie together everything we've learned about IP addresses.",
+        "speech": "Welcome to our late night board session, Roosevelt. It's almost 5 in the morning before your exam on November 9th. Let's briefly review sequences and series.",
         "isFinal": false
       },
       {
         "index": 1,
         "kind": "point",
-        "section": 1,
+        "section": 2,
         "elements": [
           {
-            "type": "text",
-            "text": "Mapping Human Names to Numeric IP Addresses"
+            "type": "box",
+            "text": "Arithmetic vs Geometric Progressions"
           },
           {
             "type": "draw",
-            "shape": "cycle",
-            "nodes": [
-              "Client Query",
-              "Resolver",
-              "Root/TLD",
-              "Authoritative DNS"
-            ]
-          }
-        ],
-        "speech": "Remember that while we use IP addresses and subnets, humans use domain names. The DNS acts as the phonebook of the internet, resolving names to IPs through a structured lookup cycle.",
-        "isFinal": false
-      },
-      {
-        "index": 2,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "DNS Caching & TTL"
-          },
-          {
-            "type": "text",
-            "text": "To reduce lookup times, resolvers and browsers cache IP addresses using Time to Live (TTL)."
+            "shape": "numberline",
+            "min": 1,
+            "max": 10,
+            "marks": [
+              1,
+              3,
+              5,
+              7,
+              9
+            ],
+            "title": "Arithmetic: +2"
           },
           {
             "type": "note",
-            "text": "Remember: Lower TTL means faster propagation, higher server load!",
-            "accent": "warn"
+            "text": "Remember to rest after this session!",
+            "accent": "info"
           }
         ],
-        "speech": "Since it's late, let's wrap up with DNS caching and TTL. Once you review this, close your books and get some solid rest for tomorrow's prep.",
-        "isFinal": true
+        "speech": "Notice the constant difference in arithmetic progressions versus multiplicative growth in geometric ones. Review these formulas quickly and make sure to get some sleep tonight.",
+        "isFinal": false
       }
     ],
-    "isComplete": true
+    "isComplete": false
   }
 ]
