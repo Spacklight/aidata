@@ -55,6 +55,14 @@
         "learnedAt": "2026-10-23T02:55:11.317Z",
         "moduleId": null,
         "fromClassroom": true
+      },
+      {
+        "subject": "Computer Science",
+        "topic": "IPv6 Transition and Address Structure",
+        "subtopic": null,
+        "learnedAt": "2026-10-23T02:56:52.789Z",
+        "moduleId": null,
+        "fromClassroom": true
       }
     ],
     "announcements": [
