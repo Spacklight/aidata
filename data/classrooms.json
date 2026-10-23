@@ -67,8 +67,57 @@
         ],
         "speech": "Remember these three RFC 1918 ranges for your exam. They aren't routable on the public internet, which is why we use NAT to connect local networks to the outside world. Keep up the great work, review this briefly, and get some rest!",
         "isFinal": false
+      },
+      {
+        "index": 2,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "What is NAT?"
+          },
+          {
+            "type": "text",
+            "text": "Network Address Translation maps private IPs to a single public IP."
+          },
+          {
+            "type": "draw",
+            "shape": "circle",
+            "cx": 80,
+            "cy": 120,
+            "r": 40,
+            "label": "Private LAN",
+            "fill": false
+          },
+          {
+            "type": "draw",
+            "shape": "circle",
+            "cx": 220,
+            "cy": 120,
+            "r": 40,
+            "label": "Public WAN",
+            "fill": false
+          },
+          {
+            "type": "draw",
+            "shape": "arrow",
+            "from": [
+              125,
+              120
+            ],
+            "to": [
+              175,
+              120
+            ],
+            "label": "NAT Router",
+            "dashed": false
+          }
+        ],
+        "speech": "Since it's almost 5 AM, Roosevelt, let's just finish this core concept: NAT acts as the translator between your private LAN and the public internet. Get some solid rest right after this!",
+        "isFinal": true
       }
     ],
-    "isComplete": false
+    "isComplete": true
   }
 ]
