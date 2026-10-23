@@ -381,6 +381,47 @@
         ],
         "speech": "So our wheelchair ramp makes a 16.7 degree angle with the ground, Roosevelt. That is a nice, gentle slope. Does that step make sense to you before we move on?",
         "isFinal": false
+      },
+      {
+        "index": 11,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Putting It All Together: A Complete Example"
+          },
+          {
+            "type": "text",
+            "text": "Let's solve a full right triangle: find missing side 'a' when the hypotenuse is 10 and angle θ is 30°."
+          },
+          {
+            "type": "draw",
+            "shape": "polygon",
+            "points": [
+              [
+                20,
+                160
+              ],
+              [
+                220,
+                160
+              ],
+              [
+                220,
+                60
+              ]
+            ],
+            "label": "θ = 30°"
+          },
+          {
+            "type": "note",
+            "text": "Sin(30°) = a / 10 -> a = 10 * 0.5 = 5",
+            "accent": "info"
+          }
+        ],
+        "speech": "Let's put everything we've learned together to solve a complete triangle, Roosevelt! If our hypotenuse is 10 and our angle is 30 degrees, we can use Sine to find the missing opposite side. Does that make sense?",
+        "isFinal": false
       }
     ],
     "isComplete": false
