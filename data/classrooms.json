@@ -141,6 +141,32 @@
         ],
         "speech": "To easily remember which side goes with which, mathematicians invented a famous memory helper called SOH CAH TOA. It stands for Sine is Opposite over Hypotenuse, Cosine is Adjacent over Hypotenuse, and Tangent is Opposite over Adjacent. Roosevelt, does that acronym make sense to you so far?",
         "isFinal": false
+      },
+      {
+        "index": 4,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Putting SOH CAH TOA to Work"
+          },
+          {
+            "type": "text",
+            "text": "Let's calculate the Sine of angle θ when the opposite side is 3 and the hypotenuse is 5."
+          },
+          {
+            "type": "box",
+            "text": "sin(θ) = Opposite / Hypotenuse = 3 / 5 = 0.6"
+          },
+          {
+            "type": "note",
+            "text": "Always check which angle you are standing at before picking your sides!",
+            "accent": "info"
+          }
+        ],
+        "speech": "Let's see SOH CAH TOA in action with a real example. If our opposite side is 3 and our hypotenuse is 5, then sine of theta is simply 3 divided by 5, which equals 0.6. Does that make sense, Roosevelt?",
+        "isFinal": false
       }
     ],
     "isComplete": false
