@@ -290,8 +290,42 @@
         ],
         "speech": "While NAT solves the IPv4 shortage, Roosevelt, the ultimate fix is IPv6. It has so many addresses we won't ever need NAT to save space—though we still use it sometimes for security!",
         "isFinal": false
+      },
+      {
+        "index": 10,
+        "kind": "summary",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Lesson Summary: Public vs. Private IPs & NAT"
+          },
+          {
+            "type": "box",
+            "text": "Private IPs: Internal, reused, safe behind routers"
+          },
+          {
+            "type": "box",
+            "text": "Public IPs: Globally unique, internet-routable addresses"
+          },
+          {
+            "type": "box",
+            "text": "NAT: Translates private to public, saves IPv4 space & blocks hackers"
+          },
+          {
+            "type": "draw",
+            "shape": "circle",
+            "cx": 150,
+            "cy": 150,
+            "r": 30,
+            "label": "Exam Ready!",
+            "fill": true
+          }
+        ],
+        "speech": "To wrap up today's session, Roosevelt, remember that private IPs keep devices organized locally, public IPs connect us globally, and NAT acts as the clever translator and security guard in between. You're well on your way for November 9th!",
+        "isFinal": true
       }
     ],
-    "isComplete": false
+    "isComplete": true
   }
 ]
