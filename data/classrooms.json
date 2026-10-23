@@ -1,11 +1,11 @@
 [
   {
-    "id": "vqz7fspkmvkq4vlf",
+    "id": "hfbcuigtmvkqsnmr",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T08:44:43.635Z",
-    "subject": "Mathematics",
-    "topic": "College Algebra & Trigonometry: Exponential and Logarithmic Functions",
-    "reasoning": "Since Roosevelt has mastered sequences and right triangles, tackling exponential and logarithmic functions is the next logical step for his upcoming exam.",
+    "startedAt": "2026-10-23T09:03:13.060Z",
+    "subject": "Computer Science",
+    "topic": "IPv4 Address Model & Network/Host Portions",
+    "reasoning": "We are continuing foundational networking concepts to build up to robust subnetting skills for Roosevelt's upcoming exam on November 9, 2026.",
     "layout": "single",
     "segments": [
       {
@@ -15,23 +15,18 @@
         "elements": [
           {
             "type": "title",
-            "text": "Good Morning, Roosevelt!"
-          },
-          {
-            "type": "text",
-            "text": "Date: Friday, Oct 23, 2026 | Exam in 17 Days"
+            "text": "LIVE CLASS: IP ADDRESSING"
           },
           {
             "type": "underline",
-            "text": "Topic: Exponential & Logarithmic Functions"
+            "text": "Topic: Network and Host Portions"
           },
           {
-            "type": "note",
-            "text": "Let's start fresh and energetic today!",
-            "accent": "info"
+            "type": "text",
+            "text": "Good morning, Roosevelt! Let's start fresh at 11:03 AM."
           }
         ],
-        "speech": "Good morning, Roosevelt! It's Friday morning, October 23rd, and we have 17 days until your exam. Today we are diving into Exponential and Logarithmic Functions from your College Algebra material. Grab a notebook, and let's get started!",
+        "speech": "Good morning, Roosevelt! Rise and shine! It's Friday morning, October 23rd, exactly 11:03 AM, and we have an exciting live class ahead. Today, we are diving deep into the IPv4 Address Model, specifically understanding how an IP address is split into Network and Host portions. Your exam is coming up on November 9th, so let's make every minute count. Does that sound good to you?",
         "isFinal": false
       },
       {
@@ -41,86 +36,32 @@
         "elements": [
           {
             "type": "title",
-            "text": "What is an Exponential Function?"
+            "text": "What is an IPv4 Address?"
+          },
+          {
+            "type": "box",
+            "text": "32-bit number divided into 4 octets"
           },
           {
             "type": "text",
-            "text": "Form: f(x) = b^x where b > 0 and b != 1"
+            "text": "Example: 192.168.1.1"
           },
           {
             "type": "draw",
-            "shape": "curve",
-            "path": "M50,150 Q150,140 250,30",
-            "label": "Exponential Growth"
-          },
-          {
-            "type": "arrow",
-            "label": "x-axis"
+            "shape": "numberline",
+            "min": 0,
+            "max": 32,
+            "marks": [
+              0,
+              8,
+              16,
+              24,
+              32
+            ],
+            "title": "32-bit Address Space"
           }
         ],
-        "speech": "An exponential function has a variable in the exponent, like f(x) equals b to the x power. Think of it like population growth or money compounding in a bank account—it starts slow, then shoots up really fast! Does that curve make sense so far?",
-        "isFinal": false
-      },
-      {
-        "index": 2,
-        "kind": "example",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Example: Bacteria Growth"
-          },
-          {
-            "type": "text",
-            "text": "Let's say bacteria double every hour. Start with 1 bacterium at x = 0."
-          },
-          {
-            "type": "draw",
-            "shape": "curve",
-            "path": "M30,170 Q150,160 270,30",
-            "label": "y = 2^x"
-          },
-          {
-            "type": "note",
-            "text": "At x=3 hours, we get 2^3 = 8 bacteria!",
-            "accent": "info"
-          }
-        ],
-        "speech": "Let's look at a concrete example, Roosevelt. Imagine a population of bacteria that doubles every single hour. If we start with just one bacterium, our function is f of x equals two to the x power. After three hours, x is three, so two cubed gives us eight bacteria. Does doubling make sense so far?",
-        "isFinal": false
-      },
-      {
-        "index": 3,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Graphing Exponential Functions"
-          },
-          {
-            "type": "text",
-            "text": "Notice how the curve rises steeply as x increases. It never touches the x-axis, creating a horizontal asymptote."
-          },
-          {
-            "type": "draw",
-            "shape": "axes",
-            "xLabel": "x",
-            "yLabel": "y"
-          },
-          {
-            "type": "draw",
-            "shape": "curve",
-            "path": "M50,150 Q150,140 250,20",
-            "label": "y = 2^x"
-          },
-          {
-            "type": "note",
-            "text": "Asymptote at y = 0",
-            "accent": "info"
-          }
-        ],
-        "speech": "Notice how the graph shoots up rapidly, Roosevelt? It gets closer and closer to zero on the left, but never touches it. That flat boundary line is called an asymptote. Does that visual make sense to you?",
+        "speech": "Let's break down the absolute basics. An IPv4 address is a 32-bit number, which means it consists of 32 binary zeros and ones. To make it readable for humans, we break it down into four chunks called octets, separated by dots—just like 192.168.1.1. Think of the entire 32-bit line right here on the board. Each octet is 8 bits. Does that make sense so far?",
         "isFinal": false
       }
     ],
