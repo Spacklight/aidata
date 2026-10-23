@@ -62,6 +62,34 @@
         ],
         "speech": "Think of an IP address like a physical house address. If you want to send a letter to a friend, you need their street name and house number. On the internet, devices use an IPv4 address to find each other. An IPv4 address is made up of 32 bits. Let's look at how this is structured on the board. Make sense so far?",
         "isFinal": false
+      },
+      {
+        "index": 2,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Network vs Host Portions"
+          },
+          {
+            "type": "text",
+            "text": "An IPv4 address is split into two main parts: the Network portion and the Host portion."
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "box",
+            "text": "Network ID: Identifies the specific street or building"
+          },
+          {
+            "type": "box",
+            "text": "Host ID: Identifies the exact room or computer"
+          }
+        ],
+        "speech": "Every IPv4 address is actually split into two parts: the network portion, which tells us the general neighborhood, and the host portion, which tells us the exact device. Does that division make sense so far, Roosevelt?",
+        "isFinal": false
       }
     ],
     "isComplete": false
