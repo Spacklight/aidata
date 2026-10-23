@@ -165,6 +165,36 @@
         ],
         "speech": "Let's trace a concrete example. When your laptop with private IP 192.168.1.5 asks for Google, your home router intercepts the message, takes off the private return label, and slaps on your single public IP address before sending it out to the internet! Roosevelt, does that tracking make sense so far?",
         "isFinal": false
+      },
+      {
+        "index": 6,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Why NAT is Essential for Security"
+          },
+          {
+            "type": "text",
+            "text": "Because internal devices use private IPs, direct connections from the outside world are blocked."
+          },
+          {
+            "type": "box",
+            "text": "Inbound Protection: Hackers on the internet cannot see or ping your private home devices directly!"
+          },
+          {
+            "type": "draw",
+            "shape": "circle",
+            "cx": 150,
+            "cy": 120,
+            "r": 45,
+            "label": "Router Firewall",
+            "fill": false
+          }
+        ],
+        "speech": "Another huge benefit of NAT, Roosevelt, is built-in security. Because your private devices are hidden behind the router's single public IP, outside hackers can't directly target your laptop. Does that make sense?",
+        "isFinal": false
       }
     ],
     "isComplete": false
