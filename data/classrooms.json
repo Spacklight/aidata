@@ -255,6 +255,51 @@
         ],
         "speech": "Now what if we know the side lengths of our triangle, but we don't know the angle? We use inverse trig functions, written with a little minus one on them, to work backwards and find the angle!",
         "isFinal": false
+      },
+      {
+        "index": 8,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Finding an Angle with Inverse Tangent"
+          },
+          {
+            "type": "text",
+            "text": "Let's find angle θ when the opposite side is 5 and the adjacent side is 5."
+          },
+          {
+            "type": "box",
+            "text": "θ = Tan⁻¹(Opposite / Adjacent) = Tan⁻¹(5 / 5) = Tan⁻¹(1) = 45°"
+          },
+          {
+            "type": "draw",
+            "shape": "polygon",
+            "points": [
+              [
+                50,
+                150
+              ],
+              [
+                150,
+                150
+              ],
+              [
+                150,
+                50
+              ]
+            ],
+            "label": "45-45-90 Triangle"
+          },
+          {
+            "type": "note",
+            "text": "When opposite equals adjacent, the angle is always 45 degrees!",
+            "accent": "info"
+          }
+        ],
+        "speech": "Let's practice finding an actual angle using inverse tangent! If our opposite side is 5 and our adjacent side is also 5, Tan of theta is 5 divided by 5, which gives 1. Taking the inverse tangent of 1 gives us 45 degrees! Makes sense, right? Does that step make sense to you, Roosevelt?",
+        "isFinal": false
       }
     ],
     "isComplete": false
