@@ -300,6 +300,46 @@
         ],
         "speech": "Let's practice finding an actual angle using inverse tangent! If our opposite side is 5 and our adjacent side is also 5, Tan of theta is 5 divided by 5, which gives 1. Taking the inverse tangent of 1 gives us 45 degrees! Makes sense, right? Does that step make sense to you, Roosevelt?",
         "isFinal": false
+      },
+      {
+        "index": 9,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Real-World Application: Building a Ramp"
+          },
+          {
+            "type": "text",
+            "text": "Let's put inverse trig to work! Suppose you need to build a wheelchair ramp that rises 3 feet over a horizontal distance (adjacent) of 10 feet. What angle does the ramp make with the ground?"
+          },
+          {
+            "type": "box",
+            "text": "θ = Tan⁻¹(3 / 10) = Tan⁻¹(0.3) ≈ 16.7°"
+          },
+          {
+            "type": "draw",
+            "shape": "polygon",
+            "points": [
+              [
+                50,
+                150
+              ],
+              [
+                250,
+                150
+              ],
+              [
+                250,
+                90
+              ]
+            ],
+            "label": "Ramp 16.7°"
+          }
+        ],
+        "speech": "Let's apply this to a real-world scenario! Suppose you are designing a wheelchair ramp that rises 3 feet and stretches 10 feet horizontally. Using inverse tangent, our angle is Tan inverse of 3 over 10, which gives about 16.7 degrees. Does that make sense, Roosevelt?",
+        "isFinal": false
       }
     ],
     "isComplete": false
