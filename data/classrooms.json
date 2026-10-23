@@ -94,6 +94,27 @@
         ],
         "speech": "To break this down further, Roosevelt, those 32 bits are grouped into four chunks called octets, separated by periods. Each octet has 8 bits. Does that grouping make sense so far?",
         "isFinal": false
+      },
+      {
+        "index": 3,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Binary Basics in an Octet"
+          },
+          {
+            "type": "text",
+            "text": "Each of the 8 bits in an octet represents a power of 2, starting from the right with 2 to the power of 0."
+          },
+          {
+            "type": "box",
+            "text": "128 | 64 | 32 | 16 | 8 | 4 | 2 | 1"
+          }
+        ],
+        "speech": "To understand how we convert these octets for your exam, Roosevelt, we need to look at the positional values of the 8 bits. They go from right to left as 1, 2, 4, 8, 16, 32, 64, and 128. Does this sequence of powers of two look familiar to you?",
+        "isFinal": false
       }
     ],
     "isComplete": false
