@@ -1,11 +1,11 @@
 [
   {
-    "id": "uzkmcf8umvkdmoom",
+    "id": "2w8y077amvkdodts",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T02:54:39.478Z",
+    "startedAt": "2026-10-23T02:55:58.720Z",
     "subject": "Computer Science",
-    "topic": "Private IP Addresses and Network Address Translation (NAT)",
-    "reasoning": "Since Roosevelt has already covered basic IPv4 addressing, subnetting, and CIDR, moving on to Private IP ranges and NAT is the logical next step for his MIS exam preparation.",
+    "topic": "IPv6 Transition and Address Structure",
+    "reasoning": "Since Roosevelt has mastered IPv4 subnetting and NAT, the logical next step in networking for his upcoming exam is understanding the structure and necessity of IPv6.",
     "layout": "two",
     "segments": [
       {
@@ -15,23 +15,28 @@
         "elements": [
           {
             "type": "title",
-            "text": "Late Night Session: Private IP & NAT"
+            "text": "Late Night IPv6 Express"
           },
           {
             "type": "text",
-            "text": "Roosevelt, it's 4:54 AM! Let's do a quick, high-yield review before you rest up for your November exam."
+            "text": "Roosevelt, it's 4:55 AM! Your exam is Nov 9. Let's do a quick, high-yield review on IPv6 structure before you catch some rest."
           },
           {
             "type": "draw",
             "shape": "circle",
-            "cx": 100,
+            "cx": 150,
             "cy": 120,
             "r": 50,
-            "label": "Private LAN",
+            "label": "IPv6 Core",
             "fill": false
+          },
+          {
+            "type": "note",
+            "text": "128-bit address length",
+            "accent": "info"
           }
         ],
-        "speech": "Hey Roosevelt, I know it's late at 4:54 AM, but let's quickly touch upon Private IP Addresses and NAT before you head to sleep.",
+        "speech": "Hey Roosevelt, it's almost 5 in the morning! I know you're grinding for that November 9th exam, so let's keep this super brief. We've mastered IPv4, CIDR, and NAT—now let's look at why IPv6 exists and how it's structured, and then I want you to get some sleep.",
         "isFinal": false
       },
       {
@@ -40,84 +45,41 @@
         "section": 1,
         "elements": [
           {
-            "type": "title",
-            "text": "RFC 1918 Private Address Ranges"
-          },
-          {
             "type": "text",
-            "text": "Class A: 10.0.0.0/8 | Class B: 172.16.0.0/12 | Class C: 192.168.0.0/16"
+            "text": "IPv4 vs IPv6 Hexadecimal Notation"
           },
           {
             "type": "draw",
-            "shape": "arrow",
+            "shape": "line",
             "from": [
-              50,
-              160
+              20,
+              80
             ],
             "to": [
-              250,
-              160
+              280,
+              80
             ],
-            "label": "Translated via NAT",
-            "dashed": false
+            "label": "",
+            "dashed": true
           },
           {
-            "type": "divider"
+            "type": "text",
+            "text": "IPv4: 32 bits (Decimal / Dots)"
+          },
+          {
+            "type": "text",
+            "text": "IPv6: 128 bits (Hexadecimal / Colons)"
+          },
+          {
+            "type": "note",
+            "text": "8 groups of 16 bits",
+            "accent": "warn"
           }
         ],
-        "speech": "Remember these three RFC 1918 ranges for your exam. They aren't routable on the public internet, which is why we use NAT to connect local networks to the outside world. Keep up the great work, review this briefly, and get some rest!",
+        "speech": "Notice the massive jump from 32 bits in IPv4 to 128 bits in IPv6. Instead of dotted decimal, IPv6 uses hexadecimal notation separated by colons. Take a mental snapshot of this, Roosevelt, and let's wrap up for the night.",
         "isFinal": false
-      },
-      {
-        "index": 2,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "What is NAT?"
-          },
-          {
-            "type": "text",
-            "text": "Network Address Translation maps private IPs to a single public IP."
-          },
-          {
-            "type": "draw",
-            "shape": "circle",
-            "cx": 80,
-            "cy": 120,
-            "r": 40,
-            "label": "Private LAN",
-            "fill": false
-          },
-          {
-            "type": "draw",
-            "shape": "circle",
-            "cx": 220,
-            "cy": 120,
-            "r": 40,
-            "label": "Public WAN",
-            "fill": false
-          },
-          {
-            "type": "draw",
-            "shape": "arrow",
-            "from": [
-              125,
-              120
-            ],
-            "to": [
-              175,
-              120
-            ],
-            "label": "NAT Router",
-            "dashed": false
-          }
-        ],
-        "speech": "Since it's almost 5 AM, Roosevelt, let's just finish this core concept: NAT acts as the translator between your private LAN and the public internet. Get some solid rest right after this!",
-        "isFinal": true
       }
     ],
-    "isComplete": true
+    "isComplete": false
   }
 ]
