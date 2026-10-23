@@ -1,11 +1,11 @@
 [
   {
-    "id": "hfbcuigtmvkqsnmr",
+    "id": "zdi2xplemvkr25gy",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T09:03:13.060Z",
-    "subject": "Computer Science",
-    "topic": "IPv4 Address Model & Network/Host Portions",
-    "reasoning": "We are continuing foundational networking concepts to build up to robust subnetting skills for Roosevelt's upcoming exam on November 9, 2026.",
+    "startedAt": "2026-10-23T09:10:36.082Z",
+    "subject": "Mathematics",
+    "topic": "College Algebra & Trigonometry: Polynomial and Rational Functions",
+    "reasoning": "Nasankha phunziro ili chifukwa tikukonzekera mayeso a pa November 9, 2026, ndipo Ntchito za Polynomial ndi Rational zili m'ndandanda wofunikira wa chaka choyamba ku koleji.",
     "layout": "single",
     "segments": [
       {
@@ -15,18 +15,22 @@
         "elements": [
           {
             "type": "title",
-            "text": "LIVE CLASS: IP ADDRESSING"
-          },
-          {
-            "type": "underline",
-            "text": "Topic: Network and Host Portions"
+            "text": "Moni, Roosevelt! M'mawa wabwino."
           },
           {
             "type": "text",
-            "text": "Good morning, Roosevelt! Let's start fresh at 11:03 AM."
+            "text": "Lero tiyamba phunziro latsopano la Polynomial ndi Rational Functions."
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "note",
+            "text": "Tsiku la Mayeso: 2026-11-09",
+            "accent": "info"
           }
         ],
-        "speech": "Good morning, Roosevelt! Rise and shine! It's Friday morning, October 23rd, exactly 11:03 AM, and we have an exciting live class ahead. Today, we are diving deep into the IPv4 Address Model, specifically understanding how an IP address is split into Network and Host portions. Your exam is coming up on November 9th, so let's make every minute count. Does that sound good to you?",
+        "speech": "Moni bwanji Roosevelt! M'mawa watsopano uwu ndi wabwino kwambiri kuti tiyambe phunziro lathu latsopano la m'buku la College Algebra ndi Trigonometry. Popeza mayeso athu ali pafupi, tiyeni tione ntchito za polynomial ndi rational functions mwatsatanetsatane. Kodi muli okonzeka?",
         "isFinal": false
       },
       {
@@ -36,74 +40,53 @@
         "elements": [
           {
             "type": "title",
-            "text": "What is an IPv4 Address?"
-          },
-          {
-            "type": "box",
-            "text": "32-bit number divided into 4 octets"
+            "text": "Kodi Polynomial Nchiyani?"
           },
           {
             "type": "text",
-            "text": "Example: 192.168.1.1"
+            "text": "Polynomial ndi nambala kapena kusakaniza kwa nambala ndi ma variable (monga x) okhala ndi mphamvu (exponents) zabwino zokha."
+          },
+          {
+            "type": "box",
+            "text": "P(x) = a_n x^n + ... + a_1 x + a_0"
           },
           {
             "type": "draw",
-            "shape": "numberline",
-            "min": 0,
-            "max": 32,
-            "marks": [
-              0,
-              8,
-              16,
-              24,
-              32
-            ],
-            "title": "32-bit Address Space"
+            "shape": "curve",
+            "path": "M10,150 Q150,20 290,150",
+            "label": "Polynomial Curve"
           }
         ],
-        "speech": "Let's break down the absolute basics. An IPv4 address is a 32-bit number, which means it consists of 32 binary zeros and ones. To make it readable for humans, we break it down into four chunks called octets, separated by dots—just like 192.168.1.1. Think of the entire 32-bit line right here on the board. Each octet is 8 bits. Does that make sense so far?",
+        "speech": "Tiyeni tiyambe ndi funso lakuti: kodi polynomial nchiyani? Ganizirani za kapangidwe kake ngati nyumba yomangidwa ndi njerwa za x ndi manambala ake. Mphamvu zake ziyenera kukhala zowongoka kapena zabwino, osati zolakwika. Kodi zimveka bwino mpaka pano?",
         "isFinal": false
       },
       {
         "index": 2,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Network vs. Host Portions"
-          },
-          {
-            "type": "text",
-            "text": "Every IP address is split into two main parts: the Network ID (like a city name) and the Host ID (like a specific house address on a street)."
-          },
-          {
-            "type": "box",
-            "text": "192.168.1  |  .10\nNetwork  | Host"
-          }
-        ],
-        "speech": "Think of an IPv4 address like a mailing address. The first part is the network, which tells us which street or neighborhood we are in, and the second part is the host, which pinpoints the exact device. Does that analogy make sense to you, Roosevelt?",
-        "isFinal": false
-      },
-      {
-        "index": 3,
         "kind": "example",
         "section": 1,
         "elements": [
           {
             "type": "title",
-            "text": "Network vs. Host in Action"
+            "text": "Chitsanzo cha Polynomial"
+          },
+          {
+            "type": "divider"
           },
           {
             "type": "box",
-            "text": "IP: 192.168.1.50\nNetwork: 192.168.1\nHost: .50"
+            "text": "P(x) = 3x^2 + 2x - 5"
           },
           {
             "type": "text",
-            "text": "The router looks at the Network part (192.168.1) to deliver packets to the right building, then the Host part (.50) to find the exact computer."
+            "text": "M'chitsanzo ichi, mphamvu za x ndi 2 ndi 1, zomwe ndi zabwino. Nambala 3 ndi 2 ndi coefficients."
+          },
+          {
+            "type": "note",
+            "text": "Mphamvu siyenera kukhala yolakwika monga -1 kapena mizu!",
+            "accent": "info"
           }
         ],
-        "speech": "Let's use a quick example, Roosevelt. If our IP address is 192.168.1.50, the first three octets act like the street address, and the last number (.50) points directly to your computer on that network. Does that division make sense so far?",
+        "speech": "Tiyeni tiwone chitsanzo cha polynomial. P(x) = 3x lalikulu kuphatikiza 2x kuchotseratu 5. Kodi mwamvetsa chifukwa chake ichi ndi polynomial, Roosevelt?",
         "isFinal": false
       }
     ],
