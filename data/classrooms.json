@@ -1,11 +1,11 @@
 [
   {
-    "id": "2w8y077amvkdodts",
+    "id": "c0sz2dhkmvkdqcuv",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T02:55:58.720Z",
+    "startedAt": "2026-10-23T02:57:30.775Z",
     "subject": "Computer Science",
-    "topic": "IPv6 Transition and Address Structure",
-    "reasoning": "Since Roosevelt has mastered IPv4 subnetting and NAT, the logical next step in networking for his upcoming exam is understanding the structure and necessity of IPv6.",
+    "topic": "Domain Name System (DNS) and IP Address Resolution",
+    "reasoning": "Given that it is late at night, we need a focused review connecting the IP addressing topics already mastered with how users actually reach servers via names.",
     "layout": "two",
     "segments": [
       {
@@ -15,28 +15,19 @@
         "elements": [
           {
             "type": "title",
-            "text": "Late Night IPv6 Express"
+            "text": "LIVE CLASS: DNS & Resolution"
           },
           {
             "type": "text",
-            "text": "Roosevelt, it's 4:55 AM! Your exam is Nov 9. Let's do a quick, high-yield review on IPv6 structure before you catch some rest."
-          },
-          {
-            "type": "draw",
-            "shape": "circle",
-            "cx": 150,
-            "cy": 120,
-            "r": 50,
-            "label": "IPv6 Core",
-            "fill": false
+            "text": "Welcome Roosevelt! Late night session—let's keep it sharp."
           },
           {
             "type": "note",
-            "text": "128-bit address length",
+            "text": "Exam in 17 days (Nov 9)! Review briefly and get some rest.",
             "accent": "info"
           }
         ],
-        "speech": "Hey Roosevelt, it's almost 5 in the morning! I know you're grinding for that November 9th exam, so let's keep this super brief. We've mastered IPv4, CIDR, and NAT—now let's look at why IPv6 exists and how it's structured, and then I want you to get some sleep.",
+        "speech": "Hey Roosevelt, I know it's late at night, but let's do a quick, high-yield review on the Domain Name System to tie together everything we've learned about IP addresses.",
         "isFinal": false
       },
       {
@@ -46,66 +37,23 @@
         "elements": [
           {
             "type": "text",
-            "text": "IPv4 vs IPv6 Hexadecimal Notation"
+            "text": "Mapping Human Names to Numeric IP Addresses"
           },
           {
             "type": "draw",
-            "shape": "line",
-            "from": [
-              20,
-              80
-            ],
-            "to": [
-              280,
-              80
-            ],
-            "label": "",
-            "dashed": true
-          },
-          {
-            "type": "text",
-            "text": "IPv4: 32 bits (Decimal / Dots)"
-          },
-          {
-            "type": "text",
-            "text": "IPv6: 128 bits (Hexadecimal / Colons)"
-          },
-          {
-            "type": "note",
-            "text": "8 groups of 16 bits",
-            "accent": "warn"
+            "shape": "cycle",
+            "nodes": [
+              "Client Query",
+              "Resolver",
+              "Root/TLD",
+              "Authoritative DNS"
+            ]
           }
         ],
-        "speech": "Notice the massive jump from 32 bits in IPv4 to 128 bits in IPv6. Instead of dotted decimal, IPv6 uses hexadecimal notation separated by colons. Take a mental snapshot of this, Roosevelt, and let's wrap up for the night.",
+        "speech": "Remember that while we use IP addresses and subnets, humans use domain names. The DNS acts as the phonebook of the internet, resolving names to IPs through a structured lookup cycle.",
         "isFinal": false
-      },
-      {
-        "index": 2,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Address Compression Rules"
-          },
-          {
-            "type": "text",
-            "text": "Leading zeros in a 16-bit block can be omitted."
-          },
-          {
-            "type": "box",
-            "text": "2001:0db8 -> 2001:db8"
-          },
-          {
-            "type": "note",
-            "text": "Save energy Roosevelt—get some sleep after this quick tip!",
-            "accent": "warn"
-          }
-        ],
-        "speech": "Roosevelt, just remember the compression rules for your exam. You can drop leading zeros in each block. Let's wrap up for tonight and get some rest!",
-        "isFinal": true
       }
     ],
-    "isComplete": true
+    "isComplete": false
   }
 ]
