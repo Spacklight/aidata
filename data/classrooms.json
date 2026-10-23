@@ -1,11 +1,11 @@
 [
   {
-    "id": "to114tf3mvkpjzch",
+    "id": "9jqaxapfmvkplewo",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T08:28:28.721Z",
+    "startedAt": "2026-10-23T08:29:35.544Z",
     "subject": "Computer Science",
-    "topic": "Domain Name System (DNS) and IP Address Resolution",
-    "reasoning": "Choosing DNS resolution builds directly on top of IP addressing and subnetting, helping Roosevelt understand how human-readable names map to network addresses for his upcoming exam.",
+    "topic": "Public IP Addresses, Private IP Addresses, and Network Address Translation (NAT)",
+    "reasoning": "Building directly upon previously learned IPv4 subnets and CIDR notation, mastering public vs private IPs and NAT is essential for understanding modern internet routing and the MIS infrastructure Roosevelt needs for his upcoming exam.",
     "layout": "two",
     "segments": [
       {
@@ -15,23 +15,23 @@
         "elements": [
           {
             "type": "title",
-            "text": "LIVE CLASS: DNS & IP Resolution"
+            "text": "LIVE CLASS: Public vs Private IPs & NAT"
           },
           {
             "type": "text",
-            "text": "Good morning, Roosevelt! Rise and shine for your MIS & CS prep."
+            "text": "Good morning, Roosevelt! Rise and shine! It's Friday, October 23, 2026, and your exam is coming up on November 9th—just 17 days away!"
           },
           {
             "type": "box",
-            "text": "Exam Date: November 9, 2026 (17 Days Left!)"
+            "text": "Topic: Public IP Addresses, Private IP Addresses & NAT"
           },
           {
             "type": "note",
-            "text": "Let's tackle DNS step by step!",
+            "text": "Morning energy: Let's tackle a core networking concept!",
             "accent": "info"
           }
         ],
-        "speech": "Good morning, Roosevelt! It's Friday morning, October 23rd, and we are 17 days away from your big exam on November 9th. Let's start fresh with a cup of coffee and dive into the Domain Name System, or DNS. Ready?",
+        "speech": "Good morning, Roosevelt! Rise and shine! It is Friday morning, October 23rd, and your exam is coming up on November 9th—just 17 days away! Today, we are diving into Public IP Addresses, Private IP Addresses, and Network Address Translation, or NAT. Let's start fresh and make sure you completely master this before your exam!",
         "isFinal": false
       },
       {
@@ -41,67 +41,27 @@
         "elements": [
           {
             "type": "title",
-            "text": "What is the Domain Name System (DNS)?"
+            "text": "The Analogy: Global Mail vs. Office Intercom"
           },
           {
             "type": "text",
-            "text": "Analogy: DNS is like the contacts app on your smartphone."
+            "text": "Imagine a massive corporate building. Every desk has an internal extension number (Private IP), but the building itself has only one official street address (Public IP)."
           },
           {
             "type": "draw",
             "shape": "circle",
-            "cx": 100,
+            "cx": 150,
             "cy": 100,
-            "r": 40,
-            "label": "google.com",
+            "r": 50,
+            "label": "Public IP",
             "fill": false
           },
           {
-            "type": "draw",
-            "shape": "arrow",
-            "from": [
-              145,
-              100
-            ],
-            "to": [
-              205,
-              100
-            ],
-            "label": "translates to",
-            "dashed": false
-          },
-          {
-            "type": "draw",
-            "shape": "circle",
-            "cx": 250,
-            "cy": 100,
-            "r": 40,
-            "label": "142.250.190.46",
-            "fill": false
+            "type": "arrow",
+            "label": "NAT Translation"
           }
         ],
-        "speech": "Think of the internet like a massive city where every house has an IP address number like 142.250.190.46. Humans are terrible at remembering long numbers, so DNS acts like your phone's contact list. It translates friendly names like google.com into numeric IP addresses. Does that make sense so far?",
-        "isFinal": false
-      },
-      {
-        "index": 2,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "How Your Computer Finds a Website"
-          },
-          {
-            "type": "text",
-            "text": "Step 1: Your browser asks the DNS Resolver (like a librarian) for the IP address."
-          },
-          {
-            "type": "box",
-            "text": "DNS Resolver: 'Where is google.com?'"
-          }
-        ],
-        "speech": "So Roosevelt, when you type google.com into your browser, your computer doesn't instantly know where it lives. It first asks a DNS Resolver, which acts like a friendly librarian. Does that first step make sense so far?",
+        "speech": "To understand why we need both public and private IP addresses, let's use an everyday analogy. Imagine a massive corporate building. Inside the building, everyone uses internal extension numbers to talk to each other—those are like Private IP addresses. But when the company sends a letter to someone outside, it must use the building's single official street address—that's a Public IP address. Does that make sense so far?",
         "isFinal": false
       }
     ],
