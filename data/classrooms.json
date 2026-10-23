@@ -100,6 +100,44 @@
         ],
         "speech": "To execute VLSM correctly, Roosevelt, the Golden Rule is to always sort your required subnets from the largest host count down to the smallest before allocating any addresses.",
         "isFinal": false
+      },
+      {
+        "index": 3,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "VLSM Step-by-Step Example"
+          },
+          {
+            "type": "text",
+            "text": "Given network: 192.168.1.0/24. Requirements: Subnet A = 50 hosts, Subnet B = 25 hosts, Subnet C = 10 hosts."
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "box",
+            "text": "Sorted Order: Subnet A (50) → Subnet B (25) → Subnet C (10)"
+          },
+          {
+            "type": "draw",
+            "shape": "arrow",
+            "from": [
+              30,
+              160
+            ],
+            "to": [
+              270,
+              160
+            ],
+            "label": "Allocating from 192.168.1.0/24",
+            "dashed": false
+          }
+        ],
+        "speech": "Let's put this into practice, Roosevelt. Suppose we have the 192.168.1.0 slash 24 network and need subnets for 50, 25, and 10 hosts. We always allocate the largest requirement first!",
+        "isFinal": false
       }
     ],
     "isComplete": false
