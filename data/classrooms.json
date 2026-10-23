@@ -59,8 +59,33 @@
         ],
         "speech": "Notice the constant difference in arithmetic progressions versus multiplicative growth in geometric ones. Review these formulas quickly and make sure to get some sleep tonight.",
         "isFinal": false
+      },
+      {
+        "index": 2,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Quick Rest Reminder"
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "text",
+            "text": "Roosevelt, you've reviewed the core definitions. It's late—make sure you get some sleep before your exam on November 9th!"
+          },
+          {
+            "type": "note",
+            "text": "Rest is essential for memory consolidation!",
+            "accent": "info"
+          }
+        ],
+        "speech": "We've covered the crucial basics for sequences and series tonight, Roosevelt. Make sure to get some well-deserved rest now so your mind is sharp for November 9th!",
+        "isFinal": true
       }
     ],
-    "isComplete": false
+    "isComplete": true
   }
 ]
