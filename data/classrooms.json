@@ -1,12 +1,12 @@
 [
   {
-    "id": "jcyklf0lmvkq2cxx",
+    "id": "vqz7fspkmvkq4vlf",
     "profileId": "v3n541g5mvjqh5ma",
-    "startedAt": "2026-10-23T08:42:46.149Z",
-    "subject": "Computer Science",
-    "topic": "IPv4 Address Model & Network/Host Portions",
-    "reasoning": "Selected to build a solid foundation on IP addressing fundamentals for the upcoming networking exam.",
-    "layout": "two",
+    "startedAt": "2026-10-23T08:44:43.635Z",
+    "subject": "Mathematics",
+    "topic": "College Algebra & Trigonometry: Exponential and Logarithmic Functions",
+    "reasoning": "Since Roosevelt has mastered sequences and right triangles, tackling exponential and logarithmic functions is the next logical step for his upcoming exam.",
+    "layout": "single",
     "segments": [
       {
         "index": 0,
@@ -15,21 +15,23 @@
         "elements": [
           {
             "type": "title",
-            "text": "LIVE CLASS: IP Addressing Basics"
+            "text": "Good Morning, Roosevelt!"
           },
           {
             "type": "text",
-            "text": "Good morning, Roosevelt! Only 17 days until your exam on Nov 9."
+            "text": "Date: Friday, Oct 23, 2026 | Exam in 17 Days"
           },
           {
-            "type": "divider"
+            "type": "underline",
+            "text": "Topic: Exponential & Logarithmic Functions"
           },
           {
-            "type": "box",
-            "text": "Topic: IPv4 Address Model & Network/Host Portions"
+            "type": "note",
+            "text": "Let's start fresh and energetic today!",
+            "accent": "info"
           }
         ],
-        "speech": "Good morning, Roosevelt! It's Friday morning, October 23, and we have 17 days left before your big exam on November 9th. Let's start fresh and energetic! Today we are tackling the IPv4 Address Model and breaking down network and host portions. Does that sound good?",
+        "speech": "Good morning, Roosevelt! It's Friday morning, October 23rd, and we have 17 days until your exam. Today we are diving into Exponential and Logarithmic Functions from your College Algebra material. Grab a notebook, and let's get started!",
         "isFinal": false
       },
       {
@@ -39,56 +41,24 @@
         "elements": [
           {
             "type": "title",
-            "text": "What is an IPv4 Address?"
+            "text": "What is an Exponential Function?"
           },
           {
             "type": "text",
-            "text": "An IPv4 address is a unique 32-bit numerical label assigned to every device connected to a computer network."
+            "text": "Form: f(x) = b^x where b > 0 and b != 1"
           },
           {
             "type": "draw",
-            "shape": "circle",
-            "cx": 150,
-            "cy": 100,
-            "r": 50,
-            "label": "IP: 192.168.1.1",
-            "fill": false
+            "shape": "curve",
+            "path": "M50,150 Q150,140 250,30",
+            "label": "Exponential Growth"
           },
           {
-            "type": "note",
-            "text": "Like a mailing address for your computer!",
-            "accent": "info"
+            "type": "arrow",
+            "label": "x-axis"
           }
         ],
-        "speech": "Think of an IP address like a physical house address. If you want to send a letter to a friend, you need their street name and house number. On the internet, devices use an IPv4 address to find each other. An IPv4 address is made up of 32 bits. Let's look at how this is structured on the board. Make sense so far?",
-        "isFinal": false
-      },
-      {
-        "index": 2,
-        "kind": "point",
-        "section": 1,
-        "elements": [
-          {
-            "type": "title",
-            "text": "Network vs Host Portions"
-          },
-          {
-            "type": "text",
-            "text": "An IPv4 address is split into two main parts: the Network portion and the Host portion."
-          },
-          {
-            "type": "divider"
-          },
-          {
-            "type": "box",
-            "text": "Network ID: Identifies the specific street or building"
-          },
-          {
-            "type": "box",
-            "text": "Host ID: Identifies the exact room or computer"
-          }
-        ],
-        "speech": "Every IPv4 address is actually split into two parts: the network portion, which tells us the general neighborhood, and the host portion, which tells us the exact device. Does that division make sense so far, Roosevelt?",
+        "speech": "An exponential function has a variable in the exponent, like f(x) equals b to the x power. Think of it like population growth or money compounding in a bank account—it starts slow, then shoots up really fast! Does that curve make sense so far?",
         "isFinal": false
       }
     ],
