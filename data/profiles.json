@@ -17,5 +17,24 @@
     "notes": "",
     "createdAt": "2026-10-22T19:48:43.274Z",
     "updatedAt": "2026-10-22T19:48:43.274Z"
+  },
+  {
+    "name": "Roosevelt chikwende",
+    "age": 19,
+    "level": "college",
+    "grade": "Year 1",
+    "school": "",
+    "subjects": [
+      "Bachelor of science in management information systems"
+    ],
+    "goal": "exam",
+    "examDate": "2026-11-09",
+    "hours": 20,
+    "style": "mixed",
+    "time": "morning",
+    "notes": "",
+    "username": "Roosevelt",
+    "id": "mv5oi4wgmvkyxbjh",
+    "passwordHash": "fbd08ae540cecbd45b46e65da832bb6cb8d3eef419b329a8eda22f1089e417a3"
   }
 ]
