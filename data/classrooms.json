@@ -60,6 +60,34 @@
         ],
         "speech": "An exponential function has a variable in the exponent, like f(x) equals b to the x power. Think of it like population growth or money compounding in a bank account—it starts slow, then shoots up really fast! Does that curve make sense so far?",
         "isFinal": false
+      },
+      {
+        "index": 2,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Example: Bacteria Growth"
+          },
+          {
+            "type": "text",
+            "text": "Let's say bacteria double every hour. Start with 1 bacterium at x = 0."
+          },
+          {
+            "type": "draw",
+            "shape": "curve",
+            "path": "M30,170 Q150,160 270,30",
+            "label": "y = 2^x"
+          },
+          {
+            "type": "note",
+            "text": "At x=3 hours, we get 2^3 = 8 bacteria!",
+            "accent": "info"
+          }
+        ],
+        "speech": "Let's look at a concrete example, Roosevelt. Imagine a population of bacteria that doubles every single hour. If we start with just one bacterium, our function is f of x equals two to the x power. After three hours, x is three, so two cubed gives us eight bacteria. Does doubling make sense so far?",
+        "isFinal": false
       }
     ],
     "isComplete": false
