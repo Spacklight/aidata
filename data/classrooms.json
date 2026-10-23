@@ -84,6 +84,27 @@
         ],
         "speech": "Think of an IPv4 address like a mailing address. The first part is the network, which tells us which street or neighborhood we are in, and the second part is the host, which pinpoints the exact device. Does that analogy make sense to you, Roosevelt?",
         "isFinal": false
+      },
+      {
+        "index": 3,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Network vs. Host in Action"
+          },
+          {
+            "type": "box",
+            "text": "IP: 192.168.1.50\nNetwork: 192.168.1\nHost: .50"
+          },
+          {
+            "type": "text",
+            "text": "The router looks at the Network part (192.168.1) to deliver packets to the right building, then the Host part (.50) to find the exact computer."
+          }
+        ],
+        "speech": "Let's use a quick example, Roosevelt. If our IP address is 192.168.1.50, the first three octets act like the street address, and the last number (.50) points directly to your computer on that network. Does that division make sense so far?",
+        "isFinal": false
       }
     ],
     "isComplete": false
