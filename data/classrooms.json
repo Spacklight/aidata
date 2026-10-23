@@ -88,6 +88,40 @@
         ],
         "speech": "Let's look at a concrete example, Roosevelt. Imagine a population of bacteria that doubles every single hour. If we start with just one bacterium, our function is f of x equals two to the x power. After three hours, x is three, so two cubed gives us eight bacteria. Does doubling make sense so far?",
         "isFinal": false
+      },
+      {
+        "index": 3,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Graphing Exponential Functions"
+          },
+          {
+            "type": "text",
+            "text": "Notice how the curve rises steeply as x increases. It never touches the x-axis, creating a horizontal asymptote."
+          },
+          {
+            "type": "draw",
+            "shape": "axes",
+            "xLabel": "x",
+            "yLabel": "y"
+          },
+          {
+            "type": "draw",
+            "shape": "curve",
+            "path": "M50,150 Q150,140 250,20",
+            "label": "y = 2^x"
+          },
+          {
+            "type": "note",
+            "text": "Asymptote at y = 0",
+            "accent": "info"
+          }
+        ],
+        "speech": "Notice how the graph shoots up rapidly, Roosevelt? It gets closer and closer to zero on the left, but never touches it. That flat boundary line is called an asymptote. Does that visual make sense to you?",
+        "isFinal": false
       }
     ],
     "isComplete": false
