@@ -235,8 +235,38 @@
         ],
         "speech": "Finally, for Subnet C which requires 10 hosts, the smallest block is 16 addresses, giving us a slash 28 subnet starting at 192.168.1.96.",
         "isFinal": false
+      },
+      {
+        "index": 8,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Summary of VLSM Allocations"
+          },
+          {
+            "type": "text",
+            "text": "Subnet A: 192.168.1.0/26 (50 hosts)"
+          },
+          {
+            "type": "text",
+            "text": "Subnet B: 192.168.1.64/27 (25 hosts)"
+          },
+          {
+            "type": "text",
+            "text": "Subnet C: 192.168.1.96/28 (10 hosts)"
+          },
+          {
+            "type": "note",
+            "text": "Always verify unused IP blocks for future network expansion!",
+            "accent": "info"
+          }
+        ],
+        "speech": "To wrap up our morning session, Roosevelt, let's look at our final allocation layout. By sorting our requirements and carefully calculating prefix lengths, we successfully carved up our 192.168.1.0 slash 24 network without wasting precious addresses. Keep practicing these calculations, and you'll ace your MIS networking exam!",
+        "isFinal": true
       }
     ],
-    "isComplete": false
+    "isComplete": true
   }
 ]
