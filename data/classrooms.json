@@ -115,6 +115,32 @@
         ],
         "speech": "Now, besides the hypotenuse, the remaining two sides are named based on where we stand. The side directly across from our angle is the Opposite side, and the side right next to it is the Adjacent side. Does that distinction make sense to you, Roosevelt?",
         "isFinal": false
+      },
+      {
+        "index": 3,
+        "kind": "example",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "The Magic Word: SOH CAH TOA"
+          },
+          {
+            "type": "text",
+            "text": "To remember how to find our ratios, we use a simple acronym:"
+          },
+          {
+            "type": "box",
+            "text": "Sin = Opposite / Hypotenuse\nCos = Adjacent / Hypotenuse\nTan = Opposite / Adjacent"
+          },
+          {
+            "type": "note",
+            "text": "SOH - CAH - TOA",
+            "accent": "info"
+          }
+        ],
+        "speech": "To easily remember which side goes with which, mathematicians invented a famous memory helper called SOH CAH TOA. It stands for Sine is Opposite over Hypotenuse, Cosine is Adjacent over Hypotenuse, and Tangent is Opposite over Adjacent. Roosevelt, does that acronym make sense to you so far?",
+        "isFinal": false
       }
     ],
     "isComplete": false
