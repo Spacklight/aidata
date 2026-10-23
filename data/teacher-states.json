@@ -141,5 +141,15 @@
       "at": "2026-10-23T03:20:44.397Z",
       "scheduledAt": 1792725944397
     }
+  },
+  {
+    "profileId": "mv5oi4wgmvkyxbjh",
+    "announcements": [],
+    "pendingClassSuggestion": {
+      "topic": "Next Lesson",
+      "message": "I've prepared a new lesson for you. Let's dive in!",
+      "at": "2026-10-23T13:02:47.348Z",
+      "scheduledAt": 1792760867348
+    }
   }
 ]
