@@ -71,6 +71,14 @@
         "learnedAt": "2026-10-23T02:57:55.678Z",
         "moduleId": null,
         "fromClassroom": true
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "College Algebra & Trigonometry: Sequences, Series, and Combinatorics",
+        "subtopic": null,
+        "learnedAt": "2026-10-23T02:58:56.792Z",
+        "moduleId": null,
+        "fromClassroom": true
       }
     ],
     "announcements": [
