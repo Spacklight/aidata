@@ -63,6 +63,27 @@
         ],
         "speech": "Let's break down the absolute basics. An IPv4 address is a 32-bit number, which means it consists of 32 binary zeros and ones. To make it readable for humans, we break it down into four chunks called octets, separated by dots—just like 192.168.1.1. Think of the entire 32-bit line right here on the board. Each octet is 8 bits. Does that make sense so far?",
         "isFinal": false
+      },
+      {
+        "index": 2,
+        "kind": "point",
+        "section": 1,
+        "elements": [
+          {
+            "type": "title",
+            "text": "Network vs. Host Portions"
+          },
+          {
+            "type": "text",
+            "text": "Every IP address is split into two main parts: the Network ID (like a city name) and the Host ID (like a specific house address on a street)."
+          },
+          {
+            "type": "box",
+            "text": "192.168.1  |  .10\nNetwork  | Host"
+          }
+        ],
+        "speech": "Think of an IPv4 address like a mailing address. The first part is the network, which tells us which street or neighborhood we are in, and the second part is the host, which pinpoints the exact device. Does that analogy make sense to you, Roosevelt?",
+        "isFinal": false
       }
     ],
     "isComplete": false
