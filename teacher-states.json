@@ -9,6 +9,79 @@
       "topic": "IP Networking Basics (IP Addresses, Subnet Masks, Broadcast Addresses, Assigning an IP address)",
       "subject": "Software development and engineering",
       "scheduledAt": "2026-10-25T20:31:28.216Z"
-    }
+    },
+    "exercises": [
+      {
+        "id": "3d2580c6-3e17-46ee-8bc1-01ed4db9b3ec",
+        "title": "Mayeso a IP Networking Basics",
+        "subject": "Software development and engineering",
+        "topic": "IP Networking Basics (IP Addresses, Subnet Masks, Broadcast Addresses, Assigning an IP address)",
+        "language": "ny",
+        "createdAt": "2026-10-25T20:33:12.502Z",
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Kodi adiresi ya IP ya mtundu wa IPv4 imakhala ndi ma bits angati onse?",
+            "choices": [
+              "32 bits",
+              "64 bits",
+              "128 bits",
+              "16 bits"
+            ],
+            "answer": "32 bits",
+            "explanation": "Adiresi ya IPv4 imapangidwa ndi ma bits 32 omwe amagawika m'magulu anayi (octets)."
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Kodi Broadcasting Address imagwira ntchito yanji pa netiweki?",
+            "choices": [
+              "Kutumiza uthenga ku zida zonse zomwe zili pa netiwekiimodzi",
+              "Kuteteza netiweki ku zigawenga za pa intaneti",
+              "Kulumikiza makompyuta awiri okha",
+              "Kupereka adiresi ya IP mwadzidzidzi"
+            ],
+            "answer": "Kutumiza uthenga ku zida zonse zomwe zili pa netiwekiimodzi",
+            "explanation": "Broadcast address imagwiritsidwa ntchito ndi zida kutumiza ma packet ku zida zonse zomwe zili pa subnet imodzi."
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Pa njira zoperekera adiresi ya IP, kodi DHCP imayimira chiyani?",
+            "choices": [
+              "Dynamic Host Configuration Protocol",
+              "Data Hardware Connection Port",
+              "Digital Host Communication Program",
+              "Domain Name System"
+            ],
+            "answer": "Dynamic Host Configuration Protocol",
+            "explanation": "DHCP ndi njira yomwe imapereka ma adiresi a IP ku zida zatsopano zomwe zatsika pa netiweki mwadzidzidzi."
+          },
+          {
+            "id": "q5",
+            "type": "essay",
+            "prompt": "Fotokozani kusiyana komwe kulipo pakati pa IP adiresi ya static (Static IP) ndi ya dynamic (Dynamic IP), ndipo tchulani pamene mungagwiritse ntchito iliyonse.",
+            "modelPoints": [
+              "Static IP imakhala yokhazikika ndipo sisinthikaokha.",
+              "Dynamic IP imasinthasintha ndipo imaperekedwa ndi seva ya DHCP.",
+              "Static IP imagwiritsidwa ntchito pa maseva (servers) kapena zida zomwe zimafunikira kupezeka nthawi zonse.",
+              "Dynamic IP imagwiritsidwa ntchito pa makompyuta a anthu wamba kapena zida za m'nyumba ndi maofesi kuti zosamalira zikhale zosavuta."
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "essay",
+            "prompt": "Fotokozani momwe angapo a Subnet Mask ndi IP Address amagwirira ntchito limodzi kuti adziwe ngati chipangizo chili pa netiweki imodzi (local) kapena netiweki ina (remote).",
+            "modelPoints": [
+              "Kugwiritsa ntchito masamu a bitwise AND pakati pa IP Address ndi Subnet Mask.",
+              "Kuzindikira Network ID ya chipangizocho.",
+              "Kuyerekeza Network ID ya gwero (source) ndi yomwe ikupita (destination).",
+              "Ngati zili zofanana, zida zimalankhulana mwachindunji (local), ngati sizofanana, zimatumizidwa kudzera pa Router (remote)."
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
