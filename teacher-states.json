@@ -2,11 +2,9 @@
   {
     "profileId": "0edc1d21-39ba-407b-8041-e9a4fc493553",
     "announcements": [],
-    "learnedTopics": [],
-    "pendingClassSuggestion": {
-      "topic": "IP Networking Basics (IP Addresses, Subnet Masks, Broadcast Addresses, Assigning an IP address)",
-      "subject": "Software development and engineering",
-      "scheduledAt": "2026-10-25T20:27:45.618Z"
-    }
+    "learnedTopics": [
+      "Software development and engineering: IP Networking Basics (IP Addresses, Subnet Masks, Broadcast Addresses, Assigning an IP address)"
+    ],
+    "pendingClassSuggestion": null
   }
 ]
