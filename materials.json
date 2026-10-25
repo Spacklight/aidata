@@ -1,6 +1,68 @@
 [
   {
     "profileId": "0edc1d21-39ba-407b-8041-e9a4fc493553",
-    "materials": []
+    "materials": [
+      {
+        "id": "eebc8c08-b404-4e9d-93b4-a9c16213f1a7",
+        "name": "IP-Addresses-1.pdf",
+        "subject": "Ip",
+        "topics": [
+          {
+            "name": "IP Networking Basics",
+            "subtopics": [
+              "IP Addresses",
+              "Subnet Masks",
+              "Broadcast Addresses",
+              "Assigning an IP address",
+              "Assigning a Subnet Mask",
+              "Assigning a Broadcast Address",
+              "Static Routes & Routing Protocols"
+            ]
+          },
+          {
+            "name": "IPX Networking",
+            "subtopics": [
+              "IPX Routing Basics",
+              "Service Advertising Protocol",
+              "Client Machine Addressing"
+            ]
+          },
+          {
+            "name": "AppleTalk Networking",
+            "subtopics": [
+              "AppleTalk Routing Basics",
+              "Non-extended and Extended AppleTalk Networks",
+              "Seeding a Network Segment",
+              "Probing",
+              "Zones",
+              "Router Autoconfiguration"
+            ]
+          },
+          {
+            "name": "Bridging Networks",
+            "subtopics": [
+              "Bridging Basics",
+              "Transparent Bridging",
+              "Spanning Tree Bridging",
+              "A Simple Bridging Example",
+              "Multiport Bridges/Switches and Bridge Groups"
+            ]
+          },
+          {
+            "name": "Frame Relay",
+            "subtopics": [
+              "Virtual Circuits",
+              "Addressing",
+              "Local & Global DLCIs",
+              "Local Management Interface",
+              "Encapsulation and Fragmentation",
+              "Network/Protocol Addressing and Virtual Interfaces",
+              "Frame Relay Example"
+            ]
+          }
+        ],
+        "addedAt": "2026-10-25T20:26:20.872Z"
+      }
+    ]
   }
 ]
