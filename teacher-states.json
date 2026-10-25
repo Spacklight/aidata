@@ -82,6 +82,274 @@
           }
         ]
       }
-    ]
+    ],
+    "timetable": {
+      "summary": "Intensive 7-day study timetable for Roosevelt Chikwende focusing on Software Development and Engineering, specifically advancing through IP Networking, IPX, AppleTalk, Bridging, and Frame Relay.",
+      "days": [
+        {
+          "day": "Monday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "Software Development and Engineering",
+              "task": "Review IP Networking Basics: Subnet Masks and Broadcast Addresses"
+            },
+            {
+              "start": "09:45",
+              "end": "11:15",
+              "subject": "Software Development and Engineering",
+              "task": "Assigning an IP address practice and configuration scenarios"
+            },
+            {
+              "start": "11:30",
+              "end": "13:00",
+              "subject": "Software Development and Engineering",
+              "task": "IPX Routing Basics study and architecture breakdown"
+            },
+            {
+              "start": "14:00",
+              "end": "15:30",
+              "subject": "Software Development and Engineering",
+              "task": "Service Advertising Protocol (SAP) mechanics"
+            },
+            {
+              "start": "15:45",
+              "end": "17:15",
+              "subject": "Software Development and Engineering",
+              "task": "Client Machine Addressing in IPX environments"
+            },
+            {
+              "start": "17:30",
+              "end": "18:30",
+              "subject": "Software Development and Engineering",
+              "task": "Daily review and flashcard consolidation of IPX and IP concepts"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "Software Development and Engineering",
+              "task": "AppleTalk Routing Basics introduction"
+            },
+            {
+              "start": "09:45",
+              "end": "11:15",
+              "subject": "Software Development and Engineering",
+              "task": "Non-extended AppleTalk Networks configuration"
+            },
+            {
+              "start": "11:30",
+              "end": "13:00",
+              "subject": "Software Development and Engineering",
+              "task": "Extended AppleTalk Networks deep dive"
+            },
+            {
+              "start": "14:00",
+              "end": "15:30",
+              "subject": "Software Development and Engineering",
+              "task": "Seeding a Network Segment in AppleTalk"
+            },
+            {
+              "start": "15:45",
+              "end": "17:15",
+              "subject": "Software Development and Engineering",
+              "task": "Probing mechanisms in AppleTalk"
+            },
+            {
+              "start": "17:30",
+              "end": "18:30",
+              "subject": "Software Development and Engineering",
+              "task": "Practice questions on AppleTalk network topologies"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "Software Development and Engineering",
+              "task": "Bridging Networks: Bridging Basics and functions"
+            },
+            {
+              "start": "09:45",
+              "end": "11:15",
+              "subject": "Software Development and Engineering",
+              "task": "Transparent Bridging protocols and operation"
+            },
+            {
+              "start": "11:30",
+              "end": "13:00",
+              "subject": "Software Development and Engineering",
+              "task": "Spanning Tree Bridging algorithm and loop prevention"
+            },
+            {
+              "start": "14:00",
+              "end": "15:30",
+              "subject": "Software Development and Engineering",
+              "task": "A Simple Bridging Example walkthrough and packet analysis"
+            },
+            {
+              "start": "15:45",
+              "end": "17:15",
+              "subject": "Software Development and Engineering",
+              "task": "Frame Relay introduction: Virtual Circuits"
+            },
+            {
+              "start": "17:30",
+              "end": "18:30",
+              "subject": "Software Development and Engineering",
+              "task": "Bridging and Frame Relay concept mapping"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "Software Development and Engineering",
+              "task": "Frame Relay Addressing principles"
+            },
+            {
+              "start": "09:45",
+              "end": "11:15",
+              "subject": "Software Development and Engineering",
+              "task": "Local and Global DLCIs (Data Link Connection Identifiers)"
+            },
+            {
+              "start": "11:30",
+              "end": "13:00",
+              "subject": "Software Development and Engineering",
+              "task": "Local Management Interface (LMI) standards and types"
+            },
+            {
+              "start": "14:00",
+              "end": "15:30",
+              "subject": "Software Development and Engineering",
+              "task": "Comprehensive review of Frame Relay configuration"
+            },
+            {
+              "start": "15:45",
+              "end": "17:15",
+              "subject": "Software Development and Engineering",
+              "task": "Troubleshooting Frame Relay and Bridging issues"
+            },
+            {
+              "start": "17:30",
+              "end": "18:30",
+              "subject": "Software Development and Engineering",
+              "task": "Practice exam on Frame Relay topics"
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "Software Development and Engineering",
+              "task": "Cross-topic integration: IP Networking and IPX comparison"
+            },
+            {
+              "start": "09:45",
+              "end": "11:15",
+              "subject": "Software Development and Engineering",
+              "task": "AppleTalk and Bridging interoperability analysis"
+            },
+            {
+              "start": "11:30",
+              "end": "13:00",
+              "subject": "Software Development and Engineering",
+              "task": "Advanced subnetting and address allocation drills"
+            },
+            {
+              "start": "14:00",
+              "end": "15:30",
+              "subject": "Software Development and Engineering",
+              "task": "Spanning Tree Bridging failure scenarios analysis"
+            },
+            {
+              "start": "15:45",
+              "end": "17:15",
+              "subject": "Software Development and Engineering",
+              "task": "Frame Relay DLCI mapping practice"
+            },
+            {
+              "start": "17:30",
+              "end": "18:30",
+              "subject": "Software Development and Engineering",
+              "task": "Weekly knowledge check and weak spot identification"
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "Software Development and Engineering",
+              "task": "Full-module mock exam simulation (Part 1)"
+            },
+            {
+              "start": "09:45",
+              "end": "11:15",
+              "subject": "Software Development and Engineering",
+              "task": "Full-module mock exam simulation (Part 2)"
+            },
+            {
+              "start": "11:30",
+              "end": "13:00",
+              "subject": "Software Development and Engineering",
+              "task": "Mock exam grading and detailed answer review"
+            },
+            {
+              "start": "14:00",
+              "end": "15:30",
+              "subject": "Software Development and Engineering",
+              "task": "Revisiting missed IP and IPX questions"
+            },
+            {
+              "start": "15:45",
+              "end": "17:15",
+              "subject": "Software Development and Engineering",
+              "task": "Revisiting missed AppleTalk and Bridging questions"
+            },
+            {
+              "start": "17:30",
+              "end": "18:30",
+              "subject": "Software Development and Engineering",
+              "task": "Summary flashcard creation for final exam prep"
+            }
+          ]
+        },
+        {
+          "day": "Sunday",
+          "blocks": [
+            {
+              "start": "10:00",
+              "end": "11:00",
+              "subject": "Software Development and Engineering",
+              "task": "Light review of IP Addresses and Subnet Masks"
+            },
+            {
+              "start": "11:15",
+              "end": "12:15",
+              "subject": "Software Development and Engineering",
+              "task": "Brief scan of Frame Relay DLCIs and LMI"
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
