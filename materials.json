@@ -67,6 +67,68 @@
   },
   {
     "profileId": "1545b09d-5029-4668-b8ad-4ee822cd5dcd",
-    "materials": []
+    "materials": [
+      {
+        "id": "b3c420b0-f11c-40b6-85a2-79851d2b616d",
+        "name": "IP-Addresses-1.pdf",
+        "subject": "Ip",
+        "topics": [
+          {
+            "name": "IP Networking Basics",
+            "subtopics": [
+              "IP Addresses",
+              "Subnet Masks",
+              "Broadcast Addresses",
+              "Assigning an IP address",
+              "Assigning a Subnet Mask",
+              "Assigning a Broadcast Address",
+              "Static Routes & Routing Protocols"
+            ]
+          },
+          {
+            "name": "IPX Networking",
+            "subtopics": [
+              "IPX Routing Basics",
+              "Service Advertising Protocol",
+              "Client Machine Addressing"
+            ]
+          },
+          {
+            "name": "AppleTalk Networking",
+            "subtopics": [
+              "AppleTalk Routing Basics",
+              "Non-extended and Extended AppleTalk Networks",
+              "Seeding a Network Segment",
+              "Probing",
+              "Zones",
+              "Router Autoconfiguration"
+            ]
+          },
+          {
+            "name": "Bridging Networks",
+            "subtopics": [
+              "Bridging Basics",
+              "Transparent Bridging",
+              "Spanning Tree Bridging",
+              "A Simple Bridging Example",
+              "Multiport Bridges/Switches and Bridge Groups"
+            ]
+          },
+          {
+            "name": "Frame Relay",
+            "subtopics": [
+              "Virtual Circuits",
+              "Addressing",
+              "Local & Global DLCIs",
+              "Local Management Interface",
+              "Encapsulation and Fragmentation",
+              "Network/Protocol Addressing and Virtual Interfaces",
+              "Frame Relay Example"
+            ]
+          }
+        ],
+        "addedAt": "2026-10-25T20:56:25.349Z"
+      }
+    ]
   }
 ]
