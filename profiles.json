@@ -3,12 +3,14 @@
     "id": "0edc1d21-39ba-407b-8041-e9a4fc493553",
     "username": "roosevelt",
     "passwordHash": "f7fc4aeb076fac25dab9277ea47171599e6747bfd7755b8dccadd7c9737c1b6e",
-    "name": "",
-    "age": null,
-    "grade": "",
-    "subjects": [],
-    "examDate": "",
-    "studyHours": 2,
-    "avatarUpdatedAt": "2026-10-25T20:22:56.127Z"
+    "name": "Roosevelt chikwende",
+    "age": 19,
+    "grade": "Year 1",
+    "subjects": [
+      "Software development and engineering"
+    ],
+    "examDate": "2026-11-09",
+    "studyHours": 10,
+    "avatarUpdatedAt": "2026-10-25T20:24:53.317Z"
   }
 ]
