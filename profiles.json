@@ -12,5 +12,17 @@
     "examDate": "2026-11-09",
     "studyHours": 10,
     "avatarUpdatedAt": "2026-10-25T20:24:53.317Z"
+  },
+  {
+    "id": "1545b09d-5029-4668-b8ad-4ee822cd5dcd",
+    "username": "emalawi19",
+    "passwordHash": "8238f0652cbd5288db5a6e497b2b6479bc17325c705defe0235ef735dd544c3a",
+    "name": "",
+    "age": null,
+    "grade": "",
+    "subjects": [],
+    "examDate": "",
+    "studyHours": 2,
+    "avatarUpdatedAt": "2026-10-25T20:54:10.016Z"
   }
 ]
