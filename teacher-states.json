@@ -732,6 +732,16 @@
           }
         ]
       }
+    ],
+    "results": [
+      {
+        "exerciseId": "65773dae-560b-4c7c-972c-55ac20c679bd",
+        "subject": "Computer Networking",
+        "topic": "IP Networking Basics",
+        "score": 3,
+        "max": 5,
+        "at": "2026-10-26T02:49:46.465Z"
+      }
     ]
   }
 ]
