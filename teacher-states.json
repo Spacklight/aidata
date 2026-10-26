@@ -372,7 +372,9 @@
         "at": "2026-10-26T02:46:37.832Z"
       }
     ],
-    "learnedTopics": [],
+    "learnedTopics": [
+      "Computer Networking: IP Networking Basics"
+    ],
     "plan": {
       "summary": "Welcome to your study schedule for the Bachelor of Science in Management Information Systems. We are starting with Computer Networking fundamentals based strictly on your uploaded notes.",
       "next": {
@@ -649,6 +651,11 @@
       "statement": "With your exams coming up on November 9, 2026, we will intensely cover all parts of your computer networking notes. We will combine structured lessons, regular practice exercises, and thorough revisions to ensure complete mastery of every topic.",
       "updatedAt": "2026-10-26T02:46:37.832Z"
     },
-    "needsReplan": false
+    "needsReplan": true,
+    "lastClass": {
+      "subject": "Computer Networking",
+      "topic": "IP Networking Basics",
+      "at": "2026-10-26T02:48:37.875Z"
+    }
   }
 ]
