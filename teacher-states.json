@@ -1038,6 +1038,82 @@
       "statement": "We will master all concepts in IP Addressing, Subnetting, CIDR, and IPv6 over the next week to ensure you are fully prepared for your upcoming MIS exam.",
       "updatedAt": "2026-10-26T13:53:02.575Z"
     },
-    "needsReplan": false
+    "needsReplan": false,
+    "exercises": [
+      {
+        "id": "fd60e002-78ba-4995-b449-f7c2777dcf2d",
+        "title": "Introduction to IP Addressing Practice",
+        "subject": "Management Information Systems",
+        "topic": "Introduction to IP Addressing",
+        "difficulty": "medium",
+        "language": "en",
+        "createdAt": "2026-10-26T13:54:07.210Z",
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Why do we need IP addresses alongside MAC addresses?",
+            "choices": [
+              "To enable scalable routing",
+              "To replace the need for physical network interfaces",
+              "To increase the speed of switches",
+              "Because MAC addresses cannot be used with UDP"
+            ],
+            "answer": "To enable scalable routing",
+            "explanation": "MAC addresses lack structure and only tell a switch identity rather than location. IP addresses provide structure (network prefix and host number) which enables scalable routing."
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "What does a MAC address tell a switch?",
+            "choices": [
+              "The location (where) of the destination interface",
+              "The identity (who) of the destination interface",
+              "The exact network prefix",
+              "The subnetmask size"
+            ],
+            "answer": "The identity (who) of the destination interface",
+            "explanation": "A MAC address has no structure, so it tells a switch the identity (who) of the destination interface but not its location (where)."
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which of the following is true regarding an IP address?",
+            "choices": [
+              "It is a 16-bit long identifier in IPv4",
+              "It encodes a network prefix and a host number",
+              "It is exclusively assigned via static configuration",
+              "It only exists at Layer 2 of the network stack"
+            ],
+            "answer": "It encodes a network prefix and a host number",
+            "explanation": "An IP address is a 32-bit long identifier that encodes a network number (network prefix) and a host number."
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "What is the reserved IP address range or convention used for loopback interfaces?",
+            "choices": [
+              "10.0.0.0 - 10.255.255.255",
+              "127.0.0.1 – 127.255.255.255",
+              "192.168.0.0 - 192.168.255.255",
+              "172.16.0.0 - 172.31.255.255"
+            ],
+            "answer": "127.0.0.1 – 127.255.255.255",
+            "explanation": "All addresses from 127.0.0.1 to 127.255.255.255 are reserved for loopback interfaces, with most systems using 127.0.0.1."
+          },
+          {
+            "id": "q5",
+            "type": "essay",
+            "prompt": "Explain the basic idea of subnetting and how it creates a 3-layer hierarchy within an organization.",
+            "modelPoints": [
+              "Split the host number portion of an IP address into a subnet number and a smaller host number.",
+              "Creates a 3-layer hierarchy consisting of: network prefix, subnet number, and host number (extended network prefix).",
+              "Subnets can be freely assigned and administered locally within the organization.",
+              "Internally, subnets are treated as separate networks while the subnet structure remains hidden outside the organization, reducing router complexity."
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
