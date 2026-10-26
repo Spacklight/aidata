@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "materialId": "f4805892-1e28-4355-9051-c28526eed7a5",
+      "name": "IP-Addresses-4xx.pdf",
+      "subject": "Computer Networking",
+      "part": 1,
+      "parts": 4,
+      "text": "# IP Addressing\n\n## Introductory material\nA module devoted to IP addresses.\n\n## Addresses & Names\n\n* **Hardware (Layer 2)**\n  - Lowest level\n  - Ethernet (MAC), Serial point-to-point, ..\n* **Network (Layer 3)**\n  - IP\n  - IPX, SNA, others\n* **Transport (Layer 4)**\n  - port numbers in TCP/IP\n* **Application (Layer 5)**\n  - Names (URL), alias, ..\n\n## Why do we need IP addresses?\n\n* **Q:** Why have both an IP and MAC address for each interface? Why not simply make do with MAC addresses?\n* **A:** **Scalable routing**. Let's walk through a simple host-to-host packet delivery example and then understand how the structure of IP addresses helps scale routing.\n\n## Host-to-Host Packet Delivery (1 of 10)\n* **Application:** Network, I have some data to send to 192.168.3.2 and I don't need a reliable connection.\n* **Transport:** I'll use UDP. Send me the data.\n* **Application:** Here is the data.\n* Diagram shows two computers connected via a switch/hub.\n  - Left host: Layer 3 = 192.168.3.1, Layer 2 = 0800:0222:2222\n  - Right host: Layer 3 = 192.168.3.2, Layer 2 = 0800:0222:1111\n\n## Host-to-Host Packet Delivery (2 of 10)\n* **UDP:** I'll put in a UDP header.\n* **UDP:** IP, send this to 192.168.3.2.\n* **IP:** I'll put in an IP header.\n* **IP:** Layer 2, send this to 192.168.3.2.\n* Packet structure created: `SRC IP: 192.168.3.1` | `DST IP: 192.168.3.2` | `UDP HDR` | `APP DATA`\n\n## Host-to-Host Packet Delivery (3 of 10)\n* **Layer 2:** ARP, do you have a mapping for 192.168.3.2?\n* **ARP:** Is 192.168.3.2 in my ARP table? No, I guess Layer 2 will have to hold the packet while I resolve the addressing.\n\n## Host-to-Host Packet Delivery (4 of 10)\n* The packet is placed in a \"Parking Lot\" (held temporarily).\n* An **ARP Request** is generated.\n* Frame structure: `DST MAC: Broadcast` | `SRC MAC: 0800:0222:2222` | `ARP Request`\n* The ARP request is broadcast across the network via the switch/hub to the destination host."
+    }
+  ]
+}
