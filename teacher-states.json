@@ -656,6 +656,82 @@
       "subject": "Computer Networking",
       "topic": "IP Networking Basics",
       "at": "2026-10-26T02:48:37.875Z"
-    }
+    },
+    "exercises": [
+      {
+        "id": "65773dae-560b-4c7c-972c-55ac20c679bd",
+        "title": "IP Networking Basics Exercise",
+        "subject": "Computer Networking",
+        "topic": "IP Networking Basics",
+        "difficulty": "medium",
+        "language": "en",
+        "createdAt": "2026-10-26T02:48:44.174Z",
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "What are the 3 different pieces of information required for each device on an IP network?",
+            "choices": [
+              "IP address, Subnet mask, Broadcast address",
+              "Network portion, Host portion, NIC number",
+              "IP address, Default router, MAC address",
+              "Subnet mask, Metric, DLCI"
+            ],
+            "answer": "IP address, Subnet mask, Broadcast address",
+            "explanation": "Each device on an IP network requires an IP address, a subnet mask, and a broadcast address."
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which IP address class allows approximately 16 million hosts and has a network portion from 1.0 to 127.0?",
+            "choices": [
+              "Class A",
+              "Class B",
+              "Class C",
+              "Class D"
+            ],
+            "answer": "Class A",
+            "explanation": "Class A addresses have a network portion from 1.0 to 127.0 and allow approximately 16 million hosts."
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "What does a subnet mask tell a router?",
+            "choices": [
+              "How much of an address it should treat as the network portion",
+              "The exact metric for a static route",
+              "The highest broadcast address in the network",
+              "Which routing protocol to use"
+            ],
+            "answer": "How much of an address it should treat as the network portion",
+            "explanation": "A subnet mask tells a router how much of an address it should treat as the network portion, with the 255s identifying the network portion."
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "What is the standard IP subnet mask for a Class C network?",
+            "choices": [
+              "255.0.0.0",
+              "255.255.0.0",
+              "255.255.255.0",
+              "255.255.255.255"
+            ],
+            "answer": "255.255.255.0",
+            "explanation": "The standard IP subnet for Class C is 255.255.255.0."
+          },
+          {
+            "id": "q5",
+            "type": "essay",
+            "prompt": "Explain the role of the 'Network' portion and 'Host' portion in an IP address, and describe what happens to the lowest and highest calculated addresses in a subnet range.",
+            "modelPoints": [
+              "The network portion tells routers what group of devices a packet should go to.",
+              "The host portion tells routers what specific device among that group the packet should go to.",
+              "The lowest calculated address in each range (e.g., 0) cannot be used and is skipped.",
+              "The highest address in each range is the broadcast address."
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
