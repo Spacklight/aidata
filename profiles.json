@@ -26,5 +26,21 @@
     "examDate": "2026-11-09",
     "studyHours": 10,
     "avatarUpdatedAt": "2026-10-25T20:54:57.269Z"
+  },
+  {
+    "id": "98aae8ff-6628-421c-bc96-fe403b09bf25",
+    "username": "prof2006",
+    "passwordHash": "cd7a8296002ac69b86e21ba4ca7ffeefc90a58d30f4f4edd033ee64438b25215",
+    "name": "",
+    "age": null,
+    "grade": "",
+    "level": "",
+    "examBoard": "",
+    "institution": "",
+    "course": "",
+    "subjects": [],
+    "examDate": "",
+    "studyHours": 2,
+    "avatarUpdatedAt": "2026-10-26T02:43:11.218Z"
   }
 ]
