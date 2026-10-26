@@ -31,16 +31,18 @@
     "id": "98aae8ff-6628-421c-bc96-fe403b09bf25",
     "username": "prof2006",
     "passwordHash": "cd7a8296002ac69b86e21ba4ca7ffeefc90a58d30f4f4edd033ee64438b25215",
-    "name": "",
-    "age": null,
-    "grade": "",
-    "level": "",
-    "examBoard": "",
-    "institution": "",
-    "course": "",
-    "subjects": [],
-    "examDate": "",
-    "studyHours": 2,
-    "avatarUpdatedAt": "2026-10-26T02:43:11.218Z"
+    "name": "Roosevelt chikwende",
+    "age": 20,
+    "grade": "Year 1",
+    "level": "college",
+    "examBoard": "Bachelor of science in management information systems",
+    "institution": "Malawi University of Business And Applied Science",
+    "course": "Bachelor of science in management information systems",
+    "subjects": [
+      "Bachelor of science in management inform"
+    ],
+    "examDate": "2026-11-09",
+    "studyHours": 10,
+    "avatarUpdatedAt": "2026-10-26T02:45:15.573Z"
   }
 ]
