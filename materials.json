@@ -133,6 +133,63 @@
   },
   {
     "profileId": "98aae8ff-6628-421c-bc96-fe403b09bf25",
-    "materials": []
+    "materials": [
+      {
+        "id": "5bd7626f-f8f8-4ccc-b0c6-ef0c859a2ab9",
+        "groupId": "0bcbdd04-c9fa-433b-80b1-bbfc843261c1",
+        "name": "IP-Addresses-1.pdf",
+        "subject": "Computer Networking",
+        "topics": [
+          {
+            "name": "IP Networking Basics",
+            "subtopics": [
+              "IP Addresses",
+              "Subnet Masks",
+              "Broadcast Addresses",
+              "Static Routes and Routing Protocols"
+            ]
+          },
+          {
+            "name": "IPX Networking",
+            "subtopics": [
+              "IPX Routing Basics",
+              "Service Advertising Protocol",
+              "Client Machine Addressing",
+              "IPX Frame Types"
+            ]
+          },
+          {
+            "name": "AppleTalk Networking",
+            "subtopics": [
+              "AppleTalk Routing Basics",
+              "Non-extended and Extended Networks",
+              "Seeding and Probing",
+              "Zones and Autoconfiguration"
+            ]
+          },
+          {
+            "name": "Bridging",
+            "subtopics": [
+              "Bridging Basics",
+              "Transparent Bridging",
+              "Spanning Tree Bridging",
+              "Multiport Bridges and Switches"
+            ]
+          },
+          {
+            "name": "Frame Relay",
+            "subtopics": [
+              "Virtual Circuits",
+              "Addressing and DLCIs",
+              "Local Management Interface",
+              "Encapsulation and Network/Protocol Addressing"
+            ]
+          }
+        ],
+        "parts": 1,
+        "partsDone": 1,
+        "addedAt": "2026-10-26T02:46:28.365Z"
+      }
+    ]
   }
 ]
