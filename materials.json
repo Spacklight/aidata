@@ -194,6 +194,34 @@
   },
   {
     "profileId": "350d4f10-4c3e-457a-b894-2ce58959e94e",
-    "materials": []
+    "materials": [
+      {
+        "id": "f4805892-1e28-4355-9051-c28526eed7a5",
+        "groupId": "19172811-ead1-4f3b-8969-c1d36c61ebe9",
+        "name": "IP-Addresses-4xx.pdf",
+        "subject": "Computer Networking",
+        "topics": [
+          {
+            "name": "Introduction to IP Addressing",
+            "subtopics": [
+              "Addresses and Names",
+              "Network layers",
+              "Need for IP addresses"
+            ]
+          },
+          {
+            "name": "Host-to-Host Packet Delivery",
+            "subtopics": [
+              "Application and Transport layers",
+              "IP and UDP encapsulation",
+              "Address Resolution Protocol (ARP)"
+            ]
+          }
+        ],
+        "parts": 4,
+        "partsDone": 1,
+        "addedAt": "2026-10-26T13:35:25.069Z"
+      }
+    ]
   }
 ]
