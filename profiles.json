@@ -49,16 +49,18 @@
     "id": "350d4f10-4c3e-457a-b894-2ce58959e94e",
     "username": "john",
     "passwordHash": "77c3883fc282c7c26735461820e7b9d4083565ab3e7f191d972c2c463d5c320b",
-    "name": "",
-    "age": null,
-    "grade": "",
-    "level": "",
-    "examBoard": "",
-    "institution": "",
-    "course": "",
-    "subjects": [],
-    "examDate": "",
-    "studyHours": 2,
-    "avatarUpdatedAt": "2026-10-26T13:29:21.292Z"
+    "name": "John Banda",
+    "age": 19,
+    "grade": "Year 1",
+    "level": "college",
+    "examBoard": "Bachelor of science in management information systems",
+    "institution": "Malawi University of Business And Applied Science",
+    "course": "Bachelor of science in management information systems",
+    "subjects": [
+      "MIS"
+    ],
+    "examDate": "2026-11-09",
+    "studyHours": 10,
+    "avatarUpdatedAt": "2026-10-26T13:30:37.055Z"
   }
 ]
