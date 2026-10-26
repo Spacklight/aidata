@@ -240,10 +240,34 @@
               "Basic idea of subnetting",
               "Subnetmask"
             ]
+          },
+          {
+            "name": "Classful IP Addresses",
+            "subtopics": [
+              "Internet Address Classes",
+              "Problems with Classful IP Addresses"
+            ]
+          },
+          {
+            "name": "Classless Interdomain Routing (CIDR)",
+            "subtopics": [
+              "CIDR Notation and Address Blocks",
+              "CIDR and Address Assignments",
+              "CIDR and Routing Information"
+            ]
+          },
+          {
+            "name": "IPv6",
+            "subtopics": [
+              "IPv6 vs. IPv4 Address Comparison",
+              "Notation of IPv6 Addresses",
+              "IPv6 Header",
+              "IPv6 Provider-Based Addresses"
+            ]
           }
         ],
         "parts": 4,
-        "partsDone": 3,
+        "partsDone": 4,
         "addedAt": "2026-10-26T13:35:25.069Z"
       }
     ]
