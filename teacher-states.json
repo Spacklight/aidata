@@ -746,7 +746,298 @@
   },
   {
     "profileId": "350d4f10-4c3e-457a-b894-2ce58959e94e",
-    "announcements": [],
-    "learnedTopics": []
+    "announcements": [
+      {
+        "id": "d176e0be-bd3d-403a-9c28-b2dc9cea862f",
+        "text": "Welcome to your MIS study plan! Your exam is in 14 days, so we have a full schedule to get through.",
+        "at": "2026-10-26T13:53:02.575Z"
+      },
+      {
+        "id": "556151c0-1b72-4c5a-a2b4-e79e219c5a0b",
+        "text": "All study materials and questions will strictly follow your uploaded course notes.",
+        "at": "2026-10-26T13:53:02.575Z"
+      }
+    ],
+    "learnedTopics": [],
+    "plan": {
+      "summary": "Since your MIS exams are in 14 days and you have not started yet, we are diving straight into Computer Networking starting with IP Addressing and Host-to-Host Packet Delivery.",
+      "next": {
+        "action": "class",
+        "subject": "MIS",
+        "topic": "Addresses and Names, Network layers, Need for IP addresses",
+        "reason": "We must begin from the foundation of the notes with Layer 2 through Layer 5 addresses and why IP addresses are necessary."
+      },
+      "weakTopics": [],
+      "updatedAt": "2026-10-26T13:53:02.575Z"
+    },
+    "timetable": {
+      "summary": "Since your MIS exams are in 14 days and you have not started yet, we are diving straight into Computer Networking starting with IP Addressing and Host-to-Host Packet Delivery.",
+      "days": [
+        {
+          "day": "Monday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "MIS",
+              "task": "Addresses and Names, Network layers, Need for IP addresses",
+              "activity": "class"
+            },
+            {
+              "start": "10:00",
+              "end": "11:30",
+              "subject": "MIS",
+              "task": "Host-to-Host Packet Delivery",
+              "activity": "class"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "subject": "MIS",
+              "task": "Why IP Addresses",
+              "activity": "reading"
+            },
+            {
+              "start": "15:00",
+              "end": "16:30",
+              "subject": "MIS",
+              "task": "Host-to-Host Packet Delivery",
+              "activity": "exercise"
+            },
+            {
+              "start": "17:00",
+              "end": "18:30",
+              "subject": "MIS",
+              "task": "Structure of an IP Address",
+              "activity": "class"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "MIS",
+              "task": "Subnetting",
+              "activity": "class"
+            },
+            {
+              "start": "10:00",
+              "end": "11:30",
+              "subject": "MIS",
+              "task": "Subnetmask",
+              "activity": "class"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "subject": "MIS",
+              "task": "Subnetting",
+              "activity": "exercise"
+            },
+            {
+              "start": "15:00",
+              "end": "16:30",
+              "subject": "MIS",
+              "task": "Classful IP Addresses",
+              "activity": "class"
+            },
+            {
+              "start": "17:00",
+              "end": "18:30",
+              "subject": "MIS",
+              "task": "Subnetting and Subnetmask",
+              "activity": "revision"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "MIS",
+              "task": "Classless Interdomain Routing (CIDR)",
+              "activity": "class"
+            },
+            {
+              "start": "10:00",
+              "end": "11:30",
+              "subject": "MIS",
+              "task": "CIDR Notation and Address Blocks",
+              "activity": "class"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "subject": "MIS",
+              "task": "CIDR and Address Assignments",
+              "activity": "reading"
+            },
+            {
+              "start": "15:00",
+              "end": "16:30",
+              "subject": "MIS",
+              "task": "Classless Interdomain Routing (CIDR)",
+              "activity": "exercise"
+            },
+            {
+              "start": "17:00",
+              "end": "18:30",
+              "subject": "MIS",
+              "task": "Classful IP Addresses",
+              "activity": "revision"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "MIS",
+              "task": "IPv6",
+              "activity": "class"
+            },
+            {
+              "start": "10:00",
+              "end": "11:30",
+              "subject": "MIS",
+              "task": "IPv6 vs. IPv4 Address Comparison",
+              "activity": "class"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "subject": "MIS",
+              "task": "Notation of IPv6 Addresses",
+              "activity": "reading"
+            },
+            {
+              "start": "15:00",
+              "end": "16:30",
+              "subject": "MIS",
+              "task": "IPv6 Header",
+              "activity": "class"
+            },
+            {
+              "start": "17:00",
+              "end": "18:30",
+              "subject": "MIS",
+              "task": "IPv6 Provider-Based Addresses",
+              "activity": "class"
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "MIS",
+              "task": "IPv6",
+              "activity": "exercise"
+            },
+            {
+              "start": "10:00",
+              "end": "11:30",
+              "subject": "MIS",
+              "task": "Introduction to IP Addressing",
+              "activity": "revision"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "subject": "MIS",
+              "task": "Subnetting",
+              "activity": "revision"
+            },
+            {
+              "start": "15:00",
+              "end": "16:30",
+              "subject": "MIS",
+              "task": "Classless Interdomain Routing (CIDR)",
+              "activity": "revision"
+            },
+            {
+              "start": "17:00",
+              "end": "18:30",
+              "subject": "MIS",
+              "task": "IPv6",
+              "activity": "revision"
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "MIS",
+              "task": "Structure of an IP Address",
+              "activity": "exercise"
+            },
+            {
+              "start": "10:00",
+              "end": "11:30",
+              "subject": "MIS",
+              "task": "Subnetmask",
+              "activity": "exercise"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "subject": "MIS",
+              "task": "Classful IP Addresses",
+              "activity": "exercise"
+            },
+            {
+              "start": "15:00",
+              "end": "16:30",
+              "subject": "MIS",
+              "task": "CIDR Notation and Address Blocks",
+              "activity": "exercise"
+            },
+            {
+              "start": "17:00",
+              "end": "18:30",
+              "subject": "MIS",
+              "task": "IPv6 vs. IPv4 Address Comparison",
+              "activity": "exercise"
+            }
+          ]
+        },
+        {
+          "day": "Sunday",
+          "blocks": [
+            {
+              "start": "09:00",
+              "end": "11:00",
+              "subject": "MIS",
+              "task": "Introduction to IP Addressing",
+              "activity": "revision"
+            },
+            {
+              "start": "14:00",
+              "end": "16:00",
+              "subject": "MIS",
+              "task": "Subnetting",
+              "activity": "revision"
+            }
+          ]
+        }
+      ]
+    },
+    "vision": {
+      "statement": "We will master all concepts in IP Addressing, Subnetting, CIDR, and IPv6 over the next week to ensure you are fully prepared for your upcoming MIS exam.",
+      "updatedAt": "2026-10-26T13:53:02.575Z"
+    },
+    "needsReplan": false
   }
 ]
