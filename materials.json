@@ -216,10 +216,34 @@
               "IP and UDP encapsulation",
               "Address Resolution Protocol (ARP)"
             ]
+          },
+          {
+            "name": "Why IP Addresses",
+            "subtopics": [
+              "MAC address limitations",
+              "Switch forwarding table sizes"
+            ]
+          },
+          {
+            "name": "Structure of an IP Address",
+            "subtopics": [
+              "IP Header format",
+              "Network prefix and host number",
+              "Dotted Decimal Notation",
+              "Special IP Addresses"
+            ]
+          },
+          {
+            "name": "Subnetting",
+            "subtopics": [
+              "Address assignment with subnetting",
+              "Basic idea of subnetting",
+              "Subnetmask"
+            ]
           }
         ],
         "parts": 4,
-        "partsDone": 2,
+        "partsDone": 3,
         "addedAt": "2026-10-26T13:35:25.069Z"
       }
     ]
