@@ -758,7 +758,9 @@
         "at": "2026-10-30T07:42:17.033Z"
       }
     ],
-    "learnedTopics": [],
+    "learnedTopics": [
+      "MIS: Introduction to IP Addressing"
+    ],
     "plan": {
       "summary": "Moni John! Tiyambe phunziro lathu loyamba la Management Information Systems (MIS) pa mbali ya IP Addressing, makamaka mawu oyamba ndi mapangidwe ake.",
       "next": {
@@ -975,7 +977,7 @@
       "statement": "Tili ndi masiku 10 okha otsala musanayambe kuyesa kwanu ku MUBAS. Cholinga chathu ndikuwonetsetsa kuti mwamvetsetsa bwino kwambiri mfundo zonse za IP Addressing, Subnetting, CIDR, ndi IPv6 pogwiritsa ntchito zolemba zanu zokha.",
       "updatedAt": "2026-10-30T07:42:17.033Z"
     },
-    "needsReplan": false,
+    "needsReplan": true,
     "exercises": [
       {
         "id": "fd60e002-78ba-4995-b449-f7c2777dcf2d",
@@ -1051,6 +1053,11 @@
           }
         ]
       }
-    ]
+    ],
+    "lastClass": {
+      "subject": "MIS",
+      "topic": "Introduction to IP Addressing",
+      "at": "2026-10-30T07:45:08.754Z"
+    }
   }
 ]
