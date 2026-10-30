@@ -1132,6 +1132,16 @@
       "subject": "MIS",
       "topic": "Introduction to IP Addressing",
       "at": "2026-10-30T07:45:08.754Z"
-    }
+    },
+    "results": [
+      {
+        "exerciseId": "900a40e2-f587-418f-80a3-1838955cf7b5",
+        "subject": "MIS",
+        "topic": "Introduction to IP Addressing",
+        "score": 2,
+        "max": 7,
+        "at": "2026-10-30T07:46:13.831Z"
+      }
+    ]
   }
 ]
