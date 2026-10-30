@@ -1052,6 +1052,80 @@
             ]
           }
         ]
+      },
+      {
+        "id": "900a40e2-f587-418f-80a3-1838955cf7b5",
+        "title": "Introduction to IP Addressing Practice Exercise",
+        "subject": "MIS",
+        "topic": "Introduction to IP Addressing",
+        "difficulty": "medium",
+        "language": "en",
+        "createdAt": "2026-10-30T07:45:15.286Z",
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "What is the primary reason for having both an IP address and a MAC address for each interface instead of simply making do with MAC addresses?",
+            "choices": [
+              "Scalable routing",
+              "Faster physical cable transmission",
+              "Lower power consumption",
+              "Encryption of application data"
+            ],
+            "answer": "Scalable routing",
+            "explanation": "MAC addresses have no structure and cannot tell a switch where an interface is located, which would cause switch forwarding tables to scale poorly. IP addresses provide structure for scalable routing."
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "How many bits long is an IPv4 address?",
+            "choices": [
+              "16 bits",
+              "32 bits",
+              "64 bits",
+              "128 bits"
+            ],
+            "answer": "32 bits",
+            "explanation": "An IP address is a 32-bit long identifier that encodes a network prefix and a host number."
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which of the following is reserved for loopback interfaces according to the notes?",
+            "choices": [
+              "10.0.0.0 – 10.255.255.255",
+              "192.168.0.0 – 192.168.255.255",
+              "127.0.0.1 – 127.255.255.255",
+              "172.16.0.0 – 172.31.255.255"
+            ],
+            "answer": "127.0.0.1 – 127.255.255.255",
+            "explanation": "All addresses from 127.0.0.1 to 127.255.255.255 are reserved for loopback interfaces, with most systems using 127.0.0.1."
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "In dotted decimal notation, what is the valid range for each byte of an IP address?",
+            "choices": [
+              "0 to 100",
+              "0 to 255",
+              "1 to 256",
+              "-128 to 127"
+            ],
+            "answer": "0 to 255",
+            "explanation": "Each byte in dotted decimal notation is identified by a decimal number in the range [0..255]."
+          },
+          {
+            "id": "q5",
+            "type": "essay",
+            "prompt": "Explain the basic idea of subnetting and how it introduces a 3-layer hierarchy to IP addressing.",
+            "modelPoints": [
+              "Subnetting splits the host number portion of an IP address into a subnet number and a smaller host number.",
+              "It changes the 2-layer hierarchy of network prefix and host number into a 3-layer hierarchy of network prefix, subnet number, and host number (extended network prefix).",
+              "Subnets can be freely assigned and administered locally within an organization.",
+              "Internally, subnets are treated as separate networks, but the subnet structure is not visible outside the organization, which reduces router complexity."
+            ]
+          }
+        ]
       }
     ],
     "lastClass": {
