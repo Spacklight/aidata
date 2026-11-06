@@ -748,32 +748,34 @@
     "profileId": "350d4f10-4c3e-457a-b894-2ce58959e94e",
     "announcements": [
       {
-        "id": "d02e70e3-aa92-42f1-ac03-4ab320abe2d0",
-        "text": "Onetsetsani kuti mukuwerenga zolemba zanu za IP-Addresses-4xx.pdf mosamala.",
-        "at": "2026-10-30T07:42:17.033Z"
+        "id": "bf085f8b-f82b-4ded-946b-f93dc4b8b8ae",
+        "text": "Your exam is coming up on November 9, 2026. Stick closely to the revision blocks.",
+        "at": "2026-11-06T06:34:49.541Z"
       },
       {
-        "id": "5530924f-841f-4b76-a358-07632e3392cb",
-        "text": "Mayeso ali pafupi, choncho tikhala tikugwiritsa ntchito nthawi yathuyonse molimbika.",
-        "at": "2026-10-30T07:42:17.033Z"
+        "id": "0ace62c7-66d8-412c-b300-9d5f4633a548",
+        "text": "Pay special attention to your weak areas, particularly Introduction to IP Addressing where you scored 2/7.",
+        "at": "2026-11-06T06:34:49.541Z"
       }
     ],
     "learnedTopics": [
       "MIS: Introduction to IP Addressing"
     ],
     "plan": {
-      "summary": "Moni John! Tiyambe phunziro lathu loyamba la Management Information Systems (MIS) pa mbali ya IP Addressing, makamaka mawu oyamba ndi mapangidwe ake.",
+      "summary": "Since your exam is in 3 days and your recent exercise score was low, we must immediately revise Introduction to IP Addressing and move through Host-to-Host Packet Delivery, Subnetting, and Classful IP Addresses with intensive practice.",
       "next": {
-        "action": "class",
+        "action": "revise",
         "subject": "MIS",
         "topic": "Introduction to IP Addressing",
-        "reason": "Tiyenera kuyamba ndi mfundo zoyambirira za IP Addressing monga zili mu zolemba zanu tisanalowera kuzinthu zakuya."
+        "reason": "You scored 2/7 on your recent exercise, so we must thoroughly revise this topic before moving forward."
       },
-      "weakTopics": [],
-      "updatedAt": "2026-10-30T07:42:17.033Z"
+      "weakTopics": [
+        "Introduction to IP Addressing"
+      ],
+      "updatedAt": "2026-11-06T06:34:49.541Z"
     },
     "timetable": {
-      "summary": "Moni John! Tiyambe phunziro lathu loyamba la Management Information Systems (MIS) pa mbali ya IP Addressing, makamaka mawu oyamba ndi mapangidwe ake.",
+      "summary": "Since your exam is in 3 days and your recent exercise score was low, we must immediately revise Introduction to IP Addressing and move through Host-to-Host Packet Delivery, Subnetting, and Classful IP Addresses with intensive practice.",
       "days": [
         {
           "day": "Monday",
@@ -783,28 +785,28 @@
               "end": "10:00",
               "subject": "MIS",
               "task": "Introduction to IP Addressing",
-              "activity": "class"
+              "activity": "revision"
             },
             {
               "start": "10:30",
-              "end": "12:00",
+              "end": "12:30",
               "subject": "MIS",
               "task": "Host-to-Host Packet Delivery",
-              "activity": "reading"
+              "activity": "class"
             },
             {
-              "start": "13:00",
-              "end": "15:00",
+              "start": "13:30",
+              "end": "15:30",
               "subject": "MIS",
-              "task": "Why IP Addresses",
+              "task": "Host-to-Host Packet Delivery",
               "activity": "exercise"
             },
             {
-              "start": "15:30",
-              "end": "18:00",
+              "start": "16:00",
+              "end": "19:00",
               "subject": "MIS",
-              "task": "Structure of an IP Address",
-              "activity": "class"
+              "task": "Why IP Addresses",
+              "activity": "reading"
             }
           ]
         },
@@ -815,29 +817,29 @@
               "start": "08:00",
               "end": "10:00",
               "subject": "MIS",
-              "task": "Subnetting",
+              "task": "Structure of an IP Address",
               "activity": "class"
             },
             {
               "start": "10:30",
-              "end": "12:00",
+              "end": "12:30",
               "subject": "MIS",
-              "task": "Subnetmask",
-              "activity": "reading"
-            },
-            {
-              "start": "13:00",
-              "end": "15:00",
-              "subject": "MIS",
-              "task": "Subnetting",
+              "task": "Structure of an IP Address",
               "activity": "exercise"
             },
             {
-              "start": "15:30",
-              "end": "18:00",
+              "start": "13:30",
+              "end": "16:30",
               "subject": "MIS",
-              "task": "Classful IP Addresses",
+              "task": "Subnetting",
               "activity": "class"
+            },
+            {
+              "start": "17:00",
+              "end": "19:00",
+              "subject": "MIS",
+              "task": "Subnetting",
+              "activity": "exercise"
             }
           ]
         },
@@ -848,29 +850,29 @@
               "start": "08:00",
               "end": "10:00",
               "subject": "MIS",
-              "task": "Classless Interdomain Routing (CIDR)",
+              "task": "Classful IP Addresses",
               "activity": "class"
             },
             {
               "start": "10:30",
-              "end": "12:00",
+              "end": "12:30",
               "subject": "MIS",
-              "task": "CIDR and Address Blocks",
-              "activity": "reading"
+              "task": "Classless Interdomain Routing (CIDR)",
+              "activity": "class"
             },
             {
-              "start": "13:00",
-              "end": "15:00",
-              "subject": "MIS",
-              "task": "CIDR",
-              "activity": "exercise"
-            },
-            {
-              "start": "15:30",
-              "end": "18:00",
+              "start": "13:30",
+              "end": "16:30",
               "subject": "MIS",
               "task": "IPv6",
               "activity": "class"
+            },
+            {
+              "start": "17:00",
+              "end": "19:00",
+              "subject": "MIS",
+              "task": "Classful IP Addresses",
+              "activity": "exercise"
             }
           ]
         },
@@ -879,31 +881,24 @@
           "blocks": [
             {
               "start": "08:00",
-              "end": "10:00",
+              "end": "11:00",
               "subject": "MIS",
-              "task": "IPv6 vs. IPv4 Address Comparison",
-              "activity": "class"
-            },
-            {
-              "start": "10:30",
-              "end": "12:00",
-              "subject": "MIS",
-              "task": "IPv6 Header",
-              "activity": "reading"
-            },
-            {
-              "start": "13:00",
-              "end": "15:00",
-              "subject": "MIS",
-              "task": "IPv6",
-              "activity": "exercise"
-            },
-            {
-              "start": "15:30",
-              "end": "18:00",
-              "subject": "MIS",
-              "task": "Introduction to IP Addressing",
+              "task": "Subnetting",
               "activity": "revision"
+            },
+            {
+              "start": "11:30",
+              "end": "14:00",
+              "subject": "MIS",
+              "task": "Host-to-Host Packet Delivery",
+              "activity": "revision"
+            },
+            {
+              "start": "15:00",
+              "end": "19:00",
+              "subject": "MIS",
+              "task": "Structure of an IP Address",
+              "activity": "exercise"
             }
           ]
         },
@@ -912,30 +907,23 @@
           "blocks": [
             {
               "start": "08:00",
-              "end": "10:00",
-              "subject": "MIS",
-              "task": "Subnetting",
-              "activity": "revision"
-            },
-            {
-              "start": "10:30",
               "end": "12:00",
               "subject": "MIS",
-              "task": "CIDR",
+              "task": "Introduction to IP Addressing",
               "activity": "revision"
             },
             {
               "start": "13:00",
-              "end": "15:00",
+              "end": "17:00",
               "subject": "MIS",
               "task": "IPv6",
               "activity": "exercise"
             },
             {
-              "start": "15:30",
-              "end": "18:00",
+              "start": "17:30",
+              "end": "19:30",
               "subject": "MIS",
-              "task": "Computer Networking",
+              "task": "Classless Interdomain Routing (CIDR)",
               "activity": "revision"
             }
           ]
@@ -945,16 +933,23 @@
           "blocks": [
             {
               "start": "08:00",
-              "end": "11:00",
+              "end": "12:00",
               "subject": "MIS",
               "task": "Subnetting",
               "activity": "exercise"
             },
             {
-              "start": "12:00",
-              "end": "15:00",
+              "start": "13:00",
+              "end": "17:00",
               "subject": "MIS",
-              "task": "Classful IP Addresses",
+              "task": "Structure of an IP Address",
+              "activity": "revision"
+            },
+            {
+              "start": "17:30",
+              "end": "19:30",
+              "subject": "MIS",
+              "task": "Host-to-Host Packet Delivery",
               "activity": "revision"
             }
           ]
@@ -963,10 +958,17 @@
           "day": "Sunday",
           "blocks": [
             {
-              "start": "14:00",
+              "start": "09:00",
+              "end": "12:00",
+              "subject": "MIS",
+              "task": "Introduction to IP Addressing",
+              "activity": "revision"
+            },
+            {
+              "start": "13:00",
               "end": "17:00",
               "subject": "MIS",
-              "task": "Computer Networking",
+              "task": "Subnetting",
               "activity": "revision"
             }
           ]
@@ -974,10 +976,10 @@
       ]
     },
     "vision": {
-      "statement": "Tili ndi masiku 10 okha otsala musanayambe kuyesa kwanu ku MUBAS. Cholinga chathu ndikuwonetsetsa kuti mwamvetsetsa bwino kwambiri mfundo zonse za IP Addressing, Subnetting, CIDR, ndi IPv6 pogwiritsa ntchito zolemba zanu zokha.",
-      "updatedAt": "2026-10-30T07:42:17.033Z"
+      "statement": "Master all fundamental IP addressing concepts from your notes to ensure success in your upcoming Management Information Systems exam. Focus heavily on correcting past mistakes in introductory material and mastering packet delivery and subnetting structures.",
+      "updatedAt": "2026-11-06T06:34:49.541Z"
     },
-    "needsReplan": true,
+    "needsReplan": false,
     "exercises": [
       {
         "id": "fd60e002-78ba-4995-b449-f7c2777dcf2d",
