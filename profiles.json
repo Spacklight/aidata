@@ -62,5 +62,21 @@
     "examDate": "2026-11-09",
     "studyHours": 10,
     "avatarUpdatedAt": "2026-10-26T13:30:37.055Z"
+  },
+  {
+    "id": "0d653afe-2e25-4e16-b324-74c34939b547",
+    "username": "isaac",
+    "passwordHash": "86d5a1d4240ee0a5af8a26542a89d2bfe008a518a28455c32a1a5fb699e1e0f6",
+    "name": "",
+    "age": null,
+    "grade": "",
+    "level": "",
+    "examBoard": "",
+    "institution": "",
+    "course": "",
+    "subjects": [],
+    "examDate": "",
+    "studyHours": 2,
+    "avatarUpdatedAt": "2026-11-06T05:06:36.844Z"
   }
 ]
