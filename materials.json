@@ -278,6 +278,34 @@
   },
   {
     "profileId": "a24024a4-b982-4be8-b38f-b9a4315cc644",
-    "materials": []
+    "materials": [
+      {
+        "id": "7edbf164-a1a5-4940-83e9-5c60f73d32b7",
+        "groupId": "ec8641cb-b93f-4ee2-8790-6fe941cc5db2",
+        "name": "2026 EXAMINATION TIMETABLE - FINAL.pdf",
+        "subject": "Examination Timetable",
+        "topics": [
+          {
+            "name": "General Examination Information",
+            "subtopics": [
+              "Semester 1 and Semester 2 Timetable",
+              "Examination Schedule Details"
+            ]
+          },
+          {
+            "name": "Examination Listings by School and Course",
+            "subtopics": [
+              "School of Business and Economics (SoBE)",
+              "School of Engineering (SoE)",
+              "School of Science and Technology (SoST)",
+              "Diploma Programs"
+            ]
+          }
+        ],
+        "parts": 1,
+        "partsDone": 1,
+        "addedAt": "2026-11-12T09:52:09.831Z"
+      }
+    ]
   }
 ]
