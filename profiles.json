@@ -78,5 +78,21 @@
     "examDate": "",
     "studyHours": 2,
     "avatarUpdatedAt": "2026-11-06T05:06:36.844Z"
+  },
+  {
+    "id": "a24024a4-b982-4be8-b38f-b9a4315cc644",
+    "username": "yami",
+    "passwordHash": "f1ad63a7360e1340fb1f87a7ae689fff9ee9d279192581db808353d438ccbba9",
+    "name": "",
+    "age": null,
+    "grade": "",
+    "level": "",
+    "examBoard": "",
+    "institution": "",
+    "course": "",
+    "subjects": [],
+    "examDate": "",
+    "studyHours": 2,
+    "avatarUpdatedAt": "2026-11-12T09:46:23.458Z"
   }
 ]
