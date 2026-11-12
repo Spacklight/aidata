@@ -1153,7 +1153,273 @@
   },
   {
     "profileId": "a24024a4-b982-4be8-b38f-b9a4315cc644",
-    "announcements": [],
-    "learnedTopics": []
+    "announcements": [
+      {
+        "id": "23ed794e-24fb-41c8-9204-54b018c3deef",
+        "text": "Your exam is coming up on November 20, 2026, so stick closely to the timetable blocks.",
+        "at": "2026-11-12T09:52:23.734Z"
+      },
+      {
+        "id": "bd0f6934-2077-404d-9358-26cc0756e06b",
+        "text": "Please ensure you only study from the uploaded examination timetable notes.",
+        "at": "2026-11-12T09:52:23.734Z"
+      }
+    ],
+    "learnedTopics": [],
+    "plan": {
+      "summary": "As your exam is in just 8 days, we must focus intensely on reviewing the examination timetable details provided in your notes.",
+      "next": {
+        "action": "class",
+        "subject": "Microeconomics",
+        "topic": "General Examination Information",
+        "reason": "We need to start by understanding the examination schedule structure and details outlined in your notes before your upcoming exam."
+      },
+      "weakTopics": [
+        "General Examination Information",
+        "Examination Schedule Summary"
+      ],
+      "updatedAt": "2026-11-12T09:52:23.734Z"
+    },
+    "timetable": {
+      "summary": "As your exam is in just 8 days, we must focus intensely on reviewing the examination timetable details provided in your notes.",
+      "days": [
+        {
+          "day": "Monday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "class"
+            },
+            {
+              "start": "10:00",
+              "end": "11:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "reading"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "exercise"
+            },
+            {
+              "start": "15:00",
+              "end": "16:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "revision"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "class"
+            },
+            {
+              "start": "10:00",
+              "end": "11:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "reading"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "exercise"
+            },
+            {
+              "start": "15:00",
+              "end": "16:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "revision"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "class"
+            },
+            {
+              "start": "10:00",
+              "end": "11:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "reading"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "exercise"
+            },
+            {
+              "start": "15:00",
+              "end": "16:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "revision"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "class"
+            },
+            {
+              "start": "10:00",
+              "end": "11:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "reading"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "exercise"
+            },
+            {
+              "start": "15:00",
+              "end": "16:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "revision"
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "class"
+            },
+            {
+              "start": "10:00",
+              "end": "11:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "reading"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "exercise"
+            },
+            {
+              "start": "15:00",
+              "end": "16:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "revision"
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "class"
+            },
+            {
+              "start": "10:00",
+              "end": "11:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "reading"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "exercise"
+            },
+            {
+              "start": "15:00",
+              "end": "16:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "revision"
+            }
+          ]
+        },
+        {
+          "day": "Sunday",
+          "blocks": [
+            {
+              "start": "08:00",
+              "end": "09:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "class"
+            },
+            {
+              "start": "10:00",
+              "end": "11:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "reading"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "subject": "Microeconomics",
+              "task": "Examination Schedule Summary",
+              "activity": "exercise"
+            },
+            {
+              "start": "15:00",
+              "end": "16:30",
+              "subject": "Microeconomics",
+              "task": "General Examination Information",
+              "activity": "revision"
+            }
+          ]
+        }
+      ]
+    },
+    "vision": {
+      "statement": "We will master all details of the examination timetable notes to ensure complete preparedness for your upcoming assessment. Consistency and active review are key to your success.",
+      "updatedAt": "2026-11-12T09:52:23.734Z"
+    },
+    "needsReplan": false
   }
 ]
