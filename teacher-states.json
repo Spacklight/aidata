@@ -1121,6 +1121,82 @@
             ]
           }
         ]
+      },
+      {
+        "id": "e6d5771f-f3a4-46b9-b54a-098050c00be0",
+        "title": "Introduction to IP Addressing Practice Exercise",
+        "subject": "MIS",
+        "topic": "Introduction to IP Addressing",
+        "difficulty": "medium",
+        "language": "en",
+        "createdAt": "2026-11-18T09:25:03.480Z",
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "What is the primary reason why we need IP addresses instead of making do solely with MAC addresses?",
+            "choices": [
+              "To allow for scalable routing",
+              "To increase the physical speed of the switch",
+              "To eliminate the need for an ARP table",
+              "To allow MAC addresses to have a hierarchical structure"
+            ],
+            "answer": "To allow for scalable routing",
+            "explanation": "A MAC address has no structure and only tells a switch the identity of an interface rather than its location, which would lead to unscalable switch forwarding tables and excessive broadcasting."
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "How long is an IPv4 address?",
+            "choices": [
+              "16 bits long",
+              "32 bits long",
+              "64 bits long",
+              "128 bits long"
+            ],
+            "answer": "32 bits long",
+            "explanation": "An IP address is a 32-bit long identifier that encodes a network prefix and a host number."
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which IP address range is reserved for loopback interfaces?",
+            "choices": [
+              "10.0.0.0 - 10.255.255.255",
+              "127.0.0.1 - 127.255.255.255",
+              "172.16.0.0 - 172.31.255.255",
+              "192.168.0.0 - 192.168.255.255"
+            ],
+            "answer": "127.0.0.1 - 127.255.255.255",
+            "explanation": "All addresses from 127.0.0.1 to 127.255.255.255 are reserved for loopback interfaces, with most systems using 127.0.0.1."
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "What is the basic idea of subnetting?",
+            "choices": [
+              "To merge all host numbers into a single large network layer",
+              "To split the network prefix into multiple MAC addresses",
+              "To split the host number portion of an IP address into a subnet number and a smaller host number",
+              "To remove the need for external routers"
+            ],
+            "answer": "To split the host number portion of an IP address into a subnet number and a smaller host number",
+            "explanation": "Subnetting adds another level of hierarchy by splitting the host number into a subnet number and a smaller host number, creating a 3-layer hierarchy."
+          },
+          {
+            "id": "q5",
+            "type": "essay",
+            "prompt": "Explain what happens during host-to-host packet delivery when an ARP table does not initially contain the mapping for a destination IP address. Describe the steps involving the Parking Lot, ARP Request, ARP Reply, and the switch.",
+            "modelPoints": [
+              "Layer 2 checks the ARP table for the destination IP mapping and finds no entry.",
+              "The packet is placed in a Parking Lot (held temporarily) while the address is resolved.",
+              "An ARP Request is generated with a broadcast destination MAC address and sent across the network.",
+              "The switch receives the frame, adds the source host MAC address to its forwarding table, and floods the frame out all ports because the destination MAC is a broadcast.",
+              "The destination host receives the ARP Request and sends back an ARP Reply containing its MAC address.",
+              "The switch learns the source MAC of the reply and forwards it back to the original host."
+            ]
+          }
+        ]
       }
     ],
     "lastClass": {
