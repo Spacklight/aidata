@@ -759,7 +759,8 @@
       }
     ],
     "learnedTopics": [
-      "MIS: Introduction to IP Addressing"
+      "MIS: Introduction to IP Addressing",
+      "Computer Networking: Introduction to IP Addressing"
     ],
     "plan": {
       "summary": "Since John scored 2/7 on the introductory material, we need to immediately revise the fundamentals before moving forward to the next topic.",
@@ -971,7 +972,7 @@
       "statement": "We will master computer networking and IP addressing concepts step by step using your uploaded notes. Through focused revision and regular practice, we will turn past mistakes into strengths.",
       "updatedAt": "2026-11-18T09:17:28.112Z"
     },
-    "needsReplan": false,
+    "needsReplan": true,
     "exercises": [
       {
         "id": "fd60e002-78ba-4995-b449-f7c2777dcf2d",
@@ -1123,9 +1124,9 @@
       }
     ],
     "lastClass": {
-      "subject": "MIS",
+      "subject": "Computer Networking",
       "topic": "Introduction to IP Addressing",
-      "at": "2026-10-30T07:45:08.754Z"
+      "at": "2026-11-18T09:24:56.608Z"
     },
     "results": [
       {
